@@ -7,15 +7,6 @@ img {
   width: 55px;
 }
 
-#tweets-list {
-  list-style-type: none;
-}
-
-#tweets-list li{
-  border: 2px solid black;
-  margin: 2vh 2vw;
-}
-
 nav a {
   display: inline-block;
   margin: 0 2vw;
@@ -29,12 +20,4 @@ nav {
   border: 2px solid white;
   width: 80vw;
   text-align: right;
-}
-
-#latest-tweets {
-  width: 70vw;
-}
-
-form {
-  margin: 2vh 2vw;
 }
