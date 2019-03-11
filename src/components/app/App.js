@@ -5,6 +5,8 @@ import {
   Switch 
 } from 'react-router-dom';
 import Header from '../Header';
+import Signin from '../Signin';
+import SignUp from '../SignUp';
 
 export default function App() {
   return ( 
@@ -12,6 +14,8 @@ export default function App() {
       <>
       <Header />
       <Switch>
+        <Route path="/signin" component={Signin}></Route>
+        <Route path="/signup" component={SignUp}></Route>
         {/* <Route path="/home" component={Home}></Route> */}
         {/* <Route path="/home" component={Profile}></Route> */}
       </Switch>

@@ -4,7 +4,7 @@ import React from 'react';
 function SearchForm() {
   return (
     <form>
-      <input type="text" id="search" value="search Twitter"></input>
+      <input readOnly={true} type="text" id="search" value="search Twitter"/>
       <button>Search</button>
     </form>
   );
