@@ -1,0 +1,23 @@
+{
+  "name": "devsign",
+  "version": "1.0.0",
+  "description": "## Day 1: Structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcysilverman/devsign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcysilverman/devsign/issues"
+  },
+  "homepage": "https://github.com/marcysilverman/devsign#readme",
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}
