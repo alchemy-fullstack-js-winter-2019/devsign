@@ -1,7 +1,6 @@
 import React from 'react';
 import UserDetails from './UserDetails';
 import Tweets from './Tweets';
-import PropTypes from 'prop-types';
 
 const tweets = [
   {
@@ -50,10 +49,5 @@ function Profile() {
     </>
   );
 }
-
-// Profile.propTypes = {
-//   tweets: PropTypes.array.isRequired,
-//   user: PropTypes.object.isRequired
-// };
 
 export default Profile;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component matches a snapshot 1`] = `
+<main>
+  <aside>
+    <img
+      name="bannerImage"
+      src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
+    />
+    <img
+      name="profileImage"
+      src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+    />
+    <h2>
+      Kaiya
+       
+      <span>
+        @ladybeard
+      </span>
+    </h2>
+    <p>
+      Fullstack MERN Developer / Animal Lover / Hiker
+    </p>
+    <p>
+      Portland, OR
+    </p>
+  </aside>
+  <section>
+    <form>
+      <input
+        name="text"
+        readOnly={true}
+        type="text"
+      />
+      <button>
+        Tweet
+      </button>
+    </form>
+  </section>
+  <section>
+    <section>
+      <ul>
+        <li>
+          <article>
+            <header>
+              <img
+                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+              />
+              <h2>
+                Ray
+                 
+                <span>
+                  @stingraymond
+                </span>
+              </h2>
+            </header>
+            <p>
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <header>
+              <img
+                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span>
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p>
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <header>
+              <img
+                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+              />
+              <h2>
+                Randy
+                 
+                <span>
+                  @randyroute
+                </span>
+              </h2>
+            </header>
+            <p>
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </section>
+</main>
+`;

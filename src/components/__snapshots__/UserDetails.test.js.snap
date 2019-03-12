@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails component matches a snapshot 1`] = `
+<aside>
+  <img
+    name="bannerImage"
+    src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
+  />
+  <img
+    name="profileImage"
+    src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+  />
+  <h2>
+    Kaiya
+     
+    <span>
+      @ladybeard
+    </span>
+  </h2>
+  <p>
+    Fullstack MERN Developer / Animal Lover / Hiker
+  </p>
+</aside>
+`;

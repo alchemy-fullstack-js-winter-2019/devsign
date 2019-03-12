@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signin component matches a snapshot 1`] = `
+<form>
+  <input
+    name="handle"
+    readOnly={true}
+    type="text"
+    value="handle"
+  />
+  <input
+    name="password"
+    readOnly={true}
+    type="password"
+    value="password"
+  />
+  <button>
+    Sign In
+  </button>
+  <a
+    href="/signup"
+    onClick={[Function]}
+  >
+    <p>
+      Not a User?
+    </p>
+  </a>
+</form>
+`;
