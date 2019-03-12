@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BallerFeed() {
+function Tweets() {
   return (
     <section>
       <h2>Ball is Life</h2>
@@ -21,4 +21,4 @@ function BallerFeed() {
   );
 }
 
-export default BallerFeed;
+export default Tweets;
