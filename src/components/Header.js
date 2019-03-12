@@ -7,8 +7,8 @@ import {
 } from 'react-router-dom';
 import LoginSignup from './LoginSignUp';
 import Home from './Home';
-// import Notifications from './Notifications';
-// import Profile from './Profile';
+import Notifications from './Notifications';
+import Profile from './Profile';
 
 export default function Header() {
   return (
@@ -25,8 +25,8 @@ export default function Header() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/login-signup' component={LoginSignup} />
-          {/* <Route exact path='/notifications' component={Notifications} /> */}
-          {/* <Route exact path='/profile' component={Profile} /> */}
+          <Route exact path='/notifications' component={Notifications} />
+          <Route exact path='/profile' component={Profile} />
         </Switch>
       </div>
     </Router>
