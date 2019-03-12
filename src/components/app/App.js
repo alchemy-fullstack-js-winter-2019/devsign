@@ -8,6 +8,7 @@ import Header from '../Header';
 import Home from '../../containers/home/Home';
 import SignPage from '../../containers/register/SignPage';
 import TopTweets from '../../containers/tweets/TopTweets';
+import './App.css';
 
 export default function App() {
   return (

@@ -1,0 +1,9 @@
+.Tweets {
+  list-style: none;
+  
+  
+  li {
+    border: 2px solid black;
+    margin: 2vh 2vw;
+  }
+}

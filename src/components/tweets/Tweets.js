@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import Tweet from './Tweet';
+import styles from './Tweets.css';
 
 function Tweets({ tweets }) {
   const tweetsList = tweets.map(tweet =>
@@ -13,10 +14,10 @@ function Tweets({ tweets }) {
   );
 
   return (
-    <>
+    <div>
       <h2>Latest Tweets:</h2>
-      <ul>{tweetsList}</ul>
-    </>
+      <ul className={styles.Tweets}>{tweetsList}</ul>
+    </div>
   );
 }
 
