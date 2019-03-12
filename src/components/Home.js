@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './Home.css';
 
 export default function Home() {
   return (
-    <>
+    <main styles={style.main}>
       <section>
         <figure>
           <img src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg" alt="user avatar" />
@@ -47,6 +48,6 @@ export default function Home() {
           </section>
         </ul>
       </aside>
-    </>
+    </main>
   );
 }
