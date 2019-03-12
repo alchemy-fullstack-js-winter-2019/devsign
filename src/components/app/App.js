@@ -4,18 +4,17 @@ import {
   Route, 
   Switch 
 } from 'react-router-dom';
-import Header from '../Header';
 import Signin from '../Signin';
 import Signup from '../Signup.js';
 import Home from '../Home';
 import Profile from '../Profile';
+import 'normalize.css';
 
 
 export default function App() {
   return ( 
     <Router>
       <>
-      <Header />
       <Switch>
         <Route path="/signin" component={Signin}></Route>
         <Route path="/signup" component={Signup}></Route>

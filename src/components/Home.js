@@ -2,6 +2,7 @@ import React from 'react';
 import UserDetails from './UserDetails';
 import CreateTweetForm from './CreateTweetForm';
 import Tweets from './Tweets';
+import Header from './Header';
 
 const tweets = [
   {
@@ -37,6 +38,8 @@ const  user = {
 function Home() {
   const { name,  handle, profileImage, bannerImage, bio, location } = user;
   return (
+    <>
+    <Header />
     <main>
       <UserDetails
         name={name}
@@ -51,6 +54,7 @@ function Home() {
         <Tweets tweets={tweets}/>
       </section>
     </main>
+    </>
   );
 }
 
