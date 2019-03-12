@@ -1,10 +1,9 @@
 import React from 'react';
-import Loading from '../Loading';
-
+import Header from '../Header';
 export default function App() {
   return (
     <>
-      <Loading />
+      <Header />
     </>
   );
 }
