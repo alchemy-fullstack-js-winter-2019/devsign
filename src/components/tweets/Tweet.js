@@ -11,7 +11,7 @@ function Tweet({ tweet }) {
 }
 
 Tweet.propTypes = {
-  tweet: PropTypes.object
+  tweet: PropTypes.object.isRequired
 };
 
 export default Tweet;
