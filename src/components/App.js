@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import BallerFeed from './Tweets';
+import Tweets from './Tweets';
 
 function App() {
   return (
     <Fragment>
       <Header />
-      <BallerFeed />
+      <Tweets />
       <Footer />
     </Fragment>
   );

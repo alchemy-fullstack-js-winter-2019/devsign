@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matches a snapshot 1`] = `
+<footer>
+  <h2>
+    Footer
+  </h2>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/search"
+        >
+          Search
+        </a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+`;
