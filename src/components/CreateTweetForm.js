@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Form, Input, Button } from '../styles/mainStyle';
 
 function CreateTweetForm({ text }) {
   return (
     <section>
-      <form>
-        <input readOnly={true} type="text" name="text" value={text} />
-        <button>Tweet</button>
-      </form>
+      <Form>
+        <Input readOnly={true} type="text" name="text" value={text} />
+        <Button>Tweet</Button>
+      </Form>
     </section>
   );
 }

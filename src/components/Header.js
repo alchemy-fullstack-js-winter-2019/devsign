@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import SearchForm from '../SearchForm';
+import SearchForm from './SearchForm';
 
 function Header() {
   return (
