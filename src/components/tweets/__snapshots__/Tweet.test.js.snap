@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet displays a tweet 1`] = `
+Array [
+  <img
+    src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
+  />,
+  <p>
+    twitter you twit
+  </p>,
+]
+`;
