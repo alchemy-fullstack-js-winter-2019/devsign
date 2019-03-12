@@ -1,12 +1,12 @@
 import React from 'react';
-import { Form, Input, Button } from '../styles/mainStyle';
+import { MobileForm, Input, Button } from '../styles/mainStyle';
 
 function SearchForm() {
   return (
-    <Form>
-      <Input readOnly={true} type="text" id="search" value="search Twitter"/>
+    <MobileForm>
+      <Input readOnly={true} type="text" id="search" value="search Chirp"/>
       <Button>Search</Button>
-    </Form>
+    </MobileForm>
   );
 }
 

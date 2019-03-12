@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ProfileImg, MobileBanner, Handle, Aside, Bio } from '../styles/mainStyle';
 
 function UserDetails({ name, handle, profileImage, bannerImage, bio, location }) {
   return (
-    <aside>
-      <img name="bannerImage" src={bannerImage} />
-      <img name="profileImage" src={profileImage} />
-      <h2>{name} <span>{handle}</span></h2>
-      <p>{bio}</p>
-      {location && <p>{location}</p>}
-    </aside>
+    <Aside>
+      <MobileBanner name="bannerImage" src={bannerImage} />
+      <ProfileImg name="profileImage" src={profileImage} />
+      <h2>{name} <Handle>{handle}</Handle></h2>
+      <Bio>{bio}</Bio>
+      {location && <Bio>{location}</Bio>}
+    </Aside>
   );
 }
 

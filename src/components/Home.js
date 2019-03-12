@@ -3,6 +3,7 @@ import UserDetails from './UserDetails';
 import CreateTweetForm from './CreateTweetForm';
 import Tweets from './Tweets';
 import Header from './Header';
+import { Section } from '../styles/mainStyle';
 
 const tweets = [
   {
@@ -50,17 +51,12 @@ function Home() {
         location={location}
       />
       <CreateTweetForm />
-      <section>
+      <Section>
         <Tweets tweets={tweets}/>
-      </section>
+      </Section>
     </main>
     </>
   );
 }
-
-// Home.propTypes = {
-//   tweets: PropTypes.array.isRequired,
-//   user: PropTypes.object.isRequired
-// };
 
 export default Home;

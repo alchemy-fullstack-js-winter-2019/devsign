@@ -1,14 +1,15 @@
 import React from 'react';
 import Nav from './Nav';
 import SearchForm from './SearchForm';
+import { StyledHeader } from '../styles/mainStyle';
 
 function Header() {
   return (
-    <header>
+    <StyledHeader>
       <Nav />
-      <h1>Twitter</h1>
+      <h1>Chirp</h1>
       <SearchForm />
-    </header>
+    </StyledHeader>
   );
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Tweet from './Tweet';
+import { List } from '../styles/mainStyle';
 
 function Tweets({ tweets }) {
   const tweetList = tweets.map((tweet, i) => {
@@ -13,9 +14,9 @@ function Tweets({ tweets }) {
   });
   return (
     <section>
-      <ul>
+      <List>
         {tweetList}
-      </ul>
+      </List>
     </section>
   );
 }

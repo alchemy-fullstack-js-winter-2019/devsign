@@ -1,12 +1,12 @@
 import React from 'react';
-import { Form, Input, Button, Header } from '../styles/mainStyle';
+import { Form, Input, Button, StyledHeader } from '../styles/mainStyle';
 
 function Signup() {
   return (
     <>
-    <Header>
-      <h1>TWITTER</h1>
-    </Header>
+    <StyledHeader>
+      <h1>Chirp</h1>
+    </StyledHeader>
     <Form>
       <Input readOnly={true} type="text" name="name" value="name"/>
       <Input readOnly={true} type="text" name="handle" value="handle"/>

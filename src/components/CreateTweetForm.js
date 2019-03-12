@@ -7,7 +7,7 @@ function CreateTweetForm({ text }) {
     <section>
       <Form>
         <Input readOnly={true} type="text" name="text" value={text} />
-        <Button>Tweet</Button>
+        <Button>Chirp</Button>
       </Form>
     </section>
   );
