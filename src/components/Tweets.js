@@ -4,7 +4,12 @@ import Tweet from './Tweet';
 
 function Tweets({ tweets }) {
   const tweetList = tweets.map((tweet, i) => {
-    return <li key={i}><Tweet /></li>;
+    return <li key={i}><Tweet
+      profileImage={tweet.profileImage}
+      name={tweet.name} 
+      text={tweet.text}
+      handle={tweet.handle}
+    /></li>;
   });
   return (
     <section>

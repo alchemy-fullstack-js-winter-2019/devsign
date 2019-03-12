@@ -1,23 +1,23 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import CreateTweetForm from './CreateTweetForm';
 import Tweets from './Tweets';
+import PropTypes from 'prop-types';
 
 const tweets = [
   {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Ray',
     handle: '@stingraymond',
     text: 'tweet tweet tweet'
   },
   {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
     text: 'tweet tweet tweet'
   },
   {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Randy',
     handle: '@randyroute',
     text: 'tweet tweet tweet'
@@ -33,30 +33,27 @@ const  user = {
   location: 'Portland, OR'
 };
 
-
-function Home() {
-  const { name,  handle, profileImage, bannerImage, bio, location } = user;
+function Profile() {
+  const { name, handle, profileImage, bannerImage, bio, location } = user;
   return (
-    <main>
-      <UserDetails
-        name={name}
-        handle={handle}
-        profileImage={profileImage}
-        bannerImage={bannerImage}
-        bio={bio}
-        location={location}
-      />
-      <CreateTweetForm />
-      <section>
-        <Tweets tweets={tweets}/>
-      </section>
-    </main>
+    <>
+    <UserDetails
+      name={name}
+      handle={handle}
+      profileImage={profileImage}
+      bannerImage={bannerImage}
+      bio={bio}
+      location={location}/>
+    <section>
+      <Tweets tweets={tweets}/>
+    </section>
+    </>
   );
 }
 
-// Home.propTypes = {
+// Profile.propTypes = {
 //   tweets: PropTypes.array.isRequired,
 //   user: PropTypes.object.isRequired
 // };
 
-export default Home;
+export default Profile;

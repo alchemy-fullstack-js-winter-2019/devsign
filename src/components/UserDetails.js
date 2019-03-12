@@ -8,7 +8,7 @@ function UserDetails({ name, handle, profileImage, bannerImage, bio, location })
       <img name="profileImage" src={profileImage} />
       <h2>{name} <span>{handle}</span></h2>
       <p>{bio}</p>
-      {<p>{location}</p>}
+      {location && <p>{location}</p>}
     </aside>
   );
 }

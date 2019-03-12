@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import Nav from './Nav';
 import SearchForm from '../SearchForm';
 
@@ -12,9 +11,5 @@ function Header() {
     </header>
   );
 }
-
-// Header.propTypes = {
-//   page: PropTypes.string.isRequired
-// };
 
 export default Header;
