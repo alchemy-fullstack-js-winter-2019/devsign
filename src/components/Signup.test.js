@@ -1,5 +1,5 @@
 import React from 'react';
-import Signup from './Signup';
+import Signup from './Signup.js';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 
