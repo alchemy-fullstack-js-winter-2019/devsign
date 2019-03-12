@@ -7,9 +7,11 @@ function Tweets({ tweets }) {
     return <li key={i}><Tweet /></li>;
   });
   return (
-    <ul>
-      {tweetList}
-    </ul>
+    <section>
+      <ul>
+        {tweetList}
+      </ul>
+    </section>
   );
 }
 
