@@ -1,0 +1,12 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+describe('Home', () => {
+  it('matches a snapshot', () => {
+    <home/>;
+    const tree = renderer.create(
+      <home/>
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});

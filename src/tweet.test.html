@@ -1,0 +1,12 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+describe('Tweet', () => {
+  it('matches a snapshot', () => {
+    <tweet/>;
+    const tree = renderer.create(
+      <tweet/>
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
