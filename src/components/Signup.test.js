@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Signup from './Signup';
+import Signup from './Signup.js';
 
 describe('Signup Snapshot', () => {
   it('matches a snapshot', () => {

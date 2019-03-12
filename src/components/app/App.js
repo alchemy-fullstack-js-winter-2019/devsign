@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from '../Header';
 import Signin from '../Signin';
-import Signup from '../Signup';
+import Signup from '../Signup.js';
 import Home from '../Home';
 import Profile from '..//Profile';
 
