@@ -9,18 +9,21 @@ import LoginSignup from './LoginSignUp';
 import Home from './Home';
 import Notifications from './Notifications';
 import Profile from './Profile';
+import style from './Header.css';
 
 export default function Header() {
   return (
     <Router>
-      <div>
+      <div styles={style.header}>
         <header>
-          <Link to='/'>Home</Link>
-          <Link to='/messages'>Messages</Link>
-          <Link to='/notifications'>Notifications</Link>
-          <Link to='/profile'>Profile</Link>
-          <label>Search</label>
-          <input type="text" />
+          <h1>Twitter Clone</h1>
+          <nav>
+            <Link to='/'>Home</Link>
+            <Link to='/messages'>Messages</Link>
+            <Link to='/notifications'>Notifications</Link>
+            <Link to='/profile'>Profile</Link>
+            <input type="text" placeholder='search'/>
+          </nav>
         </header>
         <Switch>
           <Route exact path='/' component={Home} />
