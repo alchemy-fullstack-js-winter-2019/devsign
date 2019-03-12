@@ -1,9 +1,10 @@
 import React from 'react';
+import 'normalize.css';
+import styles from './css/Footer.css';
 
 function Footer() {
   return (
-    <footer>
-      <h2>Footer</h2>
+    <footer className={styles.footer}>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>

@@ -1,0 +1,22 @@
+.header{
+  background-color: black;
+  color: white;
+  margin: auto;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: stretch;
+
+    .home {
+      border-radius: 20px;
+    }
+  }
+}
+
