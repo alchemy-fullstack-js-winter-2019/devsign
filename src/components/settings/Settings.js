@@ -1,9 +1,12 @@
 import React from 'react';
+import styles from './Settings.css';
 
 export default function Settings() {
     return (
-        <label>Delete Account: 
-            <button>Delete</button>
-        </label>
+        <div className={styles.div}>
+            <label>Delete Account? 
+                <button>Delete</button>
+            </label>
+        </div>
     );
 }

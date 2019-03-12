@@ -1,0 +1,24 @@
+.Form {
+    text-align: center;
+    display: block;
+    border: 2px orangered solid;
+    border-radius: 1em;
+    margin: .5em;
+    padding: 1em;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        label {
+        text-align: center;
+        font-size: 1.5em;
+        display: block;
+        input {
+            align-content: center;
+            display: block;
+        }
+    }
+    button {
+        font-size: 1.5em;
+        background-color: white;
+        border: 2px orangered solid;
+        box-shadow: 2px 2px 2px 1px orange;
+    }
+}

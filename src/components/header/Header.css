@@ -1,0 +1,22 @@
+.Header {
+    h1 {
+        color: blue;
+        text-align: center
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1em;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            background-color: black;
+            padding: .2em;
+            border-radius: .1em;
+        }
+    }
+
+}

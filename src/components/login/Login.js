@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Login.css';
 
 export default function Login() {
     return (
-        <form>
+        <form className={styles.Form}>
             <label>Username: 
                 <input type="text"/>
             </label>

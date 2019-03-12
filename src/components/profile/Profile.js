@@ -1,6 +1,6 @@
 import React from 'react';
 import Tweet from './Tweet';
-
+import styles from './Profile.css';
 
 export default function Profile() {
     const tweets = [
@@ -12,13 +12,13 @@ export default function Profile() {
 
     });
     return (
-        <main>
+        <main className={styles.Home}>
             <section>
                 <figure>
-                    <img src="https://via.placeholder.com/150"/>
+                    <img id="banner" src="https://via.placeholder.com/600X400" alt="banner"/>
                 </figure>
                 <figure>
-                    <img src="https://via.placeholder.com/600X400"/>
+                    <img src="https://via.placeholder.com/150" alt="profile photo"/>
                 </figure>
             </section>
             <section>
