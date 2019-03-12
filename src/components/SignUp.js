@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SignUp() {
+function Signup() {
   return (
     <form>
       <input readOnly={true} type="text" name="name" value="name"/>
@@ -11,4 +11,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Signup;
