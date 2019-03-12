@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile matches a snapshot 1`] = `
+<main>
+  <article>
+    <figure>
+      <img
+        alt="user avatar"
+        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+      />
+    </figure>
+    <h3>
+      Teonna
+    </h3>
+    <h4>
+      T_on_A
+    </h4>
+    <p>
+      Bio about me
+    </p>
+  </article>
+  <article>
+    <ol>
+      <li>
+        <p>
+          January 23, 2019
+        </p>
+        <p>
+          MongoDB for lyfe #MONGODB
+        </p>
+      </li>
+    </ol>
+  </article>
+  <aside>
+    <p>
+      Trends
+    </p>
+  </aside>
+</main>
+`;
