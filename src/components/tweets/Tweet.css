@@ -1,0 +1,22 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 1px;
+  figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    h3 {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  img {
+    max-height: 15vh;
+  }
+  p {
+    max-height: 10vh;
+    padding: .5em;
+  }
+}
+
