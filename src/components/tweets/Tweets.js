@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import Tweet from './Tweet';
 
 function Tweets({ tweets }) {
-  const tweetsList = tweets.map(tweet => 
+  const tweetsList = tweets.map(tweet =>
     <li key={tweet.id}>
       <Link to={`/user/${tweet.userId}`}>
-        <Tweet {...tweet} />
+        <Tweet tweet={tweet} />
       </Link>
     </li>
   );
@@ -23,3 +23,5 @@ function Tweets({ tweets }) {
 Tweets.propTypes = {
   tweets: PropTypes.array.isRequired
 };
+
+export default Tweets;

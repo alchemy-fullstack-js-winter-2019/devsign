@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Tweet from './Tweet';
 
-describe('Tweet Form', () => {
+describe('Tweet', () => {
   it('displays a tweet', () => {
     const props = {
       tweet: {
