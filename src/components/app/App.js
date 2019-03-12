@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from '../Header';
 import Signin from '../Signin';
-import SignUp from '../SignUp';
+import Signup from '../Signup';
 import Home from '../Home';
 import Profile from '..//Profile';
 
@@ -18,7 +18,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route path="/signin" component={Signin}></Route>
-        <Route path="/signup" component={SignUp}></Route>
+        <Route path="/signup" component={Signup}></Route>
         <Route path="/home" component={Home}></Route>
         <Route path="/profile" component={Profile}></Route>
       </Switch>
