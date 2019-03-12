@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign Form displays registration form 1`] = `
+Array [
+  <h2>
+    Sign In
+    :
+  </h2>,
+  <form
+    onSubmit={[MockFunction]}
+  >
+    <label>
+      <p>
+        Username: 
+        <input
+          name="username"
+          onChange={[MockFunction]}
+          type="text"
+          value="user123"
+        />
+      </p>
+    </label>
+    <label>
+      <p>
+        Password: 
+        <input
+          name="password"
+          onChange={[MockFunction]}
+          type="password"
+          value="passittotheword"
+        />
+      </p>
+    </label>
+    <button
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>,
+]
+`;

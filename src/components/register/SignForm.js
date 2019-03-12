@@ -25,3 +25,5 @@ SignForm.propTypes = {
   onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired
 };
+
+export default SignForm;
