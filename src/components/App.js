@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import BallerFeed from './BallerFeed';
 
 function App() {
   return (
     <Fragment>
-      <h1>HELLO WORLD</h1>
       <Header />
+      <BallerFeed />
       <Footer />
     </Fragment>
   );
