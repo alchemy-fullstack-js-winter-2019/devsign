@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Loading  from './Loading';
+import Notifications  from './Notifications';
 
-describe('Loading', () => {
+describe('Notifications', () => {
   it('matches a snapshot', () => {
 
     const tree = renderer.create(
-      <Loading />
+      <Notifications />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

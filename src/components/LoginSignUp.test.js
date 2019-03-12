@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Loading  from './Loading';
+import LoginSignUp  from './LoginSignUp';
 
-describe('Loading', () => {
+describe('Login', () => {
   it('matches a snapshot', () => {
 
     const tree = renderer.create(
-      <Loading />
+      <LoginSignUp />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

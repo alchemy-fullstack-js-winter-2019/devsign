@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches a snapshot 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/messages"
+      onClick={[Function]}
+    >
+      Messages
+    </a>
+    <a
+      href="/notifications"
+      onClick={[Function]}
+    >
+      Notifications
+    </a>
+    <a
+      href="/profile"
+      onClick={[Function]}
+    >
+      Profile
+    </a>
+    <label>
+      Search
+    </label>
+    <input
+      type="text"
+    />
+  </header>
+  <section>
+    <figure>
+      <img
+        alt="user avatar"
+        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+      />
+      <h3>
+        T_on_A
+      </h3>
+    </figure>
+  </section>
+  <section>
+    <label>
+      Post a Tweet
+    </label>
+    <input
+      type="text"
+    />
+    <button>
+      Tweet
+    </button>
+    <button>
+      Add An Image
+    </button>
+    <button>
+      Add A Gif
+    </button>
+    <button>
+      Add Location
+    </button>
+  </section>
+  <section>
+    <ol>
+      <li>
+        List of tweets from users you are following
+      </li>
+    </ol>
+  </section>
+  <aside>
+    <ul>
+      <section>
+        <figure>
+          <img
+            alt="user avatar"
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+        </figure>
+        <h3>
+          Jill Hill
+        </h3>
+        <p>
+          Todays lab sucks
+        </p>
+      </section>
+      <section>
+        <figure>
+          <img
+            alt="user avatar"
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+        </figure>
+        <h3>
+          Jack Hill
+        </h3>
+        <p>
+          Todays lab is AMAZING
+        </p>
+      </section>
+      <section>
+        <figure>
+          <img
+            alt="user avatar"
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+        </figure>
+        <h3>
+          Hilly Jill
+        </h3>
+        <p>
+          Todays lab is all uphill
+        </p>
+      </section>
+    </ul>
+  </aside>
+</div>
+`;
+
+exports[`Login matches a snapshot 1`] = `
+<main>
+  <section>
+    <h2>
+      Already A User?
+    </h2>
+    <figure>
+      <img
+        alt="user avatar"
+        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+      />
+    </figure>
+    <form>
+      <label>
+        Username or email
+      </label>
+      <input
+        type="text"
+      />
+      <label>
+        Password
+      </label>
+      <input
+        type="text"
+      />
+      <button>
+        Tweet
+      </button>
+    </form>
+  </section>
+  <section>
+    <h2>
+      Sign Up
+    </h2>
+    <figure>
+      <img
+        alt="user avatar"
+        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+      />
+    </figure>
+    <form>
+      <label>
+        Username
+      </label>
+      <input
+        type="text"
+      />
+      <label>
+        Email
+      </label>
+      <input
+        type="text"
+      />
+      <label>
+        Password
+      </label>
+      <input
+        type="text"
+      />
+      <label>
+        Re-enter Password
+      </label>
+      <input
+        type="text"
+      />
+    </form>
+  </section>
+</main>
+`;
