@@ -14,10 +14,10 @@ export default class Home extends PureComponent {
 
   render() {
     return (
-      <>
+      <main>
         <TweetForm {...this.props} />
         <Tweets {...this.props} />
-      </>
+      </main>
     );
   }
 }
