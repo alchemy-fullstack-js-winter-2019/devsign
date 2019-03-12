@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateTweetForm component matches a snapshot 1`] = `
+<section>
+  <form>
+    <input
+      name="text"
+      readOnly={true}
+      type="text"
+    />
+    <button>
+      Tweet
+    </button>
+  </form>
+</section>
+`;
