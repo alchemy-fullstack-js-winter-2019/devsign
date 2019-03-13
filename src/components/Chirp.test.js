@@ -1,21 +1,21 @@
 import React from 'react';
-import Tweet from './Tweet';
+import Chirp from './Chirp';
 import renderer from 'react-test-renderer';
 
-describe('Tweet component', () => {
+describe('Chirp component', () => {
   it('matches a snapshot', () => {
-    const tweet = {
+    const chirp = {
       profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
       name: 'Kaiya',
       handle: '@ladybeard',
-      text: 'tweet tweet tweet'
+      text: 'chirp chirp chirp'
     };
     const tree = renderer.create(
-      <Tweet 
-        profileImage={tweet.profileImage}
-        name={tweet.name}
-        handle={tweet.handle}
-        text={tweet.text}
+      <Chirp
+        profileImage={chirp.profileImage}
+        name={chirp.name}
+        handle={chirp.handle}
+        text={chirp.text}
       />
     ).toJSON();
     expect(tree).toMatchSnapshot();

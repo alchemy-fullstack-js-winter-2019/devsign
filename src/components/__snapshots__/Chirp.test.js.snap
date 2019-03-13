@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tweet component matches a snapshot 1`] = `
+exports[`Chirp component matches a snapshot 1`] = `
 <article
   className="sc-jzJRlG jFfDbd"
 >
@@ -23,7 +23,7 @@ exports[`Tweet component matches a snapshot 1`] = `
   <p
     className="sc-gqjmRU dRATxY"
   >
-    tweet tweet tweet
+    chirp chirp chirp
   </p>
 </article>
 `;

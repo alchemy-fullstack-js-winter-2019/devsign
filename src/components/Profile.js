@@ -1,46 +1,46 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import CreateTweetForm from './CreateTweetForm';
+import CreateChirpForm from './CreateChirpForm';
 import Nav from './Nav';
-import Tweets from './Tweets';
+import Chirps from './Chirps';
 import { Main, Section } from '../styles/mainStyle';
 
-const tweets = [
+const chirps = [
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   } 
 ];
 
@@ -58,7 +58,7 @@ function Profile() {
   return (
     <>
     <Nav />
-      <CreateTweetForm />
+      <CreateChirpForm />
     <Main>
       <UserDetails
         name={name}
@@ -67,7 +67,7 @@ function Profile() {
         bio={bio}
         location={location}/>
       <Section>
-        <Tweets tweets={tweets}/>
+        <Chirps chirps={chirps}/>
       </Section>
     </Main>
     </>

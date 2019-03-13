@@ -1,11 +1,11 @@
 import React from 'react';
-import CreateTweetForm from './CreateTweetForm';
+import CreateChirpForm from './CreateChirpForm';
 import renderer from 'react-test-renderer';
 
-describe('CreateTweetForm component', () => {
+describe('CreateChirpForm component', () => {
   it('matches a snapshot', () => {
     const tree = renderer.create(
-      <CreateTweetForm />
+      <CreateChirpForm />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

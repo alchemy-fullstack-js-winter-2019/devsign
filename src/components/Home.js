@@ -1,45 +1,45 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import Tweets from './Tweets';
+import Chirps from './Chirps';
 import Nav from './Nav';
 import { Section, Main } from '../styles/mainStyle';
 
-const tweets = [
+const chirps = [
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Ray',
     handle: '@stingraymond',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Randy',
     handle: '@randyroute',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Ray',
     handle: '@stingraymond',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Kaiya',
     handle: '@ladybeard',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Randy',
     handle: '@randyroute',
-    text: 'tweet tweet tweet'
+    text: 'chirp chirp chirp'
   }
 ];
 
@@ -67,7 +67,7 @@ function Home() {
         location={location}
       />
       <Section>
-        <Tweets tweets={tweets}/>
+        <Chirps chirps={chirps}/>
       </Section>
     </Main>
     </>

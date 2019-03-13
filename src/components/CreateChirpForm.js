@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Label } from '../styles/mainStyle';
 import { ChirpForm, NewChirpButton, NewChirpInput } from '../styles/createChirpForm';
 
-function CreateTweetForm({ text }) {
+function CreateChirpForm({ text }) {
   return (
     <section>
       <ChirpForm>
@@ -16,8 +16,8 @@ function CreateTweetForm({ text }) {
   );
 }
 
-CreateTweetForm.propTypes = {
+CreateChirpForm.propTypes = {
   text: PropTypes.string
 };
 
-export default CreateTweetForm;
+export default CreateChirpForm;
