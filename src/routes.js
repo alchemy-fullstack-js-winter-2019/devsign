@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import ChirpsFeed from '../components/main/ChirpsFeed';
+import Home from './components/home/Home';
 
 export const ROUTES = {
   HOME: {
     path: '/',
-    Component: ChirpsFeed,
+    Component: Home,
     linkTo: () => '/'
   }
 };
