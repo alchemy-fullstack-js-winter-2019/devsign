@@ -18,17 +18,21 @@ const HideNav = styled(NavBar) `
 const List = styled.ul `
   width: 25%;
   padding: 5px;
-  margin: 0;
+  margin: 10px;
 `;
 
+const NavLi = styled(ListItem) `
+  color: #c16834;
+  padding: 0 20px;
+`;
 
 function Nav() {
   return (
     <HideNav>
       <List>
-        <StyledLink to="/home"><ListItem>Home</ListItem></StyledLink>
-        <StyledLink to="/profile"><ListItem>Profile</ListItem></StyledLink>
-        <StyledLink to="/followers"><ListItem>Followers</ListItem></StyledLink>
+        <StyledLink to="/home"><NavLi>Home</NavLi></StyledLink>
+        <StyledLink to="/profile"><NavLi>Profile</NavLi></StyledLink>
+        <StyledLink to="/followers"><NavLi>Followers</NavLi></StyledLink>
       </List>
       <SearchForm />
     </HideNav>

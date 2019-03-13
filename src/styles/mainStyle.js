@@ -74,15 +74,17 @@ export const NavBar = styled.nav `
 
 export const List = styled.ul `
   list-style-type: none;
-  padding: 10px;
   background-color: #f3d8c4;
+  padding: 0;
   margin-top: 0;
 `;
 
 export const ListItem = styled.li `
   display: inline;
   padding: 0 10px;
-  color: black;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
 `;
 
 
