@@ -18,7 +18,6 @@ export const Aside = styled.aside `
 function UserDetails({ name, handle, profileImage, bio, location }) {
   return (
     <Aside>
-      {/* <BannerImg name="bannerImage" src={bannerImage} /> */}
       <ProfileImg name="profileImage" src={profileImage} />
       <h2>{name} <Handle>{handle}</Handle></h2>
       <MobileBio>{bio}</MobileBio>
@@ -31,7 +30,6 @@ UserDetails.propTypes = {
   name: PropTypes.string.isRequired,
   handle: PropTypes.string.isRequired,
   profileImage: PropTypes.string.isRequired,
-  // bannerImage: PropTypes.string.isRequired,
   bio: PropTypes.string.isRequired,
   location: PropTypes.string
 };

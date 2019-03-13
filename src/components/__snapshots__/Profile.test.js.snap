@@ -70,8 +70,37 @@ Array [
       </button>
     </form>
   </nav>,
+  <section>
+    <form
+      className="sc-ifAKCX sc-kpOJdX dGCeeh"
+    >
+      <label
+        className="sc-EHOje kYkHpN"
+        htmlFor="newChirpText"
+      >
+        Name
+      </label>
+      <input
+        className="sc-bZQynM sc-dxgOiQ eLhPIy"
+        id="newChirpText"
+        name="newChirpText"
+        readOnly={true}
+        type="text"
+      />
+      <label
+        className="sc-EHOje kYkHpN"
+        htmlFor="newChirp"
+      />
+      <button
+        className="sc-gzVnrw sc-ckVGcZ jQlLHz"
+        id="newChirp"
+      >
+        Chirp
+      </button>
+    </form>
+  </section>,
   <main
-    className="sc-bxivhb qPwmx"
+    className="sc-bxivhb bzHjtC"
   >
     <aside
       className="sc-kGXeez jnNXV"
@@ -102,41 +131,90 @@ Array [
       </p>
     </aside>
     <section
-      className="sc-chPdSV daPSGd"
+      className="sc-chPdSV jJNJzY"
     >
-      <section>
-        <form
-          className="sc-ifAKCX sc-kpOJdX dGCeeh"
-        >
-          <label
-            className="sc-EHOje kYkHpN"
-            htmlFor="newChirpText"
-          >
-            Name
-          </label>
-          <input
-            className="sc-bZQynM sc-dxgOiQ eLhPIy"
-            id="newChirpText"
-            name="newChirpText"
-            readOnly={true}
-            type="text"
-          />
-          <label
-            className="sc-EHOje kYkHpN"
-            htmlFor="newChirp"
-          />
-          <button
-            className="sc-gzVnrw sc-ckVGcZ jQlLHz"
-            id="newChirp"
-          >
-            Chirp
-          </button>
-        </form>
-      </section>
       <section>
         <ul
           className="sc-iwsKbI jzeEWW"
         >
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+                />
+                <h2>
+                  Kaiya
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @ladybeard
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+                />
+                <h2>
+                  Kaiya
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @ladybeard
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+                />
+                <h2>
+                  Kaiya
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @ladybeard
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
           <li>
             <article
               className="sc-kgoBCf epfkgj"

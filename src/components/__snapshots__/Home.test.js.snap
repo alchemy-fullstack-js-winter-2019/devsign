@@ -71,7 +71,7 @@ Array [
     </form>
   </nav>,
   <main
-    className="sc-bxivhb qPwmx"
+    className="sc-bxivhb bzHjtC"
   >
     <aside
       className="sc-kGXeez jnNXV"
@@ -102,12 +102,90 @@ Array [
       </p>
     </aside>
     <section
-      className="sc-chPdSV daPSGd"
+      className="sc-chPdSV jJNJzY"
     >
       <section>
         <ul
           className="sc-iwsKbI jzeEWW"
         >
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Ray
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @stingraymond
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Kaiya
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @ladybeard
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kgoBCf epfkgj"
+            >
+              <header>
+                <img
+                  className="sc-gqjmRU hTssrt"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Randy
+                   
+                  <span
+                    className="sc-fjdhpX FzRiJ"
+                  >
+                    @randyroute
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-kAzzGY ceyFEx"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
           <li>
             <article
               className="sc-kgoBCf epfkgj"

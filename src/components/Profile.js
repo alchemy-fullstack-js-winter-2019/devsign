@@ -23,7 +23,25 @@ const tweets = [
     name: 'Kaiya',
     handle: '@ladybeard',
     text: 'tweet tweet tweet'
-  }
+  },
+  {
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
+    name: 'Kaiya',
+    handle: '@ladybeard',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
+    name: 'Kaiya',
+    handle: '@ladybeard',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
+    name: 'Kaiya',
+    handle: '@ladybeard',
+    text: 'tweet tweet tweet'
+  } 
 ];
 
 const  user = {
@@ -40,6 +58,7 @@ function Profile() {
   return (
     <>
     <Nav />
+      <CreateTweetForm />
     <Main>
       <UserDetails
         name={name}
@@ -48,7 +67,6 @@ function Profile() {
         bio={bio}
         location={location}/>
       <Section>
-        <CreateTweetForm />
         <Tweets tweets={tweets}/>
       </Section>
     </Main>

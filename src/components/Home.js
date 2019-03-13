@@ -22,6 +22,24 @@ const tweets = [
     name: 'Randy',
     handle: '@randyroute',
     text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Ray',
+    handle: '@stingraymond',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Kaiya',
+    handle: '@ladybeard',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Randy',
+    handle: '@randyroute',
+    text: 'tweet tweet tweet'
   }
 ];
 
