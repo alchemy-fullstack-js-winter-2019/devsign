@@ -3,10 +3,10 @@
 exports[`Profile component matches a snapshot 1`] = `
 Array [
   <nav
-    className="sc-jKJlTe sc-eNQAEJ cvuLCG"
+    className="sc-kkGfuU sc-iAyFgw bNWjri"
   >
     <ul
-      className="sc-hMqMXs kZCnEg"
+      className="sc-hSdWYo bmXlgX"
     >
       <a
         className="sc-bdVaJa cVFclJ"
@@ -14,7 +14,18 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi eRJHvU"
+          className="sc-gZMcBi sc-cvbbAY ezzHtK"
+        >
+          Chirp
+        </li>
+      </a>
+      <a
+        className="sc-bdVaJa cVFclJ"
+        href="/home"
+        onClick={[Function]}
+      >
+        <li
+          className="sc-gZMcBi sc-eHgmQL dExrCs"
         >
           Home
         </li>
@@ -25,73 +36,48 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi eRJHvU"
+          className="sc-gZMcBi sc-eHgmQL dExrCs"
         >
           Profile
         </li>
       </a>
-      <a
-        className="sc-bdVaJa cVFclJ"
-        href="/followers"
-        onClick={[Function]}
-      >
-        <li
-          className="sc-gZMcBi eRJHvU"
-        >
-          Followers
-        </li>
-      </a>
     </ul>
     <form
-      className="sc-ifAKCX sc-kpOJdX Bywss"
+      className="sc-ifAKCX sc-jKJlTe iTIXFK"
     >
       <label
-        className="sc-ckVGcZ bmXmTd"
+        className="sc-kEYyzF glwdyy"
         htmlFor="search"
       >
         Search
       </label>
       <input
-        className="sc-bZQynM sc-dxgOiQ eRtPvo"
+        className="sc-bZQynM sc-eNQAEJ hLdnyq"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
       <label
-        className="sc-ckVGcZ bmXmTd"
+        className="sc-kEYyzF glwdyy"
         htmlFor="searchButton"
       />
       <button
-        className="sc-gzVnrw hkbkeK"
+        className="sc-gzVnrw sc-hMqMXs dlrvya"
         id="searchButton"
       >
-        Search Chirp
+        Search
       </button>
     </form>
   </nav>,
-  <header
-    className="sc-bwzfXH jdLVsO"
-  >
-    <h1
-      className="sc-htpNat hHwDue"
-    >
-      Chirp
-    </h1>
-  </header>,
   <main
     className="sc-bxivhb qPwmx"
   >
     <aside
-      className="sc-gqjmRU kKgyQg"
+      className="sc-kGXeez jnNXV"
     >
       <img
-        className="sc-jTzLTM cCSXzZ"
-        name="bannerImage"
-        src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
-      />
-      <img
-        className="sc-VigVT ktMhto"
+        className="sc-gqjmRU hTssrt"
         name="profileImage"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
@@ -99,28 +85,28 @@ Array [
         Kaiya
          
         <span
-          className="sc-jzJRlG lbLyrw"
+          className="sc-fjdhpX FzRiJ"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+        className="sc-jzJRlG sc-cSHVUG Nvkhd"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+        className="sc-jzJRlG sc-cSHVUG Nvkhd"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-kgoBCf iCJAdF"
+      className="sc-chPdSV daPSGd"
     >
       <section>
         <form
-          className="sc-ifAKCX coNtEK"
+          className="sc-ifAKCX sc-kpOJdX dGCeeh"
         >
           <label
             className="sc-EHOje kYkHpN"
@@ -129,7 +115,7 @@ Array [
             Name
           </label>
           <input
-            className="sc-bZQynM hfwKph"
+            className="sc-bZQynM sc-dxgOiQ eLhPIy"
             id="newChirpText"
             name="newChirpText"
             readOnly={true}
@@ -140,7 +126,7 @@ Array [
             htmlFor="newChirp"
           />
           <button
-            className="sc-gzVnrw hkbkeK"
+            className="sc-gzVnrw sc-ckVGcZ jQlLHz"
             id="newChirp"
           >
             Chirp
@@ -149,29 +135,29 @@ Array [
       </section>
       <section>
         <ul
-          className="sc-iwsKbI jqoVuy"
+          className="sc-iwsKbI jzeEWW"
         >
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kgoBCf epfkgj"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-gqjmRU hTssrt"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-fjdhpX FzRiJ"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kAzzGY ceyFEx"
               >
                 tweet tweet tweet
               </p>
@@ -179,25 +165,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kgoBCf epfkgj"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-gqjmRU hTssrt"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-fjdhpX FzRiJ"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kAzzGY ceyFEx"
               >
                 tweet tweet tweet
               </p>
@@ -205,25 +191,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kgoBCf epfkgj"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-gqjmRU hTssrt"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-fjdhpX FzRiJ"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kAzzGY ceyFEx"
               >
                 tweet tweet tweet
               </p>

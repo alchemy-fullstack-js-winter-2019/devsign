@@ -3,29 +3,29 @@
 exports[`Tweets component matches a snapshot 1`] = `
 <section>
   <ul
-    className="sc-iwsKbI jqoVuy"
+    className="sc-iwsKbI jzeEWW"
   >
     <li>
       <article
-        className="sc-kGXeez igAvJF"
+        className="sc-kgoBCf epfkgj"
       >
         <header>
           <img
-            className="sc-VigVT ktMhto"
+            className="sc-gqjmRU hTssrt"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Ray
              
             <span
-              className="sc-jzJRlG lbLyrw"
+              className="sc-fjdhpX FzRiJ"
             >
               @stingraymond
             </span>
           </h2>
         </header>
         <p
-          className="sc-chPdSV kZeSMp"
+          className="sc-kAzzGY ceyFEx"
         >
           tweet tweet tweet
         </p>
@@ -33,25 +33,25 @@ exports[`Tweets component matches a snapshot 1`] = `
     </li>
     <li>
       <article
-        className="sc-kGXeez igAvJF"
+        className="sc-kgoBCf epfkgj"
       >
         <header>
           <img
-            className="sc-VigVT ktMhto"
+            className="sc-gqjmRU hTssrt"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Kaiya
              
             <span
-              className="sc-jzJRlG lbLyrw"
+              className="sc-fjdhpX FzRiJ"
             >
               @ladybeard
             </span>
           </h2>
         </header>
         <p
-          className="sc-chPdSV kZeSMp"
+          className="sc-kAzzGY ceyFEx"
         >
           tweet tweet tweet
         </p>
@@ -59,25 +59,25 @@ exports[`Tweets component matches a snapshot 1`] = `
     </li>
     <li>
       <article
-        className="sc-kGXeez igAvJF"
+        className="sc-kgoBCf epfkgj"
       >
         <header>
           <img
-            className="sc-VigVT ktMhto"
+            className="sc-gqjmRU hTssrt"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Randy
              
             <span
-              className="sc-jzJRlG lbLyrw"
+              className="sc-fjdhpX FzRiJ"
             >
               @randyroute
             </span>
           </h2>
         </header>
         <p
-          className="sc-chPdSV kZeSMp"
+          className="sc-kAzzGY ceyFEx"
         >
           tweet tweet tweet
         </p>

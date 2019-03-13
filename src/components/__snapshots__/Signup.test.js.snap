@@ -2,26 +2,26 @@
 
 exports[`Signup Snapshot matches a snapshot 1`] = `
 Array [
-  <header
-    className="sc-bwzfXH jdLVsO"
-  >
-    <h1
-      className="sc-htpNat hHwDue"
-    >
-      Chirp
-    </h1>
+  <header>
+    <figure>
+      <img
+        alt="Chirp Logo"
+        className="sc-bdVaJa gonplY"
+        src="https://lh3.googleusercontent.com/7gy2A_w8eiSMgqDNVC7p-KVUDfhXFxUc-uFQv_JvgkhzFlYzS4r0VDK_g4RlkkRBa7F8yh5xEi9ndvwM-wyZmncBDsfJeBfjKXLhyWaTtsWtegF5G0oLMf8GK4JovegpWlfItSc6gtChWJ1VXlm7RagayiOjnBhx-Pw85nzfM3IHntoMNWVagzeZeyIgokqQdtjUV9CSN1OBLVTUSetkhxBuznlZxmntaQ5TfT5qq-E0aVt4J5TgWsCFXQn1UbEkpjARMoX-ANVbd7pfHCAqBhQ2Lz41iCtZdcBijL913BeVU0q1h8TaILtumlZd4mFBjazDbT8JL49kxxFrnPs_Bf_54gGRoyE1RlGwR6GMoHwArwsg5-DOb8UrLF9js9q_8o1kGQsdbcFBVZ2Y7SvXIA7OUefuiknEOTlJosmxcsK-b1srV-7vPz6ccoZtatSmnVd4xlaAwM9jHj49hznmCfKB2PACOezkZFI8MDlsEwwtULPsmtjePh21ic1JLjyHM_HZy5JXhP49ykk3Kp0txMzMpxAwjcvnAEJSz82FJXGVK7ZNBR-1sXS9vq_RZZhZ0TSM-2g1wMsd4GeclDBtZv-rE3bPWrXpYw-sYVb1WBCEa8PnZa5TDh0BNw17ogNxqw8eslHTsgja0YM4opmjMeD_V2mWxwM=w300-h210-no"
+      />
+    </figure>
   </header>,
   <form
-    className="sc-ifAKCX coNtEK"
+    className="sc-EHOje jdbFQu"
   >
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-bZQynM kZRkNx"
       htmlFor="name"
     >
       Name
     </label>
     <input
-      className="sc-bZQynM hfwKph"
+      className="sc-gzVnrw iaGkko"
       id="name"
       name="name"
       readOnly={true}
@@ -29,13 +29,13 @@ Array [
       value="name"
     />
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-bZQynM kZRkNx"
       htmlFor="handle"
     >
       Chirp Handle
     </label>
     <input
-      className="sc-bZQynM hfwKph"
+      className="sc-gzVnrw iaGkko"
       id="handle"
       name="handle"
       readOnly={true}
@@ -43,13 +43,13 @@ Array [
       value="handle"
     />
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-bZQynM kZRkNx"
       htmlFor="location"
     >
       City-and-State
     </label>
     <input
-      className="sc-bZQynM hfwKph"
+      className="sc-gzVnrw iaGkko"
       id="city-and-state"
       name="location"
       readOnly={true}
@@ -57,13 +57,13 @@ Array [
       value="location"
     />
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-bZQynM kZRkNx"
       htmlFor="password"
     >
       password
     </label>
     <input
-      className="sc-bZQynM hfwKph"
+      className="sc-gzVnrw iaGkko"
       id="password"
       name="password"
       readOnly={true}
@@ -71,11 +71,11 @@ Array [
       value="password"
     />
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-bZQynM kZRkNx"
       htmlFor="sign-up"
     />
     <button
-      className="sc-gzVnrw hkbkeK"
+      className="sc-htoDjs csCTOH"
       id="sign-up"
     >
       Sign Up

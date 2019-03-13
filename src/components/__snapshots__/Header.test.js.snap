@@ -2,10 +2,10 @@
 
 exports[`Header component matches a snapshot 1`] = `
 <header
-  className="sc-bwzfXH jdLVsO"
+  className="sc-bwzfXH kyDNSb"
 >
   <h1
-    className="sc-htpNat hHwDue"
+    className="sc-htpNat lgYkbi"
   >
     Chirp
   </h1>
