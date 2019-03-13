@@ -47,5 +47,3 @@ export default class Home extends PureComponent {
     );
   }
 }
-
-
