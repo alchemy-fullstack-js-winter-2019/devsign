@@ -7,7 +7,7 @@ export default function Tweet({ tweet }) {
   return (
     <section style={styles.follower}>
       <figure>
-        <img src={user.image}/>
+        <img src={user.image} alt="user avatar"/>
         <h3>{user.handle}</h3>
       </figure>
       <p>{text}</p>

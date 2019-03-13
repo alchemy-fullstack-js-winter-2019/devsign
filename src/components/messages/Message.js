@@ -10,7 +10,7 @@ export default function Message({ message }) {
         <p className={styles.date}>{date}</p>
         <section>
           <h3>{user.handle}</h3>
-          <img src={user.image} className={styles.img}/>
+          <img src={user.image} className={styles.img} alt="user avatar"/>
         </section>
         <p>{text}</p>
       </section>

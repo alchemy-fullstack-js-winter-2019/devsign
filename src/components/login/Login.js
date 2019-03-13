@@ -6,7 +6,7 @@ function Login() {
     <section>
       <h2>Already a user?</h2>
       <figure>
-        <img src="image" alt='user avatar' />
+        <img src="image" alt="user avatar" />
       </figure>
       <form>
         <label>Username or email</label>
