@@ -213,4 +213,60 @@ in Chrom Audits
 - 
 Color Accessibility - website 
 
+take array of tweets
+- create a tweets.js file
+export const 
+
+reducers
+- tweets.js
+const initalState = {
+  tweets: []
+};
+
+
+
+export default function reducer(state= initalState, action ) {
+  switch(action.type) {
+    case FETCH_TWEETS:
+  }
+}
+
+actions
+import { createAction } from 'promise-middleware-redux';
+import { getTweets } from '../services/tweets';
+
+export const fetchTweets = () => ({
+  type: FETCH_TWEETS, 
+  pendingType: FETCH_TWEETS_PENDING,
+  payload: getTweets
+});
+or
+export const [
+  fetchTweets,
+  FETCH_TWEETS,
+  FETCH_TWEETS_PENDING
+] = createAction('FETCH_TWEETS', getTweets);
+
+
+containers
+PopularTweets.js
+import { connect }
+
+const mapStateToProps = state => ({
+  tweets: state.tweets.tweets //usea selector
+});
+
+const mapDispatchToProps = dispatch => ({
+  fetch() {
+    dispatch(fetchTweets());
+  }
+})
+export default connect
+
+Home.js
+import PopularTweets from '../../
+
+<PopularTweets />
+
+- fetch tweets pending we can have animations and transitions on site
 
