@@ -6,6 +6,7 @@ nav {
   border: 2px solid white;
   width: 80vw;
   text-align: right;
+  margin: auto;
 
   a {
     display: inline-block;
