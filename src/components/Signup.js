@@ -13,6 +13,9 @@ function Signup() {
       <Label htmlFor="handle">Chirp Handle</Label>
       <Input readOnly={true} type="text" name="handle" id="handle" value="handle"/>
 
+      <Label htmlFor="location">City-and-State</Label>
+      <Input readOnly={true} type="text" name="location" id="city-and-state" value="location"/>
+
       <Label htmlFor="password">password</Label>
       <Input readOnly={true} type="password" name="password" id="password" value="password"/>
 

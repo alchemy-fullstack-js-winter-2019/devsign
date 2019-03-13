@@ -51,7 +51,7 @@ export const Input = styled.input `
   border-left: #bdbbbb solid 1px;
   border-right: #bdbbbb solid 3px;
   border-bottom: #a2a1a1 solid 3px;
-  margin: 7px;
+  margin-bottom: 5px;
   padding: 5px;
 `;
 
