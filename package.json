@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --verbose",
     "lint": "eslint .",
+    "pretest": "npm run lint",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p"
