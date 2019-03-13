@@ -1,9 +1,9 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import CreateTweetForm from './CreateTweetForm';
 import Tweets from './Tweets';
 import Header from './Header';
-import { Section } from '../styles/mainStyle';
+import Nav from './Nav';
+import { Section, Main } from '../styles/mainStyle';
 
 const tweets = [
   {
@@ -35,13 +35,13 @@ const  user = {
   location: 'Portland, OR'
 };
 
-
 function Home() {
   const { name,  handle, profileImage, bannerImage, bio, location } = user;
   return (
     <>
     <Header />
-    <main>
+    <Nav />
+    <Main>
       <UserDetails
         name={name}
         handle={handle}
@@ -50,11 +50,10 @@ function Home() {
         bio={bio}
         location={location}
       />
-      <CreateTweetForm />
       <Section>
         <Tweets tweets={tweets}/>
       </Section>
-    </main>
+    </Main>
     </>
   );
 }

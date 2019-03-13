@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Form, Input, Button, StyledHeader, P } from '../styles/mainStyle';
+import { Form, Input, Button, StyledHeader, P, StyledLink } from '../styles/mainStyle';
 
 function Signin() {
   return (
@@ -12,7 +11,7 @@ function Signin() {
       <Input readOnly={true} type="text" name="handle" value="handle"/>
       <Input readOnly={true} type="password" name="password" value="password"/>
       <Button>Sign In</Button>
-      <Link to="/signup"><P>Not a User?</P></Link>
+      <StyledLink to="/signup"><P>Not a User?</P></StyledLink>
     </Form>
     </>
   );

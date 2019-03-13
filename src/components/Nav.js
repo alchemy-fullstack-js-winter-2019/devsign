@@ -1,20 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { ListItem, List, ShowNav } from '../styles/mainStyle';
-import styled from 'styled-components';
+import SearchForm from './SearchForm';
+import { ListItem, List, HideNav, StyledLink } from '../styles/mainStyle';
 
-const StyledLink = styled(Link) `
-  text-decoration: none;
-`;
 
 function Nav() {
   return (
-    <ShowNav>
+    <HideNav>
       <List>
         <StyledLink to="/home"><ListItem>Home</ListItem></StyledLink>
         <StyledLink to="/profile"><ListItem>Profile</ListItem></StyledLink>
+        <StyledLink to="/followers"><ListItem>Followers</ListItem></StyledLink>
       </List>
-    </ShowNav>
+      <SearchForm />
+    </HideNav>
   );
 }
 

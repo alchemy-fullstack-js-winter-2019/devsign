@@ -1,12 +1,16 @@
 import React from 'react';
 import UserDetails from './UserDetails';
+import CreateTweetForm from './CreateTweetForm';
+import Header from './Header';
+import Nav from './Nav';
 import Tweets from './Tweets';
+import { Main, Section } from '../styles/mainStyle';
 
 const tweets = [
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
-    name: 'Ray',
-    handle: '@stingraymond',
+    name: 'Kaiya',
+    handle: '@ladybeard',
     text: 'tweet tweet tweet'
   },
   {
@@ -17,8 +21,8 @@ const tweets = [
   },
   {
     profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
-    name: 'Randy',
-    handle: '@randyroute',
+    name: 'Kaiya',
+    handle: '@ladybeard',
     text: 'tweet tweet tweet'
   }
 ];
@@ -36,16 +40,21 @@ function Profile() {
   const { name, handle, profileImage, bannerImage, bio, location } = user;
   return (
     <>
-    <UserDetails
-      name={name}
-      handle={handle}
-      profileImage={profileImage}
-      bannerImage={bannerImage}
-      bio={bio}
-      location={location}/>
-    <section>
-      <Tweets tweets={tweets}/>
-    </section>
+    <Header />
+    <Nav />
+    <Main>
+      <UserDetails
+        name={name}
+        handle={handle}
+        profileImage={profileImage}
+        bannerImage={bannerImage}
+        bio={bio}
+        location={location}/>
+      <Section>
+        <CreateTweetForm />
+        <Tweets tweets={tweets}/>
+      </Section>
+    </Main>
     </>
   );
 }

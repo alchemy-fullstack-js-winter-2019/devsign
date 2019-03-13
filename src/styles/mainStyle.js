@@ -1,9 +1,22 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+export const StyledLink = styled(Link) `
+  text-decoration: none;
+`;
 
 export const StyledHeader = styled.header `
+  font-family: 'Dosis', sans-serif;
   color: #c16834;
   display: flex;
   justify-content: space-around;
+`;
+
+export const Main = styled.main `
+  @media (min-width: 700px) {
+    display: flex;
+    border-top: #a2a1a1 solid 3px;
+  }
 `;
 
 export const Form = styled.form `
@@ -33,6 +46,7 @@ export const Input = styled.input `
 `;
 
 export const Button = styled.button `
+  font-family: 'Prompt', sans-serif;
   background-color: white;
   border-radius: 3px;
   width: 50%;
@@ -43,15 +57,18 @@ export const Button = styled.button `
 `;
 
 export const P = styled.p `
+  font-family: 'Prompt', sans-serif;
   text-decoration: none;
-  color: white;
+  color: black;
 `;
 
-export const ShowNav = styled.nav `
-  display: none;
+export const NavBar = styled.nav `
+  display: block;
+`;
 
-  @media (min-width: 700px) {
-    display: block;
+export const HideNav = styled(NavBar) `
+  @media (max-width: 700px) {
+    display: none;
   }
 `;
 
@@ -63,15 +80,19 @@ export const List = styled.ul `
 export const ListItem = styled.li `
   display: inline;
   padding: 0 10px;
-  color: white;
+  color: black;
 `;
 
 
 export const Aside = styled.aside `
+  font-family: 'Prompt', sans-serif;
   width: 100%;
   background-color: white;
-  padding: 10px;
   border-bottom: #e2e2dc solid 2px;
+
+  @media (min-width: 700px) {
+    width: 25%;
+  }
 `;
 
 export const ProfileImg = styled.img `
@@ -100,15 +121,27 @@ export const Bio = styled.p `
   padding: 5px;
 `;
 
+export const MobileBio = styled(Bio) `
+  @media (max-width: 700px) {
+    display: none;
+  }
+`;
+
 export const Text = styled.p `
   padding: 10px;
 `;
 
 export const Section = styled.section `
+  font-family: 'Prompt', sans-serif;
   width: 100%;
+
+  @media (min-width: 700px) {
+    width: 70%;
+  }
 `;
 
 export const Article = styled.article `
+  font-family: 'Prompt', sans-serif;
   background-color: white;
   border: #e2e2dc solid 2px;
   padding: 10px;
