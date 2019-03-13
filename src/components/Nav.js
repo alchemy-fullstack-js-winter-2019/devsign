@@ -9,12 +9,6 @@ const NavBar = styled.nav `
   background-color: #f3d8c4;
 `;
 
-const HideNav = styled(NavBar) `
-  @media (max-width: 700px) {
-    display: none;
-  }
-`;
-
 const List = styled.ul `
   width: 25%;
   padding: 5px;
@@ -33,16 +27,30 @@ export const MainLogo = styled(ListItem) `
   color: white;
 `;
 
+const MobileProfileImage = styled.img `
+  float: right;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 85%;
+  top: 4%;
+
+  @media (min-width: 700) {
+    display: none;
+  }
+`;
+
 function Nav() {
   return (
-    <HideNav>
+    <NavBar>
       <List>
         <StyledLink to="/home"><MainLogo>Chirp</MainLogo></StyledLink>
         <StyledLink to="/home"><NavLi>Home</NavLi></StyledLink>
         <StyledLink to="/profile"><NavLi>Profile</NavLi></StyledLink>
       </List>
+      <StyledLink to="profile"><MobileProfileImage src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"/></StyledLink>
       <SearchForm />
-    </HideNav>
+    </NavBar>
   );
 }
 

@@ -100,24 +100,12 @@ export const BannerImg = styled.img `
   height: 20%;
 `;
 
-export const MobileBanner = styled(BannerImg) `
-  @media (max-width: 700px) {
-    display: none;
-  }
-`;
-
 export const Handle = styled.span `
   font-size: 0.5em;
 `;
 
 export const Bio = styled.p `
   padding: 5px;
-`;
-
-export const MobileBio = styled(Bio) `
-  @media (max-width: 700px) {
-    display: none;
-  }
 `;
 
 export const Text = styled.p `
