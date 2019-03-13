@@ -12,6 +12,7 @@ import Profile from '../profile/Profile';
 import Loading from '../loading/Loading';
 import Messages from '../messages/Messages';
 import style from './Header.css';
+import { withSession } from '../../containers/auth/withSession';
 
 export default function Header() {
   return (
@@ -28,7 +29,7 @@ export default function Header() {
           </nav>
         </header>
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={withSession(Home)} />
           <Route exact path='/login-signup' component={LoginSignup} />
           <Route exact path='/notifications' component={Notifications} />
           <Route exact path='/profile' component={Profile} />
