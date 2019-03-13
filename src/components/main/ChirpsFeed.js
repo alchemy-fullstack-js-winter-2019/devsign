@@ -1,6 +1,10 @@
 import React from 'react';
 import Profile from './Profile';
 import styles from 'styled-components';
+import tyler from '/assets/tyler.jpg';
+import brantley from '/assets/brantley.jpg';
+import khoman from '/assets/khoman.jpg';
+import samantha from '/assets/samantha.jpg';
 
 const ChirpsUsers = styles.aside`
 @media (min-width: 374px) {
@@ -47,22 +51,22 @@ function ChirpsFeed() {
       <Profile />
       <ChirpsUsers>
         <h3><i className="fas fa-kiwi-bird"></i> Brantley </h3>
-        <Avatar src="/assets/brantley.jpg" width="10%" height="50%" alt="person1"/>
+        <Avatar src={brantley}width="10%" height="50%" alt="person1"/>
         <p> I don't know who Steve Jobs is...</p>
       </ChirpsUsers>
       <ChirpsUsers>
           <h3><i className="fas fa-kiwi-bird"></i> Khoman</h3>
-          <Avatar src="/assets/khoman.jpg" width="10%" height="50%" alt="person1" />
+          <Avatar src={khoman} width="10%" height="50%" alt="person1" />
           <p> Mayonnaise is disgusting af, but it does wonders to my hair</p>
       </ChirpsUsers>
       <ChirpsUsers>
           <h3><i className="fas fa-kiwi-bird"></i> Samantha</h3>
-          <Avatar src="/assets/samantha.jpg" width="10%" height="50%" alt="person1" />
+          <Avatar src={samantha} width="10%" height="50%" alt="person1" />
           <p> Kurt Cobain is that guy from Glee, right?</p>
       </ChirpsUsers>
       <ChirpsUsers>
           <h3><i className="fas fa-kiwi-bird"></i> Tyler </h3>
-          <Avatar src="/assets/tyler.jpg" width="10%" height="50%" alt="person1" />
+          <Avatar src={tyler} width="10%" height="50%" alt="person1" />
           <p>I want my first daughter to be a girl</p>
       </ChirpsUsers>
     </section>
