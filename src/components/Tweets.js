@@ -13,11 +13,9 @@ function Tweets({ tweets }) {
     /></li>;
   });
   return (
-    <section>
-      <List>
-        {tweetList}
-      </List>
-    </section>
+    <List>
+      {tweetList}
+    </List>
   );
 }
 

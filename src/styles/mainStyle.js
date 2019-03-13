@@ -88,26 +88,6 @@ export const ListItem = styled.li `
   font-family: 'Dosis', sans-serif;
 `;
 
-export const ProfileImg = styled.img `
-  width: 50px;
-  height: 50px;
-  padding-left: 5px;
-  float: left;
-`;
-
-export const BannerImg = styled.img `
-  width: 100%;
-  height: 20%;
-`;
-
-export const Handle = styled.span `
-  font-size: 0.5em;
-`;
-
-export const Bio = styled.p `
-  padding: 5px;
-`;
-
 export const Text = styled.p `
   padding: 10px;
 `;
@@ -118,7 +98,19 @@ export const Section = styled.section `
 
   @media (min-width: 700px) {
     width: 72%;
+    margin: 5px;
   }
+`;
+
+export const ProfileImg = styled.img `
+  width: 50px;
+  height: 50px;
+  padding-left: 5px;
+  float: left;
+`;
+
+export const Handle = styled.span `
+  font-size: 0.5em;
 `;
 
 export const Article = styled.article `

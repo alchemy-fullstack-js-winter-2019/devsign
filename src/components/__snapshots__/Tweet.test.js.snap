@@ -2,26 +2,26 @@
 
 exports[`Tweet component matches a snapshot 1`] = `
 <article
-  className="sc-kAzzGY bSaNbd"
+  className="sc-jzJRlG jFfDbd"
 >
   <header>
     <img
       alt="Kaiya"
-      className="sc-gqjmRU hTssrt"
+      className="sc-jTzLTM fkBueS"
       src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
     />
     <h2>
       Kaiya
        
       <span
-        className="sc-jTzLTM bxQZkh"
+        className="sc-fjdhpX FzRiJ"
       >
         @ladybeard
       </span>
     </h2>
   </header>
   <p
-    className="sc-jzJRlG fefLBr"
+    className="sc-gqjmRU dRATxY"
   >
     tweet tweet tweet
   </p>

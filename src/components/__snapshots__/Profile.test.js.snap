@@ -3,16 +3,16 @@
 exports[`Profile component matches a snapshot 1`] = `
 Array [
   <nav
-    className="sc-hMqMXs bobbDf"
+    className="sc-eNQAEJ itYCrZ"
   >
     <ul
-      className="sc-kEYyzF kbZRkL"
+      className="sc-hMqMXs cpSUjM"
     >
       <li
-        className="sc-gZMcBi sc-iAyFgw SGOKZ"
+        className="sc-VigVT sc-kkGfuU eScJEz"
       >
         <a
-          className="sc-bdVaJa sc-cvbbAY yhOmS"
+          className="sc-htpNat sc-eHgmQL NzDlN"
           href="/home"
           onClick={[Function]}
         >
@@ -20,10 +20,10 @@ Array [
         </a>
       </li>
       <li
-        className="sc-gZMcBi sc-kkGfuU lobdjB"
+        className="sc-VigVT sc-kEYyzF iOVsVh"
       >
         <a
-          className="sc-bdVaJa sc-eHgmQL eZpWTE"
+          className="sc-htpNat sc-hSdWYo bTLJQz"
           href="/home"
           onClick={[Function]}
         >
@@ -31,10 +31,10 @@ Array [
         </a>
       </li>
       <li
-        className="sc-gZMcBi sc-kkGfuU lobdjB"
+        className="sc-VigVT sc-kEYyzF iOVsVh"
       >
         <a
-          className="sc-bdVaJa sc-eHgmQL eZpWTE"
+          className="sc-htpNat sc-hSdWYo bTLJQz"
           href="/profile"
           onClick={[Function]}
         >
@@ -43,38 +43,38 @@ Array [
       </li>
     </ul>
     <a
-      className="sc-bdVaJa cVFclJ"
+      className="sc-htpNat jZGOfu"
       href="/profile"
       onClick={[Function]}
     >
       <img
         alt="profile pic"
-        className="sc-hSdWYo hcsGuV"
+        className="sc-iAyFgw bHpxid"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
     </a>
     <form
-      className="sc-ifAKCX sc-dxgOiQ ZDpZY"
+      className="sc-bZQynM sc-kpOJdX kcRLgZ"
     >
       <label
-        className="sc-eNQAEJ iqowgK"
+        className="sc-jKJlTe hoBmOB"
         htmlFor="search"
       >
         Search
       </label>
       <input
-        className="sc-bZQynM sc-ckVGcZ dfGCWT"
+        className="sc-htoDjs sc-dxgOiQ rqkeo"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
       <label
-        className="sc-eNQAEJ iqowgK"
+        className="sc-jKJlTe hoBmOB"
         htmlFor="searchButton"
       />
       <button
-        className="sc-gzVnrw sc-jKJlTe hHTIcO"
+        className="sc-dnqmqq sc-ckVGcZ eTcjhr"
         id="searchButton"
       >
         Search
@@ -83,27 +83,27 @@ Array [
   </nav>,
   <section>
     <form
-      className="sc-ifAKCX sc-kgoBCf fdofMG"
+      className="sc-bZQynM sc-chPdSV ciquKg"
     >
       <label
-        className="sc-EHOje kYkHpN"
+        className="sc-gzVnrw ihYwza"
         htmlFor="newChirpText"
       >
         Name
       </label>
       <input
-        className="sc-bZQynM sc-kGXeez kJKpum"
+        className="sc-htoDjs sc-kgoBCf gSXxbD"
         id="newChirpText"
         name="newChirpText"
         readOnly={true}
         type="text"
       />
       <label
-        className="sc-EHOje kYkHpN"
+        className="sc-gzVnrw ihYwza"
         htmlFor="newChirp"
       />
       <button
-        className="sc-gzVnrw sc-kpOJdX gFAKbC"
+        className="sc-dnqmqq sc-kGXeez gwOBrv"
         id="newChirp"
       >
         Chirp
@@ -111,13 +111,13 @@ Array [
     </form>
   </section>,
   <main
-    className="sc-bxivhb jHTRIX"
+    className="sc-EHOje dvnEkc"
   >
     <aside
-      className="sc-chPdSV ecAaUG"
+      className="sc-bdVaJa cdPWoN"
     >
       <img
-        className="sc-gqjmRU hTssrt"
+        className="sc-jzJRlG gVHQuV"
         name="profileImage"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
@@ -125,193 +125,191 @@ Array [
         Kaiya
          
         <span
-          className="sc-jTzLTM bxQZkh"
+          className="sc-cSHVUG crXluK"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-fjdhpX eUAEJX"
+        className="sc-bwzfXH kQaOVY"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-fjdhpX eUAEJX"
+        className="sc-bwzfXH kQaOVY"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-cSHVUG jxaPmy"
+      className="sc-fjdhpX caAXUl"
     >
-      <section>
-        <ul
-          className="sc-iwsKbI jzeEWW"
-        >
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+      <ul
+        className="sc-gqjmRU hBeZmn"
+      >
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-          <li>
-            <article
-              className="sc-kAzzGY bSaNbd"
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+        <li>
+          <article
+            className="sc-kAzzGY bSaNbd"
+          >
+            <header>
+              <img
+                alt="Kaiya"
+                className="sc-jzJRlG gVHQuV"
+                src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+              />
+              <h2>
+                Kaiya
+                 
+                <span
+                  className="sc-cSHVUG crXluK"
+                >
+                  @ladybeard
+                </span>
+              </h2>
+            </header>
+            <p
+              className="sc-jTzLTM bLPztG"
             >
-              <header>
-                <img
-                  alt="Kaiya"
-                  className="sc-gqjmRU hTssrt"
-                  src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-                />
-                <h2>
-                  Kaiya
-                   
-                  <span
-                    className="sc-jTzLTM bxQZkh"
-                  >
-                    @ladybeard
-                  </span>
-                </h2>
-              </header>
-              <p
-                className="sc-jzJRlG fefLBr"
-              >
-                tweet tweet tweet
-              </p>
-            </article>
-          </li>
-        </ul>
-      </section>
+              tweet tweet tweet
+            </p>
+          </article>
+        </li>
+      </ul>
     </section>
   </main>,
 ]

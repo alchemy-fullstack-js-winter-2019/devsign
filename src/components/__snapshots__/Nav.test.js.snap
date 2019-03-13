@@ -2,16 +2,16 @@
 
 exports[`Nav component matches a snapshot 1`] = `
 <nav
-  className="sc-dxgOiQ YOjhc"
+  className="sc-kGXeez dcHRRN"
 >
   <ul
-    className="sc-ckVGcZ lcUqFn"
+    className="sc-kpOJdX eSSkdt"
   >
     <li
-      className="sc-gZMcBi sc-eNQAEJ hEjfQv"
+      className="sc-gZMcBi sc-ckVGcZ fJmOAI"
     >
       <a
-        className="sc-bdVaJa sc-kkGfuU iFmWZ"
+        className="sc-bdVaJa sc-hMqMXs hDuBxd"
         href="/home"
         onClick={[Function]}
       >
@@ -19,10 +19,10 @@ exports[`Nav component matches a snapshot 1`] = `
       </a>
     </li>
     <li
-      className="sc-gZMcBi sc-jKJlTe axDnb"
+      className="sc-gZMcBi sc-dxgOiQ btSlKp"
     >
       <a
-        className="sc-bdVaJa sc-kEYyzF iTJHIk"
+        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
         href="/home"
         onClick={[Function]}
       >
@@ -30,10 +30,10 @@ exports[`Nav component matches a snapshot 1`] = `
       </a>
     </li>
     <li
-      className="sc-gZMcBi sc-jKJlTe axDnb"
+      className="sc-gZMcBi sc-dxgOiQ btSlKp"
     >
       <a
-        className="sc-bdVaJa sc-kEYyzF iTJHIk"
+        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
         href="/profile"
         onClick={[Function]}
       >
@@ -48,32 +48,32 @@ exports[`Nav component matches a snapshot 1`] = `
   >
     <img
       alt="profile pic"
-      className="sc-hMqMXs iFZTxG"
+      className="sc-jKJlTe hLhmlh"
       src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
     />
   </a>
   <form
-    className="sc-ifAKCX sc-chPdSV kxfkII"
+    className="sc-ifAKCX sc-cSHVUG bmJTsc"
   >
     <label
-      className="sc-kpOJdX ijyKBI"
+      className="sc-kgoBCf iOxteu"
       htmlFor="search"
     >
       Search
     </label>
     <input
-      className="sc-bZQynM sc-kgoBCf bxthsg"
+      className="sc-bZQynM sc-kAzzGY kNfhYh"
       id="search"
       readOnly={true}
       type="text"
       value=""
     />
     <label
-      className="sc-kpOJdX ijyKBI"
+      className="sc-kgoBCf iOxteu"
       htmlFor="searchButton"
     />
     <button
-      className="sc-gzVnrw sc-kGXeez fYDtGc"
+      className="sc-gzVnrw sc-chPdSV eNmjaL"
       id="searchButton"
     >
       Search
