@@ -1,49 +1,42 @@
+import { connect } from 'react-redux';
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import TweetForm from '../../components/home/TweetForm';
 import Tweets from '../../components/tweets/Tweets';
+import { getTweets } from '../../selectors/tweets';
 
 
-export default class Home extends PureComponent {
+class Home extends PureComponent {
   static propTypes = {
-    tweet: PropTypes.object,
-    tweets: PropTypes.array,
+    tweets: PropTypes.array.isRequired,
     onChange: PropTypes.func,
     onSubmit: PropTypes.func
   }
 
+  state = {
+    tweetText: ''
+  }
+
   render() {
-    const tweets = [
-      {
-        id: 1,
-        userId: 1,
-        img: 'https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060',
-        text: 'twitter you twit'
-      },
-      {
-        id: 2,
-        userId: 2,
-        img: 'https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060',
-        text: 'twitter you twit twit'
-      },
-      {
-        id: 3,
-        userId: 3,
-        img: 'https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060',
-        text: 'twitter you twit twit twitter twit'
-      }
-    ];
-
-    const props = {
-      tweetText: 'I is a twit',
-      tweets,
-    };
-
     return (
       <main>
-        <TweetForm {...props} />
-        <Tweets {...props} />
+        <TweetForm { ...{ ...this.props, tweetText: this.state.tweetText } } />
+        <Tweets {...this.props} />
       </main>
     );
   }
 }
+
+const mapStateToProps = state => ({
+  tweets: getTweets(state)
+});
+
+// const mapDispatchToProps = dispatch => ({
+//   onChange() {
+
+//   }
+// });
+
+export default connect(
+  mapStateToProps
+)(Home);

@@ -15,8 +15,8 @@ function TweetForm({ tweetText, onChange, onSubmit }) {
 
 TweetForm.propTypes = {
   tweetText: PropTypes.string.isRequired,
-  onChange: PropTypes.func,
-  onSubmit: PropTypes.func
+  onChange: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired
 };
 
 export default TweetForm;
