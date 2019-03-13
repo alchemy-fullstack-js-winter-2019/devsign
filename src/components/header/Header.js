@@ -26,17 +26,24 @@ const LinkStyle = styles(Link)`
 `;
 
 const LinkProfile = styles.a`
+@media (min-width: 374px) {
   margin-left: 20px;
   margin-right: 40px;
   font-size: 20px;
   color:#ffa1ac;
+  } 
+@media (min-width: 414px) {
+  margin-left: 40px;
+  }
 `;
 
 const LinkChirps= styles.a`
+@media (min-width: 374px) {
   margin-left: 80px;
   margin-right: 25px;
   font-size: 20px;
   color:#ffa1ac;
+  }
 `;
 
 const NavStyle = styles.nav`
