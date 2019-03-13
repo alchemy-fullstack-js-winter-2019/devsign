@@ -12,22 +12,41 @@ Array [
   <form
     className="sc-bxivhb dBAuwS"
   >
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="handle"
+    >
+      Chirp handle
+    </label>
     <input
-      className="sc-EHOje iUmBVY"
+      className="sc-bZQynM dqSVUO"
+      id="handle"
       name="handle"
       readOnly={true}
       type="text"
       value="handle"
     />
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="password"
+    >
+      password
+    </label>
     <input
-      className="sc-EHOje iUmBVY"
+      className="sc-bZQynM dqSVUO"
+      id="password"
       name="password"
       readOnly={true}
       type="password"
       value="password"
     />
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="sign-in"
+    />
     <button
-      className="sc-bZQynM duCUaL"
+      className="sc-gzVnrw ccvAWg"
+      id="sign-in"
     >
       Sign In
     </button>
@@ -37,7 +56,7 @@ Array [
       onClick={[Function]}
     >
       <p
-        className="sc-gzVnrw fnneVj"
+        className="sc-htoDjs kQfXqe"
       >
         Not a User?
       </p>

@@ -10,10 +10,10 @@ Array [
     </h1>
   </header>,
   <nav
-    className="sc-htoDjs sc-dnqmqq cUlef"
+    className="sc-dnqmqq sc-iwsKbI gUAlru"
   >
     <ul
-      className="sc-iwsKbI dkBjBu"
+      className="sc-gZMcBi cwXRZz"
     >
       <a
         className="sc-bdVaJa cVFclJ"
@@ -21,7 +21,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi eRJHvU"
+          className="sc-gqjmRU fMjxHK"
         >
           Home
         </li>
@@ -32,7 +32,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi eRJHvU"
+          className="sc-gqjmRU fMjxHK"
         >
           Profile
         </li>
@@ -43,24 +43,35 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi eRJHvU"
+          className="sc-gqjmRU fMjxHK"
         >
           Followers
         </li>
       </a>
     </ul>
     <form
-      className="sc-bxivhb sc-ifAKCX hpdzZf"
+      className="sc-bxivhb sc-EHOje hZYZKW"
     >
+      <label
+        className="sc-ifAKCX hrWLvt"
+        htmlFor="search"
+      >
+        Search
+      </label>
       <input
-        className="sc-EHOje iUmBVY"
+        className="sc-bZQynM dqSVUO"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
+      <label
+        className="sc-ifAKCX hrWLvt"
+        htmlFor="searchButton"
+      />
       <button
-        className="sc-bZQynM duCUaL"
+        className="sc-gzVnrw ccvAWg"
+        id="searchButton"
       >
         Search Chirp
       </button>
@@ -70,15 +81,15 @@ Array [
     className="sc-htpNat jrSCQS"
   >
     <aside
-      className="sc-gqjmRU NZkOf"
+      className="sc-VigVT bGQLkE"
     >
       <img
-        className="sc-jTzLTM cCSXzZ"
+        className="sc-fjdhpX dbHkHM"
         name="bannerImage"
         src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
       />
       <img
-        className="sc-VigVT ktMhto"
+        className="sc-jTzLTM fkBueS"
         name="profileImage"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
@@ -86,37 +97,49 @@ Array [
         Kaiya
          
         <span
-          className="sc-jzJRlG lbLyrw"
+          className="sc-cSHVUG crXluK"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+        className="sc-kAzzGY sc-chPdSV dLxFcj"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+        className="sc-kAzzGY sc-chPdSV dLxFcj"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-kgoBCf cTLlkN"
+      className="sc-kGXeez jFjSmc"
     >
       <section>
         <form
           className="sc-bxivhb dBAuwS"
         >
+          <label
+            className="sc-ifAKCX hrWLvt"
+            htmlFor="newChirpText"
+          >
+            Name
+          </label>
           <input
-            className="sc-EHOje iUmBVY"
-            name="text"
+            className="sc-bZQynM dqSVUO"
+            id="newChirpText"
+            name="newChirpText"
             readOnly={true}
             type="text"
           />
+          <label
+            className="sc-ifAKCX hrWLvt"
+            htmlFor="newChirp"
+          />
           <button
-            className="sc-bZQynM duCUaL"
+            className="sc-gzVnrw ccvAWg"
+            id="newChirp"
           >
             Chirp
           </button>
@@ -124,29 +147,29 @@ Array [
       </section>
       <section>
         <ul
-          className="sc-iwsKbI dkBjBu"
+          className="sc-gZMcBi cwXRZz"
         >
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kpOJdX dvXSoz"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-jTzLTM fkBueS"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-cSHVUG crXluK"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kgoBCf HaKVQ"
               >
                 tweet tweet tweet
               </p>
@@ -154,25 +177,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kpOJdX dvXSoz"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-jTzLTM fkBueS"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-cSHVUG crXluK"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kgoBCf HaKVQ"
               >
                 tweet tweet tweet
               </p>
@@ -180,25 +203,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kGXeez igAvJF"
+              className="sc-kpOJdX dvXSoz"
             >
               <header>
                 <img
-                  className="sc-VigVT ktMhto"
+                  className="sc-jTzLTM fkBueS"
                   src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-jzJRlG lbLyrw"
+                    className="sc-cSHVUG crXluK"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-chPdSV kZeSMp"
+                className="sc-kgoBCf HaKVQ"
               >
                 tweet tweet tweet
               </p>

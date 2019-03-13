@@ -28,6 +28,10 @@ export const Form = styled.form `
   width: 70%;
 `;
 
+export const Label = styled.label `
+  color: white;
+`;
+
 export const MobileForm = styled(Form) `
   @media (max-width: 700px) {
     display: none;

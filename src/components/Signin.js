@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Button, StyledHeader, P, StyledLink } from '../styles/mainStyle';
+import { Form, Input, Button, StyledHeader, P, StyledLink, Label } from '../styles/mainStyle';
 
 function Signin() {
   return (
@@ -8,9 +8,12 @@ function Signin() {
       <h1>Chirp</h1>
     </StyledHeader>
     <Form>
-      <Input readOnly={true} type="text" name="handle" value="handle"/>
-      <Input readOnly={true} type="password" name="password" value="password"/>
-      <Button>Sign In</Button>
+      <Label htmlFor="handle">Chirp handle</Label>
+      <Input readOnly={true} type="text" name="handle" id="handle" value="handle"/>
+      <Label htmlFor="password">password</Label>
+      <Input readOnly={true} type="password" name="password" id="password" value="password"/>
+      <Label htmlFor="sign-in"></Label>
+      <Button id="sign-in">Sign In</Button>
       <StyledLink to="/signup"><P>Not a User?</P></StyledLink>
     </Form>
     </>

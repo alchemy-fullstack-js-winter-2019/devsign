@@ -1,3 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component matches a snapshot 1`] = `null`;
+exports[`App component matches a snapshot 1`] = `
+Array [
+  <header
+    className="sc-bwzfXH ikzJqp"
+  >
+    <h1>
+      Chirp
+    </h1>
+  </header>,
+  <form
+    className="sc-bxivhb dBAuwS"
+  >
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="handle"
+    >
+      Chirp handle
+    </label>
+    <input
+      className="sc-bZQynM dqSVUO"
+      id="handle"
+      name="handle"
+      readOnly={true}
+      type="text"
+      value="handle"
+    />
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="password"
+    >
+      password
+    </label>
+    <input
+      className="sc-bZQynM dqSVUO"
+      id="password"
+      name="password"
+      readOnly={true}
+      type="password"
+      value="password"
+    />
+    <label
+      className="sc-ifAKCX hrWLvt"
+      htmlFor="sign-in"
+    />
+    <button
+      className="sc-gzVnrw ccvAWg"
+      id="sign-in"
+    >
+      Sign In
+    </button>
+    <a
+      className="sc-bdVaJa cVFclJ"
+      href="/signup"
+      onClick={[Function]}
+    >
+      <p
+        className="sc-htoDjs kQfXqe"
+      >
+        Not a User?
+      </p>
+    </a>
+  </form>,
+]
+`;

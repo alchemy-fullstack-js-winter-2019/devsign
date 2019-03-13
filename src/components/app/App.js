@@ -16,10 +16,10 @@ export default function App() {
     <Router>
       <>
       <Switch>
-        <Route path="/signin" component={Signin}></Route>
         <Route path="/signup" component={Signup}></Route>
         <Route path="/home" component={Home}></Route>
         <Route path="/profile" component={Profile}></Route>
+        <Route exact path="/" component={Signin}></Route>
       </Switch>
       </>
     </Router>
