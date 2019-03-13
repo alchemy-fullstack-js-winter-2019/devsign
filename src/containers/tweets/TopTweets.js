@@ -1,15 +1,10 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import TweetForm from '../../components/home/TweetForm';
 import Tweets from '../../components/tweets/Tweets';
 
-
-export default class Home extends PureComponent {
+export default class TopTweets extends PureComponent {
   static propTypes = {
-    tweet: PropTypes.object,
-    tweets: PropTypes.array,
-    onChange: PropTypes.func,
-    onSubmit: PropTypes.func
+    tweets: PropTypes.array.isRequired
   }
 
   render() {
@@ -33,19 +28,14 @@ export default class Home extends PureComponent {
         text: 'twitter you twit twit twitter twit'
       }
     ];
-
-    const props = {
-      tweetText: 'I is a twit',
-      tweets,
-    };
+    
+    const props = { tweets };
 
     return (
       <main>
-        <TweetForm {...props} />
+        <h2>Top Tweets:</h2>
         <Tweets {...props} />
       </main>
     );
   }
 }
-
-
