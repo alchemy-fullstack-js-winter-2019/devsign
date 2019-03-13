@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Footer from '../Footer';
+import Footer from '../app/Footer';
 import { MemoryRouter } from 'react-router';
 
 describe('Footer snapshot', () => {

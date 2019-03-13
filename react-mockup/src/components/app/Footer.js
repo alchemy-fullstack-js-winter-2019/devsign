@@ -1,12 +1,13 @@
 import React from 'react';
+import { Foot } from './AppStyles';
 
 function Footer() {
   return (
-    <footer>
+    <Foot>
       <p>
         © Hummingbird, 2019
       </p>
-    </footer>
+    </Foot>
   );
 }
 

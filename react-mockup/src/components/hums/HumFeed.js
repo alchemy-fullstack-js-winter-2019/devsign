@@ -1,8 +1,9 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../app/Header';
 import HumForm from './HumForm';
-import Footer from './Footer';
+import Footer from '../app/Footer';
 import Hums from './Hums';
+import { Heading } from './HumStyles';
 
 function HumFeed() {
   return (
@@ -10,7 +11,7 @@ function HumFeed() {
     <Header />
     <main>
       <section>
-        <h2>Your feed</h2>
+        <Heading>hum-feed</Heading>
         <HumForm />
         <Hums />
       </section>

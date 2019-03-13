@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Header from '../Header';
+import Header from '../app/Header';
 import { MemoryRouter } from 'react-router';
 
 describe('Header snapshot', () => {

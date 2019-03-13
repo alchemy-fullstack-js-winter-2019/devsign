@@ -1,28 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HumsByUser snapshot can match a snapshot 1`] = `
-<section>
-  <form>
-    <input
-      name="hum"
-      type="text"
-    />
-    <button>
-      Post new hum
-    </button>
-  </form>
+<section
+  className="sc-bxivhb hggFOb"
+>
+  <h3>
+    hums by user!
+  </h3>
   <div>
     <p>
       Hum hum hum. bother. bother. bother.
     </p>
   </div>
-  <hr />
   <div>
     <p>
       Hum hum hum. bother. bother. bother.
     </p>
   </div>
-  <hr />
+  <div>
+    <p>
+      Hum hum hum. bother. bother. bother.
+    </p>
+  </div>
+  <div>
+    <p>
+      Hum hum hum. bother. bother. bother.
+    </p>
+  </div>
+  <div>
+    <p>
+      Hum hum hum. bother. bother. bother.
+    </p>
+  </div>
   <div>
     <p>
       Hum hum hum. bother. bother. bother.
