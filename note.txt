@@ -270,3 +270,11 @@ import PopularTweets from '../../
 
 - fetch tweets pending we can have animations and transitions on site
 
+need to create a component that will listen to this route
+
+this is a router path where authentication is not needed to view page
+about: {
+  path: '/about',
+  component: About,
+  linkTo: () => '/about'
+}
