@@ -1,0 +1,14 @@
+a:link {
+  text-decoration: none;
+}
+
+nav {
+  border: 2px solid white;
+  width: 80vw;
+  text-align: right;
+
+  a {
+    display: inline-block;
+    margin: 0 2vw;
+  }
+}

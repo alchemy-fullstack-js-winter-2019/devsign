@@ -11,49 +11,53 @@ exports[`User displays a user 1`] = `
   <p>
     I am a person; I swear
   </p>
-  <h2>
-    Latest Tweets:
-  </h2>
-  <ul>
-    <li>
-      <a
-        href="/user/1"
-        onClick={[Function]}
-      >
-        <img
-          src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
-        />
-        <p>
-          twitter you twit
-        </p>
-      </a>
-    </li>
-    <li>
-      <a
-        href="/user/1"
-        onClick={[Function]}
-      >
-        <img
-          src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
-        />
-        <p>
-          twitter you twit twit
-        </p>
-      </a>
-    </li>
-    <li>
-      <a
-        href="/user/1"
-        onClick={[Function]}
-      >
-        <img
-          src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
-        />
-        <p>
-          twitter you twit twit twitter twit
-        </p>
-      </a>
-    </li>
-  </ul>
+  <div>
+    <h2>
+      Latest Tweets:
+    </h2>
+    <ul
+      className="Tweets"
+    >
+      <li>
+        <a
+          href="/user/1"
+          onClick={[Function]}
+        >
+          <img
+            src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
+          />
+          <p>
+            twitter you twit
+          </p>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/user/1"
+          onClick={[Function]}
+        >
+          <img
+            src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
+          />
+          <p>
+            twitter you twit twit
+          </p>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/user/1"
+          onClick={[Function]}
+        >
+          <img
+            src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
+          />
+          <p>
+            twitter you twit twit twitter twit
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
 </main>
 `;
