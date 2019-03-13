@@ -10,6 +10,14 @@ const ChirpsUsers = styles.aside`
   border: 1pt solid #ffe0a3;
   margin: 10px;
   }
+  @media (min-width: 700px) {
+    color: #ffa1ac;
+    text-align:left;
+    font-family: 'Muli', sans-serif;
+    border: 1pt solid #ffe0a3;
+    margin: 10px;
+    font-size: 25px;
+    }
 `;
 
 const Avatar = styles.img`
@@ -19,6 +27,18 @@ const Avatar = styles.img`
   height: 8vh;
   border: 3px solid #b7fbff;
   }
+@media (min-width: 700px) {
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vh;
+    border: 3px solid #b7fbff;
+   }
+@media (min-width: 900px) {
+    border-radius: 50%;
+    width: 6vw;
+    height: 8vh;
+    border: 3px solid #b7fbff;
+   }
 `;
 
 function ChirpsFeed() {

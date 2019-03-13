@@ -23,6 +23,9 @@ const LinkStyle = styles(Link)`
   text-decoration: none;
   color:#ffa1ac;
   }
+@media (min-width: 700px) {
+    font-size: 40px;
+  }
 `;
 
 const LinkProfile = styles.a`
@@ -35,6 +38,9 @@ const LinkProfile = styles.a`
 @media (min-width: 414px) {
   margin-left: 40px;
   }
+@media (min-width: 700px) {
+    font-size: 40px;
+  }
 `;
 
 const LinkChirps= styles.a`
@@ -44,6 +50,12 @@ const LinkChirps= styles.a`
   font-size: 20px;
   color:#ffa1ac;
   }
+  @media (min-width: 700px) {
+    margin-left: 80px;
+    margin-right: 25px;
+    font-size: 40px;
+    color:#ffa1ac;
+    }
 `;
 
 const NavStyle = styles.nav`

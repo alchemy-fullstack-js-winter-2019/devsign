@@ -8,6 +8,14 @@ const ProfileAvatar = styles.img`
   height: 8vh;
   border: 3px solid #b7fbff;
   }
+@media (min-width: 700px) {
+  width: 8vw;
+  height: 8vh;
+  }
+@media (min-width: 700px) {
+  width: 6vw;
+  height: 8vh;
+  }
 `;
 
 const ProfileUser = styles.aside`
@@ -15,6 +23,7 @@ const ProfileUser = styles.aside`
   font-family: 'Muli', sans-serif;
   color: #ffa1ac;
   margin: 10px;
+  font-size: 25px;
 
   }
 `;
