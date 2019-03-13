@@ -9,7 +9,7 @@
           margin: 0;
           }
         h1 {
-            color: rgb(241, 88, 0);
+            color:black;
             text-align: left;
             vertical-align: bottom;
 
@@ -20,14 +20,15 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 1em;
-
+        
         a {
+            background-color: white;
             text-decoration: none;
             font-size: 1.2em;
             padding: .2em;
             border-radius: .1em;
-            border: 2px orangered solid;
-        box-shadow: 2px 2px 2px 1px rgba(255, 166, 0, 0.664);
+            border: 2px black;
+        box-shadow: 2px 2px 2px 1px black;
         }
     }
 

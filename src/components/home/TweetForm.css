@@ -1,5 +1,6 @@
 .div {
-    background-color: rgba(248, 147, 100, 0.856);
+    background-color:white;
+    border: .05em black solid;
     border-radius: 2em;
     display: flex;
     justify-content: center;
