@@ -1,8 +1,4 @@
 
-img {
-  max-height: 20vh;
-  border-radius: 60px
-}
 ul {
   padding: 0;
 }
@@ -14,6 +10,10 @@ ul {
   h3 {
     font-size: 1em;
   }
+  img {
+    max-height: 20vh;
+    border-radius: 60px
+  }
 }
 
 .post {
@@ -24,6 +24,12 @@ ul {
   }
   input {
     border: 1px solid #D8D8D8;
+  }
+}
+
+@media only screen and (min-width 1000px) {
+  .profile {
+    
   }
 }
 
