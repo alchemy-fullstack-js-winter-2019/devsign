@@ -10,7 +10,7 @@ export default function About() {
     <h3>Some Information Our values Blah blah blah blah</h3>
     <p>Some more information about us blah blah blah blah blah</p>
       
-    <img className={styles.aboutImage} src="https://fakeimg.pl/640x360"/>
+    <img className={styles.aboutImage} src="https://fakeimg.pl/640x360" alt='placeholder about'/>
     </>
   );
 }
