@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from 'styled-components';
-import profilePic from '/assets/drew.jpg';
+import profilePic from '../../../assets/drew.jpg';
 
 const ProfileAvatar = styles.img`
 @media (min-width: 374px) {

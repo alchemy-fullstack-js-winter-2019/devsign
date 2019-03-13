@@ -1,10 +1,10 @@
 import React from 'react';
 import Profile from './Profile';
 import styles from 'styled-components';
-import tyler from '/assets/tyler.jpg';
-import brantley from '/assets/brantley.jpg';
-import khoman from '/assets/khoman.jpg';
-import samantha from '/assets/samantha.jpg';
+import tyler from '../../../assets/tyler.jpg';
+import brantley from '../../../assets/brantley.jpg';
+import khoman from '../../../assets/khoman.jpg';
+import samantha from '../../../assets/samantha.jpg';
 
 const ChirpsUsers = styles.aside`
 @media (min-width: 374px) {
