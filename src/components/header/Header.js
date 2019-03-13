@@ -9,6 +9,7 @@ import LoginSignup from '../login/LoginSignUp';
 import Home from '../home/Home';
 import NotificationPage from '../notifications/NotificationPage';
 import Profile from '../profile/Profile';
+import Loading from '../loading/Loading';
 import style from './Header.css';
 
 export default function Header() {
@@ -30,6 +31,8 @@ export default function Header() {
           <Route exact path='/login-signup' component={LoginSignup} />
           <Route exact path='/notifications' component={NotificationPage} />
           <Route exact path='/profile' component={Profile} />
+          <Route exact path='/loading' component={Loading} />
+  
         </Switch>
       </div>
     </Router>
