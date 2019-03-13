@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../components/css/Tweet.css';
-import Tweets from '../components/Tweets';
 import PropTypes from 'prop-types';
 
 export default function Tweet({ name, handle, text, profileImage }) {
