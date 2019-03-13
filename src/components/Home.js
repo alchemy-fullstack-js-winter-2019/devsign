@@ -1,47 +1,8 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import Chirps from './Chirps';
+import PopularChirps from '../containers/PopularChirps';
 import Nav from './Nav';
 import { Section, Main } from '../styles/mainStyle';
-
-const chirps = [
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Ray',
-    handle: '@stingraymond',
-    text: 'chirp chirp chirp'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Kaiya',
-    handle: '@ladybeard',
-    text: 'chirp chirp chirp'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Randy',
-    handle: '@randyroute',
-    text: 'chirp chirp chirp'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Ray',
-    handle: '@stingraymond',
-    text: 'chirp chirp chirp'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Kaiya',
-    handle: '@ladybeard',
-    text: 'chirp chirp chirp'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Randy',
-    handle: '@randyroute',
-    text: 'chirp chirp chirp'
-  }
-];
 
 const  user = {
   name: 'Kaiya',
@@ -67,7 +28,7 @@ function Home() {
         location={location}
       />
       <Section>
-        <Chirps chirps={chirps}/>
+        <PopularChirps />
       </Section>
     </Main>
     </>

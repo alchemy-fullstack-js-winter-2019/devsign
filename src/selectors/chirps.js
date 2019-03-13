@@ -1,1 +1,3 @@
-export const getChirps
+export const getAllChirps = state => state.chirps.chirps;
+
+

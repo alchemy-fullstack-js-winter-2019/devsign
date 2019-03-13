@@ -4,12 +4,13 @@ import Chirp from './Chirp';
 import { List } from '../styles/mainStyle';
 
 function Chirps({ chirps }) {
+
   const chirpList = chirps.map((chirp, i) => {
     return <li key={i}><Chirp
-      profileImage={chirp.profileImage}
-      name={chirp.name} 
+      profileImage={chirp.user.profileImage}
+      name={chirp.user.name} 
       text={chirp.text}
-      handle={chirp.handle}
+      handle={chirp.user.handle}
     /></li>;
   });
   return (

@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import reducer from '.reducers';
+import reducer from './reducers';
 import { promiseMiddleware } from 'promise-middleware-redux';
 
 // eslint-disable-next-line no-undef
