@@ -3,7 +3,7 @@
 exports[`Profile matches a snapshot 1`] = `
 <main>
   <article
-    style="User"
+    className="User"
   >
     <figure>
       <img
