@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile matches a snapshot 1`] = `
+<main>
+  <article
+    className="User"
+  >
+    <figure>
+      <img
+        alt="user avatar"
+        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+      />
+    </figure>
+    <h3>
+      Teonna Zaragoza
+    </h3>
+    <h4>
+      @
+      T_on_A
+    </h4>
+    <p>
+      I am an avid trail runner, nurse and software developer
+    </p>
+  </article>
+  <ul>
+    <li>
+      <section
+        style="follower"
+      >
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+        <p>
+          my first tweet
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        style="follower"
+      >
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+        <p>
+          my second tweet
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        style="follower"
+      >
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+        <p>
+          my third tweet
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        style="follower"
+      >
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+        <p>
+          my fourth tweet
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        style="follower"
+      >
+        <figure>
+          <img
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+        <p>
+          my firth tweet
+        </p>
+      </section>
+    </li>
+  </ul>
+  <aside>
+    <p>
+      Trends
+    </p>
+  </aside>
+</main>
+`;

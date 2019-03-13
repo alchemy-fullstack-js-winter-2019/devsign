@@ -1,0 +1,29 @@
+
+img {
+  max-height: 20vh;
+  border-radius: 60px
+}
+ul {
+  padding: 0;
+}
+.profile  {
+  display: none;
+  img {
+    height: 10vh;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}
+
+.post {
+  margin: 2px;
+  background-color: #DEEBED;
+  button {
+    background-color: #D8D8D8;
+  }
+  input {
+    border: 1px solid #D8D8D8;
+  }
+}
+

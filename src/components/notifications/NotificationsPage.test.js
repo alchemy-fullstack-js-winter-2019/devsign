@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Profile  from './Profile';
+import Notifications from './Notifications';
 
-describe('Profile', () => {
+describe('Notifications', () => {
   it('matches a snapshot', () => {
-
+    const notifications = [];
     const tree = renderer.create(
-      <Profile />
+      <Notifications notifications={notifications}/>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
