@@ -2,14 +2,15 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import Tweets from './Tweets';
 
-describe('Tweets Test', () => {
-  it('mathes a snapshot', () => {
-    const tweets = [
+describe('Tweets', () => {
+  it('matches a snapshot', () => {
+    const tweet = [
       {
-        name: 'BugS',
+        name: 'Bugs Bunny',
         profileImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRJRA8ywW_omvM7B-9KwlPGxsP6WCdGuKShl211WtKEoJ_h6D',
         handle: '@bugsbunny',
         text: 'It is sunny'
+
       },
       {
         name: 'John Gomex',
@@ -19,7 +20,11 @@ describe('Tweets Test', () => {
       }
     ];
     const tree = renderer.create(
-      <Tweets tweets={tweets} />
+      <Tweets
+        profileImage={tweet.profileImage}
+        name={tweet.name}
+        handle={tweet.handle}
+        text={tweet.text} />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

@@ -1,21 +1,26 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
 import styles from '../components/css/Tweet.css';
 import Tweets from '../components/Tweets';
+import PropTypes from 'prop-types';
 
-export default function Tweet() {
+export default function Tweet({ name, handle, text, profileImage }) {
   return (
     <>
-    <header className={styles.tweet}>
-      <Navigation />
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRJRA8ywW_omvM7B-9KwlPGxsP6WCdGuKShl211WtKEoJ_h6D" alt="bugs bunny"/>
-    </header>
-    <main>
-      <h2>Your feed</h2>
-      <section>
-        <Tweets />
-      </section>
-    </main>
+    <section>
+      <header className={styles.tweet}>
+        <img src={profileImage} alt="bugs bunny"/>
+        <h2>{name}</h2>
+        <h3>{handle}</h3>
+      </header>
+      <p>{text}</p>
+    </section>
   </>
   );
 }
+
+Tweet.propTypes = {
+  name: PropTypes.string.isRequired,
+  profileImage: PropTypes.string.isRequired,
+  handle: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
+};
