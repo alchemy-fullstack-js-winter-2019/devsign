@@ -6,7 +6,11 @@ export default function Tweet({ tweet }) {
     return (
         <div >
             <li className={styles.li}>
-                <section id="count">
+                <section id={styles.count}>
+                    <p>
+                        {tweet.handle}
+                    </p>
+                    <img src={tweet.img}/>
                     <p>
                     Likes: {tweet.likes}
                     </p>
@@ -14,7 +18,7 @@ export default function Tweet({ tweet }) {
                     Retweets: {tweet.retweets}
                     </p>
                 </section>
-                <section id="content">
+                <section>
                     <p>
                         {tweet.body}
                     </p>

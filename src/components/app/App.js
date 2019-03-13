@@ -12,12 +12,12 @@ export default function App() {
     return (
 
         <Router>
-      <>
-      <Header/>
-      <Switch>
-          {listOfRoutes}
-      </Switch> 
-      </>
+            <>
+                <Header/>
+                <Switch>
+                    {listOfRoutes}
+                </Switch> 
+            </>
         </Router>
     
     );

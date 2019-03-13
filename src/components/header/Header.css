@@ -1,7 +1,19 @@
 .Header {
-    h1 {
-        color: blue;
-        text-align: center
+    #logo{
+        margin: 1em;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        img {
+            width: 100%;
+          margin: 0;
+          }
+        h1 {
+            color: rgb(241, 88, 0);
+            text-align: left;
+            vertical-align: bottom;
+
+        }
     }
     nav {
         display: flex;
@@ -10,12 +22,12 @@
         margin: 1em;
 
         a {
-            color: white;
             text-decoration: none;
             font-size: 1.2em;
-            background-color: black;
             padding: .2em;
             border-radius: .1em;
+            border: 2px orangered solid;
+        box-shadow: 2px 2px 2px 1px rgba(255, 166, 0, 0.664);
         }
     }
 
