@@ -9,7 +9,6 @@ function App() {
     <Router>
       <>
         <Header />
-        <h1>Tweeter</h1>
         <Switch>
           {getRoutes()}
         </Switch>  
