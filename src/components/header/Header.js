@@ -10,6 +10,7 @@ import Home from '../home/Home';
 import NotificationPage from '../notifications/NotificationPage';
 import Profile from '../profile/Profile';
 import Loading from '../loading/Loading';
+import MessagesPage from '../messages/MessagesPage';
 import style from './Header.css';
 
 export default function Header() {
@@ -32,6 +33,7 @@ export default function Header() {
           <Route exact path='/notifications' component={NotificationPage} />
           <Route exact path='/profile' component={Profile} />
           <Route exact path='/loading' component={Loading} />
+          <Route exact path='/messages' component={MessagesPage} />
   
         </Switch>
       </div>
