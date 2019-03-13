@@ -1,16 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Header() {
+export default function Header() {
   return (
     <header>
     <h1>CHIRP</h1> 
-    <nav>
-      <a href="/">CHIRPS</a>
-      <a href="/">PROFILE</a>
-      <a href="/">LOGOUT</a>
-    </nav>
+      <nav>
+        <Link to="/">CHIRPS</Link>
+        <Link to="/">PROFILE</Link>
+        <Link to="/">LOGOUT</Link>
+      </nav>
     </header>
   );
 }
 
-export default Header;
