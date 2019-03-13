@@ -10,13 +10,9 @@
   
   ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style-type: none;
-    align-items: stretch;
-
-    .home {
-      border-radius: 20px;
-    }
+    align-items: center;
   }
 }
 

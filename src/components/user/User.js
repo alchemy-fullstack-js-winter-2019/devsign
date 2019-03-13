@@ -5,8 +5,8 @@ function User({ user }) {
   const { handle, profileImg } = user;
   return ( 
     <figure>
-      <img src={profileImg} />
       <figcaption>{handle}</figcaption>
+      <img src={profileImg} />
     </figure>
   );
 }

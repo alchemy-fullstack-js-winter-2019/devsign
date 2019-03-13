@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Tweet from './Tweet';
-import styles from './css/Tweets.css';
+import styles from '../css/Tweets.css';
 
 function Tweets({ tweets }) {
   const tweetItems = tweets.map(tweet => {

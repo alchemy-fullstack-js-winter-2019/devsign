@@ -1,9 +1,4 @@
 .footer {
   background-color: black;
-
-  nav {
-    ul {
-      list-style-type: none;
-    }
-  }
+  color: white;
 }

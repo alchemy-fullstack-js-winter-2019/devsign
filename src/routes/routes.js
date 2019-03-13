@@ -1,7 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from '../components/Home';
-import Tweets from '../components/Tweets';
+import Home from '../components/home/Home';
+import Tweets from '../components/tweets/Tweets';
+import Profile from '../components/profile/Profile';
+
 
 export const ROUTES = {
   HOME: {
@@ -11,9 +13,15 @@ export const ROUTES = {
   },
   
   TWEETS: {
-    path: '/',
+    path: '/tweets',
     Component: Tweets,
     linkTo: () => '/tweets'
+  },
+
+  PROFILE: {
+    path: '/profile',
+    Component: Profile,
+    linkTo: () => '/profile'
   }
 };
 
