@@ -1,15 +1,15 @@
 import React from 'react';
+import './Login.css';
 
 export default function Login() {
   return (
-    <form>
-      <label>Username: 
-        <input type="text"/>
-      </label>
-      <label>Password: 
-        <input type="password"/>
-      </label>
-      <button>Submit</button>
-    </form>
+    <>
+    <h1>Rockin Robin</h1>
+      <form>
+        <input type="text" placeholder="Username"/>
+        <input type="password" placeholder="Password"/>
+        <button>Submit</button>
+      </form>
+    </>
   );
 }

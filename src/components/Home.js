@@ -1,6 +1,7 @@
 import React from 'react';
 import TweetSearch  from './TweetSearch';
-import CreateTweet from './CreateTweet';
+import Tweet from './Tweet';
+import styles from './Home.css';
 
 export default function Home() {
   const onChange = () => {
@@ -13,16 +14,17 @@ export default function Home() {
   ];
 
   const tweetList = tweets.map(tweet => {
-    return <CreateTweet tweet={tweet} key={tweet.id}/>;
+    return <Tweet tweet={tweet} key={tweet.id}/>;
   });
 
   return (
-    <main>
+    <main className={styles.homeMain}>
       <section>
-        <TweetSearch onChange={onChange}  term={'Best Tweet'}/>
+        <h1 className={styles.homeHeader}>Rockin Robin</h1>
+        <TweetSearch onChange={onChange}  term={'Search'}/>
       </section>
 
-      <section>
+      <section className={styles.tweetList}>
         {tweetList}
       </section>
     </main>

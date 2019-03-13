@@ -7,11 +7,7 @@ export default function Tweet({ tweet }) {
       <p>
         {tweet.body}
       </p>
-
-      <p>
-        {tweet.id}
-      </p>
-
+      
       <p>
         Likes: {tweet.likes}
       </p>
@@ -21,8 +17,7 @@ export default function Tweet({ tweet }) {
       </p>
 
       <button>Like</button>
-      <button>Retweet</button>
-            
+      <button>Retweet</button>      
     </li>
   );
 }

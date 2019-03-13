@@ -1,0 +1,18 @@
+label {
+  display: block;
+}
+
+.homeHeader {
+  font-size: 3em;
+}
+.homeHeader::after {
+  left: -1px;
+}
+
+.homeMain {
+  text-align: center;
+}
+
+.tweetList {
+  list-style: none;
+}

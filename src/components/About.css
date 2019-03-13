@@ -1,0 +1,21 @@
+.aboutHeader {
+  margin: 0;
+  text-align: center;
+  display: inline;
+	position: relative;
+	font: 2em Helvetica, Sans-Serif;
+	letter-spacing: -2px;
+  color: rgba(255,0,0,0.5)
+}
+
+.aboutImage {
+  border-radius: 0;
+  width: 100%;
+  height: 40%;
+}
+
+h3, p {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
