@@ -1,0 +1,36 @@
+
+.register {
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .name {
+    width: 40%;
+  }
+  .email {
+    width: 40%;
+  }
+  .username {
+    width: 40%;
+  }
+  .password {
+    width: 40%;
+  }
+  .handle {
+    width: 40%;
+  }
+  .image {
+    width: 40%;
+  }
+  .register {
+    width: 50%;
+  }
+
+
+}

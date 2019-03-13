@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(110deg, #faed75 60%, rgb(248, 248, 190) 60%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.register {
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+  
+    border-radius: 10px;
+  
+    :hover {
+      background-position: right center; /* change the direction of the change here */
+      background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    }
+
+  }
+}
+

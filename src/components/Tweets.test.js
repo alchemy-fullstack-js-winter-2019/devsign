@@ -19,6 +19,7 @@ describe('Tweets', () => {
       }
     ];
     const tree = renderer.create(
+      <Tweets tweets={tweets} />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
