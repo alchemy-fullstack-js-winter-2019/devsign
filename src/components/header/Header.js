@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import LoginSignup from '../login/LoginSignUp';
 import Home from '../home/Home';
-import Notifications from '../notifications/Notifications';
+import NotificationPage from '../notifications/NotificationPage';
 import Profile from '../profile/Profile';
 import style from './Header.css';
 
@@ -28,7 +28,7 @@ export default function Header() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/login-signup' component={LoginSignup} />
-          <Route exact path='/notifications' component={Notifications} />
+          <Route exact path='/notifications' component={NotificationPage} />
           <Route exact path='/profile' component={Profile} />
         </Switch>
       </div>

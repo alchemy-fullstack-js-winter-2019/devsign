@@ -1,29 +1,22 @@
 import React from 'react';
+import Notification from './Notification';
+import PropTypes from 'prop-types';
 
-export default function Notifications() {
+export default function Notifications({ notifications }) {
+  const listOfNotifications = notifications.map((notification, i) => {
+    return <li key={i}><Notification notification={notification} /></li>;
+  });
+  
   return (
     <article>
       <header>
         <h2>Notifications</h2>
       </header>
-      <section>
-        <ol>
-          <li>
-            <figure>
-              <img src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg" alt="user avatar" />
-            </figure>
-            <h3>Hilly Jill</h3>
-            <p>Liked your post</p>
-          </li>
-          <li>
-            <figure>
-              <img src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg" alt="user avatar" />
-            </figure>
-            <h3>Hilly Jill</h3>
-            <p>New Tweet from Hilly Jill</p>
-          </li>
-        </ol>
-      </section>
+      <ul>{listOfNotifications}</ul>
     </article>
   );
 }
+
+Notifications.propTypes = {
+  notifications: PropTypes.array
+};
