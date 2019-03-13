@@ -5,21 +5,23 @@ Array [
   <header
     className="sc-bwzfXH jdLVsO"
   >
-    <h1>
+    <h1
+      className="sc-htpNat hHwDue"
+    >
       Chirp
     </h1>
   </header>,
   <form
-    className="sc-bxivhb dBAuwS"
+    className="sc-ifAKCX coNtEK"
   >
     <label
-      className="sc-ifAKCX hrWLvt"
+      className="sc-EHOje kYkHpN"
       htmlFor="handle"
     >
       Chirp handle
     </label>
     <input
-      className="sc-bZQynM dqSVUO"
+      className="sc-bZQynM hfwKph"
       id="handle"
       name="handle"
       readOnly={true}
@@ -27,13 +29,13 @@ Array [
       value="handle"
     />
     <label
-      className="sc-ifAKCX hrWLvt"
+      className="sc-EHOje kYkHpN"
       htmlFor="password"
     >
       password
     </label>
     <input
-      className="sc-bZQynM dqSVUO"
+      className="sc-bZQynM hfwKph"
       id="password"
       name="password"
       readOnly={true}
@@ -41,11 +43,11 @@ Array [
       value="password"
     />
     <label
-      className="sc-ifAKCX hrWLvt"
+      className="sc-EHOje kYkHpN"
       htmlFor="sign-in"
     />
     <button
-      className="sc-gzVnrw ccvAWg"
+      className="sc-gzVnrw hkbkeK"
       id="sign-in"
     >
       Sign In

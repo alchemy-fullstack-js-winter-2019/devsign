@@ -2,10 +2,10 @@
 
 exports[`Nav component matches a snapshot 1`] = `
 <nav
-  className="sc-dnqmqq sc-iwsKbI gUAlru"
+  className="sc-jKJlTe sc-eNQAEJ cvuLCG"
 >
   <ul
-    className="sc-gZMcBi cwXRZz"
+    className="sc-hMqMXs kZCnEg"
   >
     <a
       className="sc-bdVaJa cVFclJ"
@@ -13,7 +13,7 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gqjmRU fMjxHK"
+        className="sc-gZMcBi eRJHvU"
       >
         Home
       </li>
@@ -24,7 +24,7 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gqjmRU fMjxHK"
+        className="sc-gZMcBi eRJHvU"
       >
         Profile
       </li>
@@ -35,34 +35,34 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gqjmRU fMjxHK"
+        className="sc-gZMcBi eRJHvU"
       >
         Followers
       </li>
     </a>
   </ul>
   <form
-    className="sc-bxivhb sc-EHOje hZYZKW"
+    className="sc-ifAKCX sc-kpOJdX Bywss"
   >
     <label
-      className="sc-ifAKCX hrWLvt"
+      className="sc-ckVGcZ bmXmTd"
       htmlFor="search"
     >
       Search
     </label>
     <input
-      className="sc-bZQynM dqSVUO"
+      className="sc-bZQynM sc-dxgOiQ eRtPvo"
       id="search"
       readOnly={true}
       type="text"
       value=""
     />
     <label
-      className="sc-ifAKCX hrWLvt"
+      className="sc-ckVGcZ bmXmTd"
       htmlFor="searchButton"
     />
     <button
-      className="sc-gzVnrw ccvAWg"
+      className="sc-gzVnrw hkbkeK"
       id="searchButton"
     >
       Search Chirp

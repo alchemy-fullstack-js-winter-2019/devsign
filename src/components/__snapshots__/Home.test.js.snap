@@ -2,18 +2,11 @@
 
 exports[`Home component matches a snapshot 1`] = `
 Array [
-  <header
-    className="sc-bwzfXH jdLVsO"
-  >
-    <h1>
-      Chirp
-    </h1>
-  </header>,
   <nav
-    className="sc-dnqmqq sc-iwsKbI gUAlru"
+    className="sc-jKJlTe sc-eNQAEJ cvuLCG"
   >
     <ul
-      className="sc-gZMcBi cwXRZz"
+      className="sc-hMqMXs kZCnEg"
     >
       <a
         className="sc-bdVaJa cVFclJ"
@@ -21,7 +14,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gqjmRU fMjxHK"
+          className="sc-gZMcBi eRJHvU"
         >
           Home
         </li>
@@ -32,7 +25,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gqjmRU fMjxHK"
+          className="sc-gZMcBi eRJHvU"
         >
           Profile
         </li>
@@ -43,53 +36,62 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gqjmRU fMjxHK"
+          className="sc-gZMcBi eRJHvU"
         >
           Followers
         </li>
       </a>
     </ul>
     <form
-      className="sc-bxivhb sc-EHOje hZYZKW"
+      className="sc-ifAKCX sc-kpOJdX Bywss"
     >
       <label
-        className="sc-ifAKCX hrWLvt"
+        className="sc-ckVGcZ bmXmTd"
         htmlFor="search"
       >
         Search
       </label>
       <input
-        className="sc-bZQynM dqSVUO"
+        className="sc-bZQynM sc-dxgOiQ eRtPvo"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
       <label
-        className="sc-ifAKCX hrWLvt"
+        className="sc-ckVGcZ bmXmTd"
         htmlFor="searchButton"
       />
       <button
-        className="sc-gzVnrw ccvAWg"
+        className="sc-gzVnrw hkbkeK"
         id="searchButton"
       >
         Search Chirp
       </button>
     </form>
   </nav>,
+  <header
+    className="sc-bwzfXH jdLVsO"
+  >
+    <h1
+      className="sc-htpNat hHwDue"
+    >
+      Chirp
+    </h1>
+  </header>,
   <main
-    className="sc-htpNat jrSCQS"
+    className="sc-bxivhb qPwmx"
   >
     <aside
-      className="sc-VigVT bGQLkE"
+      className="sc-gqjmRU kKgyQg"
     >
       <img
-        className="sc-fjdhpX dbHkHM"
+        className="sc-jTzLTM cCSXzZ"
         name="bannerImage"
         src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
       />
       <img
-        className="sc-jTzLTM fkBueS"
+        className="sc-VigVT ktMhto"
         name="profileImage"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
@@ -97,50 +99,50 @@ Array [
         Kaiya
          
         <span
-          className="sc-cSHVUG crXluK"
+          className="sc-jzJRlG lbLyrw"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-kAzzGY sc-chPdSV dLxFcj"
+        className="sc-cSHVUG sc-kAzzGY jVZsxo"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-kAzzGY sc-chPdSV dLxFcj"
+        className="sc-cSHVUG sc-kAzzGY jVZsxo"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-kGXeez jFjSmc"
+      className="sc-kgoBCf iCJAdF"
     >
       <section>
         <ul
-          className="sc-gZMcBi cwXRZz"
+          className="sc-iwsKbI jqoVuy"
         >
           <li>
             <article
-              className="sc-kpOJdX dvXSoz"
+              className="sc-kGXeez igAvJF"
             >
               <header>
                 <img
-                  className="sc-jTzLTM fkBueS"
+                  className="sc-VigVT ktMhto"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
                 <h2>
                   Ray
                    
                   <span
-                    className="sc-cSHVUG crXluK"
+                    className="sc-jzJRlG lbLyrw"
                   >
                     @stingraymond
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kgoBCf HaKVQ"
+                className="sc-chPdSV kZeSMp"
               >
                 tweet tweet tweet
               </p>
@@ -148,25 +150,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kpOJdX dvXSoz"
+              className="sc-kGXeez igAvJF"
             >
               <header>
                 <img
-                  className="sc-jTzLTM fkBueS"
+                  className="sc-VigVT ktMhto"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
                 <h2>
                   Kaiya
                    
                   <span
-                    className="sc-cSHVUG crXluK"
+                    className="sc-jzJRlG lbLyrw"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kgoBCf HaKVQ"
+                className="sc-chPdSV kZeSMp"
               >
                 tweet tweet tweet
               </p>
@@ -174,25 +176,25 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kpOJdX dvXSoz"
+              className="sc-kGXeez igAvJF"
             >
               <header>
                 <img
-                  className="sc-jTzLTM fkBueS"
+                  className="sc-VigVT ktMhto"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
                 <h2>
                   Randy
                    
                   <span
-                    className="sc-cSHVUG crXluK"
+                    className="sc-jzJRlG lbLyrw"
                   >
                     @randyroute
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kgoBCf HaKVQ"
+                className="sc-chPdSV kZeSMp"
               >
                 tweet tweet tweet
               </p>

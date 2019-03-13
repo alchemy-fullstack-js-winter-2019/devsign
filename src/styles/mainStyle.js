@@ -14,8 +14,7 @@ export const StyledHeader = styled.header `
 
 export const MainLogo = styled.h1 `
   font-size: 4em;
-  margin: 0;
-  margin-top: 0.5em;
+  margin: 0.5;
 `;
 
 export const Main = styled.main `
@@ -36,12 +35,6 @@ export const Form = styled.form `
 
 export const Label = styled.label `
   color: #c16834;
-`;
-
-export const MobileForm = styled(Form) `
-  @media (max-width: 700px) {
-    display: none;
-  }
 `;
 
 export const Input = styled.input `
@@ -75,18 +68,15 @@ export const P = styled.p `
 `;
 
 export const NavBar = styled.nav `
-  display: block;
-`;
-
-export const HideNav = styled(NavBar) `
-  @media (max-width: 700px) {
-    display: none;
-  }
+  display: flex;
+  align-items: space-between;
 `;
 
 export const List = styled.ul `
   list-style-type: none;
-  padding-left: 0;
+  padding: 10px;
+  background-color: #f3d8c4;
+  margin-top: 0;
 `;
 
 export const ListItem = styled.li `
@@ -101,6 +91,7 @@ export const Aside = styled.aside `
   width: 100%;
   background-color: white;
   border-bottom: #e2e2dc solid 2px;
+  align-self: flex-start;
 
   @media (min-width: 700px) {
     width: 25%;
@@ -148,7 +139,7 @@ export const Section = styled.section `
   width: 100%;
 
   @media (min-width: 700px) {
-    width: 70%;
+    width: 75%;
   }
 `;
 

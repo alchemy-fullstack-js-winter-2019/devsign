@@ -39,8 +39,8 @@ function Home() {
   const { name,  handle, profileImage, bannerImage, bio, location } = user;
   return (
     <>
-    <Header />
     <Nav />
+    <Header />
     <Main>
       <UserDetails
         name={name}
