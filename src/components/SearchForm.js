@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const MobileForm = styled(Form) `
   background-color: #f3d8c4;
   flex-direction: row;
+  width: 75%;
 
   @media (max-width: 700px) {
     display: none;
@@ -12,7 +13,12 @@ const MobileForm = styled(Form) `
 `;
 
 const SearchInput = styled(Input) `
-  width: 75%;
+  margin: 0.5em 0;
+  width: 70%;
+`;
+
+const SearchButton = styled(Button) `
+  margin: 0.5em;
 `;
 
 const Label = styled.label `
@@ -25,7 +31,7 @@ function SearchForm() {
       <Label htmlFor="search">Search</Label>
       <SearchInput readOnly={true} type="text" id="search" value=""/>
       <Label htmlFor="searchButton"></Label>
-      <Button id="searchButton">Search Chirp</Button>
+      <SearchButton id="searchButton">Search</SearchButton>
     </MobileForm>
   );
 }

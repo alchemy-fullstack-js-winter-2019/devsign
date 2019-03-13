@@ -9,11 +9,11 @@ export const StyledHeader = styled.header `
   font-family: 'Dosis', sans-serif;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 `;
 
 export const MainLogo = styled.h1 `
-  font-size: 4em;
+  font-size: 1em;
   margin: 0.5;
 `;
 
@@ -85,19 +85,6 @@ export const ListItem = styled.li `
   margin-top: 10px;
   color: white;
   font-family: 'Dosis', sans-serif;
-`;
-
-
-export const Aside = styled.aside `
-  font-family: 'Prompt', sans-serif;
-  width: 100%;
-  background-color: white;
-  border-bottom: #e2e2dc solid 2px;
-  align-self: flex-start;
-
-  @media (min-width: 700px) {
-    width: 25%;
-  }
 `;
 
 export const ProfileImg = styled.img `

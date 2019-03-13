@@ -1,7 +1,6 @@
 import React from 'react';
 import UserDetails from './UserDetails';
 import Tweets from './Tweets';
-import Header from './Header';
 import Nav from './Nav';
 import { Section, Main } from '../styles/mainStyle';
 
@@ -40,7 +39,6 @@ function Home() {
   return (
     <>
     <Nav />
-    <Header />
     <Main>
       <UserDetails
         name={name}

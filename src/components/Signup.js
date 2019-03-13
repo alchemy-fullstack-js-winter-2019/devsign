@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header';
+import Logo from './Logo';
 import { Form, Input, Button, Label } from '../styles/mainStyle';
 
 function Signup() {
   return (
     <>
-    <Header />
+    <Logo />
     <Form>
       <Label htmlFor="name">Name</Label>
       <Input readOnly={true} type="text" name="name" id="name" value="name"/>

@@ -26,13 +26,20 @@ const NavLi = styled(ListItem) `
   padding: 0 20px;
 `;
 
+export const MainLogo = styled(ListItem) `
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+  margin: 0.5;
+  color: white;
+`;
+
 function Nav() {
   return (
     <HideNav>
       <List>
+        <StyledLink to="/home"><MainLogo>Chirp</MainLogo></StyledLink>
         <StyledLink to="/home"><NavLi>Home</NavLi></StyledLink>
         <StyledLink to="/profile"><NavLi>Profile</NavLi></StyledLink>
-        <StyledLink to="/followers"><NavLi>Followers</NavLi></StyledLink>
       </List>
       <SearchForm />
     </HideNav>

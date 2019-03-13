@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Header';
+import Logo from './Logo';
 import { Form, Input, Button, P, StyledLink, Label } from '../styles/mainStyle';
 
 function Signin() {
   return (
     <>
-    <Header />
+    <Logo />
     <Form>
       <Label htmlFor="handle">Chirp handle</Label>
       <Input readOnly={true} type="text" name="handle" id="handle" value="handle"/>

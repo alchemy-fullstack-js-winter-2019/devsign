@@ -1,7 +1,6 @@
 import React from 'react';
 import UserDetails from './UserDetails';
 import CreateTweetForm from './CreateTweetForm';
-import Header from './Header';
 import Nav from './Nav';
 import Tweets from './Tweets';
 import { Main, Section } from '../styles/mainStyle';
@@ -37,17 +36,15 @@ const  user = {
 };
 
 function Profile() {
-  const { name, handle, profileImage, bannerImage, bio, location } = user;
+  const { name, handle, profileImage, bio, location } = user;
   return (
     <>
     <Nav />
-    <Header />
     <Main>
       <UserDetails
         name={name}
         handle={handle}
         profileImage={profileImage}
-        bannerImage={bannerImage}
         bio={bio}
         location={location}/>
       <Section>
