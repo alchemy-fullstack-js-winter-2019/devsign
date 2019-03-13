@@ -6,6 +6,7 @@ exports[`Tweet component matches a snapshot 1`] = `
 >
   <header>
     <img
+      alt="Kaiya"
       className="sc-gqjmRU hTssrt"
       src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
     />

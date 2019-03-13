@@ -3,44 +3,44 @@
 exports[`Home component matches a snapshot 1`] = `
 Array [
   <nav
-    className="sc-ckVGcZ cSqQkL"
+    className="sc-ckVGcZ deiwpm"
   >
     <ul
       className="sc-jKJlTe cykEnT"
     >
-      <a
-        className="sc-bdVaJa cVFclJ"
-        href="/home"
-        onClick={[Function]}
+      <li
+        className="sc-gZMcBi sc-hMqMXs fjwDqq"
       >
-        <li
-          className="sc-gZMcBi sc-hMqMXs jqmRfg"
+        <a
+          className="sc-bdVaJa sc-iAyFgw lhlokb"
+          href="/home"
+          onClick={[Function]}
         >
           Chirp
-        </li>
-      </a>
-      <a
-        className="sc-bdVaJa cVFclJ"
-        href="/home"
-        onClick={[Function]}
+        </a>
+      </li>
+      <li
+        className="sc-gZMcBi sc-eNQAEJ bGchHG"
       >
-        <li
-          className="sc-gZMcBi sc-eNQAEJ laIvQR"
+        <a
+          className="sc-bdVaJa sc-kkGfuU cJWzNk"
+          href="/home"
+          onClick={[Function]}
         >
           Home
-        </li>
-      </a>
-      <a
-        className="sc-bdVaJa cVFclJ"
-        href="/profile"
-        onClick={[Function]}
+        </a>
+      </li>
+      <li
+        className="sc-gZMcBi sc-eNQAEJ bGchHG"
       >
-        <li
-          className="sc-gZMcBi sc-eNQAEJ laIvQR"
+        <a
+          className="sc-bdVaJa sc-kkGfuU cJWzNk"
+          href="/profile"
+          onClick={[Function]}
         >
           Profile
-        </li>
-      </a>
+        </a>
+      </li>
     </ul>
     <a
       className="sc-bdVaJa cVFclJ"
@@ -48,6 +48,7 @@ Array [
       onClick={[Function]}
     >
       <img
+        alt="profile pic"
         className="sc-kEYyzF iLSoUb"
         src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
       />
@@ -124,6 +125,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Ray"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
@@ -150,6 +152,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Kaiya"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
@@ -176,6 +179,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Randy"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
@@ -202,6 +206,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Ray"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
@@ -228,6 +233,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Kaiya"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />
@@ -254,6 +260,7 @@ Array [
             >
               <header>
                 <img
+                  alt="Randy"
                   className="sc-gqjmRU hTssrt"
                   src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
                 />

@@ -6,7 +6,7 @@ function Tweet({ name, handle, text, profileImage }) {
   return (
     <Article>
       <header>
-        <ProfileImg src={profileImage}/>
+        <ProfileImg alt={name} src={profileImage}/>
         <h2>{name} <Handle>{handle}</Handle></h2>
       </header>
       <Text>{text}</Text>

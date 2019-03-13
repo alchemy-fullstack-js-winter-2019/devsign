@@ -2,44 +2,44 @@
 
 exports[`Nav component matches a snapshot 1`] = `
 <nav
-  className="sc-dxgOiQ cAryKe"
+  className="sc-dxgOiQ YOjhc"
 >
   <ul
     className="sc-ckVGcZ lcUqFn"
   >
-    <a
-      className="sc-bdVaJa cVFclJ"
-      href="/home"
-      onClick={[Function]}
+    <li
+      className="sc-gZMcBi sc-eNQAEJ hEjfQv"
     >
-      <li
-        className="sc-gZMcBi sc-eNQAEJ ctAoWp"
+      <a
+        className="sc-bdVaJa sc-kkGfuU iFmWZ"
+        href="/home"
+        onClick={[Function]}
       >
         Chirp
-      </li>
-    </a>
-    <a
-      className="sc-bdVaJa cVFclJ"
-      href="/home"
-      onClick={[Function]}
+      </a>
+    </li>
+    <li
+      className="sc-gZMcBi sc-jKJlTe axDnb"
     >
-      <li
-        className="sc-gZMcBi sc-jKJlTe fESUJK"
+      <a
+        className="sc-bdVaJa sc-kEYyzF iTJHIk"
+        href="/home"
+        onClick={[Function]}
       >
         Home
-      </li>
-    </a>
-    <a
-      className="sc-bdVaJa cVFclJ"
-      href="/profile"
-      onClick={[Function]}
+      </a>
+    </li>
+    <li
+      className="sc-gZMcBi sc-jKJlTe axDnb"
     >
-      <li
-        className="sc-gZMcBi sc-jKJlTe fESUJK"
+      <a
+        className="sc-bdVaJa sc-kEYyzF iTJHIk"
+        href="/profile"
+        onClick={[Function]}
       >
         Profile
-      </li>
-    </a>
+      </a>
+    </li>
   </ul>
   <a
     className="sc-bdVaJa cVFclJ"
@@ -47,6 +47,7 @@ exports[`Nav component matches a snapshot 1`] = `
     onClick={[Function]}
   >
     <img
+      alt="profile pic"
       className="sc-hMqMXs iFZTxG"
       src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
     />

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const NavBar = styled.nav `
   display: flex;
   align-items: space-between;
-  background-color: #f3d8c4;
+  background-color: #fbe6d6;
 `;
 
 const List = styled.ul `
@@ -16,15 +16,14 @@ const List = styled.ul `
 `;
 
 const NavLi = styled(ListItem) `
-  color: #c16834;
+  color: black;
   padding: 0 20px;
 `;
 
-export const MainLogo = styled(ListItem) `
+const MainLogo = styled(ListItem) `
   font-family: 'Dosis', sans-serif;
   font-size: 2em;
   margin: 0.5;
-  color: white;
 `;
 
 const MobileProfileImage = styled.img `
@@ -40,15 +39,23 @@ const MobileProfileImage = styled.img `
   }
 `;
 
+const NavLink = styled(StyledLink) `
+  color: black;
+`;
+
+const LogoLink = styled(StyledLink) `
+  color: #cc5700;
+`;
+
 function Nav() {
   return (
     <NavBar>
       <List>
-        <StyledLink to="/home"><MainLogo>Chirp</MainLogo></StyledLink>
-        <StyledLink to="/home"><NavLi>Home</NavLi></StyledLink>
-        <StyledLink to="/profile"><NavLi>Profile</NavLi></StyledLink>
+        <MainLogo><LogoLink to="/home">Chirp</LogoLink></MainLogo>
+        <NavLi><NavLink to="/home">Home</NavLink></NavLi>
+        <NavLi><NavLink to="/profile">Profile</NavLink></NavLi>
       </List>
-      <StyledLink to="profile"><MobileProfileImage src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"/></StyledLink>
+      <StyledLink to="profile"><MobileProfileImage alt="profile pic" src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"/></StyledLink>
       <SearchForm />
     </NavBar>
   );
