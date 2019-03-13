@@ -6,6 +6,7 @@ section {
     margin: 0;
     padding: 0;
     text-align: center;
+    margin: .4em;
     h3 {
       padding: 0;
       margin: 0;
@@ -14,9 +15,8 @@ section {
   }
   
   img {
-    max-height: 15vh;
-    border-radius: 60px
-
+    max-height: 10vh;
+    border-radius: 60px;
   }
   p {
     max-height: 10vh;
