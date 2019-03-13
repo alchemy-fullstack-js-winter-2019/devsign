@@ -11,3 +11,26 @@ const auth0 = new WebAuth({
 export const login = () => {
   return auth0.authorize();
 };
+
+export const handleAuth = () => {
+  return new Promise((resolve, reject) => {
+    auth0.parseHash((err, result) => {
+      if(result && result.accessToken && result.idToken) {
+        auth0.client.userInfo(result.accessToken, (err, info) => {
+          if(err) return reject(err);
+          console.log(info);
+          resolve({
+            token: result.idToken,
+            id: info.sub,
+            handle: info.handle, 
+            profilePicture: info.picture
+          });
+        });
+      }
+      else {
+        reject(err || 'something went wrong');
+      }
+    });
+  });
+
+}

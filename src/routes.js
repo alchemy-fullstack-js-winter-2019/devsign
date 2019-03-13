@@ -1,11 +1,17 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Home from './components/home/Home';
+import Callback from './container/auth/Callback';
 
 export const ROUTES = {
   HOME: {
     path: '/',
     Component: Home,
+    linkTo: () => '/'
+  },
+  CALLBACK: {
+    path: '/callback',
+    Component: Callback,
     linkTo: () => '/'
   }
 };
