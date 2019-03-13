@@ -5,7 +5,7 @@ import styles from './User.css';
 export default function User({ user }) {
   const { handle, name, image, bio } = user;
   return (
-    <article style={styles.User}>
+    <article className={styles.User}>
       <figure>
         <img src={image} alt="user avatar" />
       </figure>
