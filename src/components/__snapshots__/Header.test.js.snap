@@ -1,40 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header component matches a snapshot 1`] = `
-<header>
-  <nav>
-    <ul>
-      <a
-        href="/home"
-        onClick={[Function]}
-      >
-        <li>
-          Home
-        </li>
-      </a>
-      <a
-        href="/profile"
-        onClick={[Function]}
-      >
-        <li>
-          Profile
-        </li>
-      </a>
-    </ul>
-  </nav>
-  <h1>
-    Twitter
+<header
+  className="sc-bwzfXH kyDNSb"
+>
+  <h1
+    className="sc-htpNat lgYkbi"
+  >
+    Chirp
   </h1>
-  <form>
-    <input
-      id="search"
-      readOnly={true}
-      type="text"
-      value="search Twitter"
-    />
-    <button>
-      Search
-    </button>
-  </form>
 </header>
 `;

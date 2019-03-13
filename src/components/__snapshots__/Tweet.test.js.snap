@@ -1,20 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tweet component matches a snapshot 1`] = `
-<article>
+<article
+  className="sc-jzJRlG jFfDbd"
+>
   <header>
     <img
+      alt="Kaiya"
+      className="sc-jTzLTM fkBueS"
       src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
     />
     <h2>
       Kaiya
        
-      <span>
+      <span
+        className="sc-fjdhpX FzRiJ"
+      >
         @ladybeard
       </span>
     </h2>
   </header>
-  <p>
+  <p
+    className="sc-gqjmRU dRATxY"
+  >
     tweet tweet tweet
   </p>
 </article>

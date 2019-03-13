@@ -1,65 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tweets component matches a snapshot 1`] = `
-<section>
-  <ul>
-    <li>
-      <article>
-        <header>
-          <img
-            src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-          />
-          <h2>
-            Ray
-             
-            <span>
-              @stingraymond
-            </span>
-          </h2>
-        </header>
-        <p>
-          tweet tweet tweet
-        </p>
-      </article>
-    </li>
-    <li>
-      <article>
-        <header>
-          <img
-            src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-          />
-          <h2>
-            Kaiya
-             
-            <span>
-              @ladybeard
-            </span>
-          </h2>
-        </header>
-        <p>
-          tweet tweet tweet
-        </p>
-      </article>
-    </li>
-    <li>
-      <article>
-        <header>
-          <img
-            src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-          />
-          <h2>
-            Randy
-             
-            <span>
-              @randyroute
-            </span>
-          </h2>
-        </header>
-        <p>
-          tweet tweet tweet
-        </p>
-      </article>
-    </li>
-  </ul>
-</section>
+<ul
+  className="sc-iwsKbI jzeEWW"
+>
+  <li>
+    <article
+      className="sc-jzJRlG jFfDbd"
+    >
+      <header>
+        <img
+          alt="Ray"
+          className="sc-jTzLTM fkBueS"
+          src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+        />
+        <h2>
+          Ray
+           
+          <span
+            className="sc-fjdhpX FzRiJ"
+          >
+            @stingraymond
+          </span>
+        </h2>
+      </header>
+      <p
+        className="sc-gqjmRU dRATxY"
+      >
+        tweet tweet tweet
+      </p>
+    </article>
+  </li>
+  <li>
+    <article
+      className="sc-jzJRlG jFfDbd"
+    >
+      <header>
+        <img
+          alt="Kaiya"
+          className="sc-jTzLTM fkBueS"
+          src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+        />
+        <h2>
+          Kaiya
+           
+          <span
+            className="sc-fjdhpX FzRiJ"
+          >
+            @ladybeard
+          </span>
+        </h2>
+      </header>
+      <p
+        className="sc-gqjmRU dRATxY"
+      >
+        tweet tweet tweet
+      </p>
+    </article>
+  </li>
+  <li>
+    <article
+      className="sc-jzJRlG jFfDbd"
+    >
+      <header>
+        <img
+          alt="Randy"
+          className="sc-jTzLTM fkBueS"
+          src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+        />
+        <h2>
+          Randy
+           
+          <span
+            className="sc-fjdhpX FzRiJ"
+          >
+            @randyroute
+          </span>
+        </h2>
+      </header>
+      <p
+        className="sc-gqjmRU dRATxY"
+      >
+        tweet tweet tweet
+      </p>
+    </article>
+  </li>
+</ul>
 `;

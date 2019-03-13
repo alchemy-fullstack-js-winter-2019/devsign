@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Aside, Bio } from '../styles/userDetails';
+import { ProfileImg, Handle } from '../styles/mainStyle';
 
-function UserDetails({ name, handle, profileImage, bannerImage, bio, location }) {
+function UserDetails({ name, handle, profileImage, bio, location }) {
   return (
-    <aside>
-      <img name="bannerImage" src={bannerImage} />
-      <img name="profileImage" src={profileImage} />
-      <h2>{name} <span>{handle}</span></h2>
-      <p>{bio}</p>
-      {location && <p>{location}</p>}
-    </aside>
+    <Aside>
+      <ProfileImg name="profileImage" src={profileImage} />
+      <h2>{name} <Handle>{handle}</Handle></h2>
+      <Bio>{bio}</Bio>
+      <Bio>{location}</Bio>
+    </Aside>
   );
 }
 
@@ -17,7 +18,6 @@ UserDetails.propTypes = {
   name: PropTypes.string.isRequired,
   handle: PropTypes.string.isRequired,
   profileImage: PropTypes.string.isRequired,
-  bannerImage: PropTypes.string.isRequired,
   bio: PropTypes.string.isRequired,
   location: PropTypes.string
 };

@@ -1,9 +1,28 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-import CreateTweetForm from './CreateTweetForm';
 import Tweets from './Tweets';
+import Nav from './Nav';
+import { Section, Main } from '../styles/mainStyle';
 
 const tweets = [
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Ray',
+    handle: '@stingraymond',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Kaiya',
+    handle: '@ladybeard',
+    text: 'tweet tweet tweet'
+  },
+  {
+    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
+    name: 'Randy',
+    handle: '@randyroute',
+    text: 'tweet tweet tweet'
+  },
   {
     profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
     name: 'Ray',
@@ -33,11 +52,12 @@ const  user = {
   location: 'Portland, OR'
 };
 
-
 function Home() {
   const { name,  handle, profileImage, bannerImage, bio, location } = user;
   return (
-    <main>
+    <>
+    <Nav />
+    <Main>
       <UserDetails
         name={name}
         handle={handle}
@@ -46,17 +66,12 @@ function Home() {
         bio={bio}
         location={location}
       />
-      <CreateTweetForm />
-      <section>
+      <Section>
         <Tweets tweets={tweets}/>
-      </section>
-    </main>
+      </Section>
+    </Main>
+    </>
   );
 }
-
-// Home.propTypes = {
-//   tweets: PropTypes.array.isRequired,
-//   user: PropTypes.object.isRequired
-// };
 
 export default Home;

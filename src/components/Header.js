@@ -1,14 +1,11 @@
 import React from 'react';
-import Nav from './Nav';
-import SearchForm from '../SearchForm';
+import { StyledHeader, MainLogo } from '../styles/mainStyle';
 
 function Header() {
   return (
-    <header>
-      <Nav />
-      <h1>Twitter</h1>
-      <SearchForm />
-    </header>
+    <StyledHeader>
+      <MainLogo>Chirp</MainLogo>
+    </StyledHeader>
   );
 }
 

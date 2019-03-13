@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ProfileImg, Handle, Text, Article } from '../styles/mainStyle';
 
 function Tweet({ name, handle, text, profileImage }) {
   return (
-    <article>
+    <Article>
       <header>
-        <img src={profileImage}/>
-        <h2>{name} <span>{handle}</span></h2>
+        <ProfileImg alt={name} src={profileImage}/>
+        <h2>{name} <Handle>{handle}</Handle></h2>
       </header>
-      <p>{text}</p>
-    </article>
+      <Text>{text}</Text>
+    </Article>
   );
 }
 
