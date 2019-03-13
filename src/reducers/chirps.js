@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
-import { FETCH_CHIRPS, FETCH_USER } from '../actions/chirps';
+import { FETCH_CHIRPS } from '../actions/chirps';
 
 const initialState = {
   chirps: [],
-  user: {}
 };
 
 export default function reducer(state = initialState, { type, payload }) {
@@ -12,13 +11,6 @@ export default function reducer(state = initialState, { type, payload }) {
       return {
         ...state,
         chirps: payload
-      };
-    case FETCH_USER:
-      return {
-        ...state,
-        user: {
-          ...payload
-        }
       };
     default:
       return state;
