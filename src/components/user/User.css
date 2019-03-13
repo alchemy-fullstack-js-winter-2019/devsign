@@ -1,16 +1,18 @@
-article {
-  text-align: center;
-} 
-figure {
-  margin: .5em;
-}
-img {
-  border-radius: 60px;
-  margin: 0;
-}
-h3 {
-  margin: .5em;
-}
-h2{
-  margin: .5em;
+.User {
+  article {
+    text-align: center;
+  } 
+  figure {
+    margin: .5em;
+  }
+  img {
+    border-radius: 60px;
+    margin: 0;
+  }
+  h3 {
+    margin: .5em;
+  }
+  h2{
+    margin: .5em;
+  }
 }

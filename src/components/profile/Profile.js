@@ -1,5 +1,5 @@
 import React from 'react';
-import Tweets from '../../components/tweets/Tweets';
+import Tweets from '../tweets/Tweets';
 import User from '../user/User';
 
 const tweets = 

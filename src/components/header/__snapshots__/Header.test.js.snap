@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches a snapshot 1`] = `
+<div
+  styles="header"
+>
+  <header>
+    <h1>
+      Twitter Clone
+    </h1>
+    <nav>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        href="/messages"
+        onClick={[Function]}
+      >
+        Messages
+      </a>
+      <a
+        href="/notifications"
+        onClick={[Function]}
+      >
+        Notifications
+      </a>
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        Profile
+      </a>
+      <input
+        placeholder="search"
+        type="text"
+      />
+    </nav>
+  </header>
+  <main
+    className="main"
+  >
+    <header
+      className="header"
+    >
+      <section
+        className="profile"
+      >
+        <figure>
+          <img
+            alt="user avatar"
+            src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+          />
+          <h3>
+            T_on_A
+          </h3>
+        </figure>
+      </section>
+      <section
+        className="post"
+      >
+        <label>
+          Post a Tweet
+        </label>
+        <input
+          placeholder="Tweet at me"
+          type="text box"
+        />
+        <button>
+          Tweet
+        </button>
+      </section>
+    </header>
+    <ul>
+      <li>
+        <section
+          style="follower"
+        >
+          <figure>
+            <img
+              src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+            />
+            <h3>
+              Larry_Bird
+            </h3>
+          </figure>
+          <p>
+            my first tweet
+          </p>
+        </section>
+      </li>
+      <li>
+        <section
+          style="follower"
+        >
+          <figure>
+            <img
+              src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+            />
+            <h3>
+              Big_Bird
+            </h3>
+          </figure>
+          <p>
+            my second tweet
+          </p>
+        </section>
+      </li>
+      <li>
+        <section
+          style="follower"
+        >
+          <figure>
+            <img
+              src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+            />
+            <h3>
+              Tweety
+            </h3>
+          </figure>
+          <p>
+            my third tweet
+          </p>
+        </section>
+      </li>
+      <li>
+        <section
+          style="follower"
+        >
+          <figure>
+            <img
+              src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+            />
+            <h3>
+              Scrooge
+            </h3>
+          </figure>
+          <p>
+            my fourth tweet
+          </p>
+        </section>
+      </li>
+      <li>
+        <section
+          style="follower"
+        >
+          <figure>
+            <img
+              src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+            />
+            <h3>
+              R_R
+            </h3>
+          </figure>
+          <p>
+            my firth tweet
+          </p>
+        </section>
+      </li>
+    </ul>
+  </main>
+</div>
+`;

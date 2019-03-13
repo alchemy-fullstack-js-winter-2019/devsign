@@ -2,7 +2,9 @@
 
 exports[`Loading matches a snapshot 1`] = `
 Array [
-  <h2>
+  <h2
+    className="h2"
+  >
     TWITTER ...
   </h2>,
   <figure>
