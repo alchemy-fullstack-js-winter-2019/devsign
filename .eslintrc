@@ -8,6 +8,9 @@
     "ecmaVersion": 8,
     "sourceType": "module"
   },
+  "globals": {
+    "process":true
+  },
   "env": {
     "browser": true,
     "es6": true
