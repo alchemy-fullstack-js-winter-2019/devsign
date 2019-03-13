@@ -2,60 +2,83 @@
 
 exports[`Tweets component matches a snapshot 1`] = `
 <section>
-  <ul>
+  <ul
+    className="sc-iwsKbI dkBjBu"
+  >
     <li>
-      <article>
+      <article
+        className="sc-kGXeez igAvJF"
+      >
         <header>
           <img
+            className="sc-VigVT ktMhto"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Ray
              
-            <span>
+            <span
+              className="sc-jzJRlG lbLyrw"
+            >
               @stingraymond
             </span>
           </h2>
         </header>
-        <p>
+        <p
+          className="sc-chPdSV kZeSMp"
+        >
           tweet tweet tweet
         </p>
       </article>
     </li>
     <li>
-      <article>
+      <article
+        className="sc-kGXeez igAvJF"
+      >
         <header>
           <img
+            className="sc-VigVT ktMhto"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Kaiya
              
-            <span>
+            <span
+              className="sc-jzJRlG lbLyrw"
+            >
               @ladybeard
             </span>
           </h2>
         </header>
-        <p>
+        <p
+          className="sc-chPdSV kZeSMp"
+        >
           tweet tweet tweet
         </p>
       </article>
     </li>
     <li>
-      <article>
+      <article
+        className="sc-kGXeez igAvJF"
+      >
         <header>
           <img
+            className="sc-VigVT ktMhto"
             src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
           />
           <h2>
             Randy
              
-            <span>
+            <span
+              className="sc-jzJRlG lbLyrw"
+            >
               @randyroute
             </span>
           </h2>
         </header>
-        <p>
+        <p
+          className="sc-chPdSV kZeSMp"
+        >
           tweet tweet tweet
         </p>
       </article>

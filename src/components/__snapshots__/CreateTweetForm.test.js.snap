@@ -2,14 +2,19 @@
 
 exports[`CreateTweetForm component matches a snapshot 1`] = `
 <section>
-  <form>
+  <form
+    className="sc-bxivhb dBAuwS"
+  >
     <input
+      className="sc-EHOje iUmBVY"
       name="text"
       readOnly={true}
       type="text"
     />
-    <button>
-      Tweet
+    <button
+      className="sc-bZQynM duCUaL"
+    >
+      Chirp
     </button>
   </form>
 </section>

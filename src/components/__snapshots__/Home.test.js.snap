@@ -1,104 +1,195 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home component matches a snapshot 1`] = `
-<main>
-  <aside>
-    <img
-      name="bannerImage"
-      src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
-    />
-    <img
-      name="profileImage"
-      src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-    />
-    <h2>
-      Kaiya
-       
-      <span>
-        @ladybeard
-      </span>
-    </h2>
-    <p>
-      Fullstack MERN Developer / Animal Lover / Hiker
-    </p>
-    <p>
-      Portland, OR
-    </p>
-  </aside>
-  <section>
-    <form>
+Array [
+  <header
+    className="sc-bwzfXH ikzJqp"
+  >
+    <h1>
+      Chirp
+    </h1>
+  </header>,
+  <nav
+    className="sc-htoDjs sc-dnqmqq cUlef"
+  >
+    <ul
+      className="sc-iwsKbI dkBjBu"
+    >
+      <a
+        className="sc-bdVaJa cVFclJ"
+        href="/home"
+        onClick={[Function]}
+      >
+        <li
+          className="sc-gZMcBi eRJHvU"
+        >
+          Home
+        </li>
+      </a>
+      <a
+        className="sc-bdVaJa cVFclJ"
+        href="/profile"
+        onClick={[Function]}
+      >
+        <li
+          className="sc-gZMcBi eRJHvU"
+        >
+          Profile
+        </li>
+      </a>
+      <a
+        className="sc-bdVaJa cVFclJ"
+        href="/followers"
+        onClick={[Function]}
+      >
+        <li
+          className="sc-gZMcBi eRJHvU"
+        >
+          Followers
+        </li>
+      </a>
+    </ul>
+    <form
+      className="sc-bxivhb sc-ifAKCX hpdzZf"
+    >
       <input
-        name="text"
+        className="sc-EHOje iUmBVY"
+        id="search"
         readOnly={true}
         type="text"
+        value=""
       />
-      <button>
-        Tweet
+      <button
+        className="sc-bZQynM duCUaL"
+      >
+        Search Chirp
       </button>
     </form>
-  </section>
-  <section>
-    <section>
-      <ul>
-        <li>
-          <article>
-            <header>
-              <img
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Ray
-                 
-                <span>
-                  @stingraymond
-                </span>
-              </h2>
-            </header>
-            <p>
-              tweet tweet tweet
-            </p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <img
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Kaiya
-                 
-                <span>
-                  @ladybeard
-                </span>
-              </h2>
-            </header>
-            <p>
-              tweet tweet tweet
-            </p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <img
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Randy
-                 
-                <span>
-                  @randyroute
-                </span>
-              </h2>
-            </header>
-            <p>
-              tweet tweet tweet
-            </p>
-          </article>
-        </li>
-      </ul>
+  </nav>,
+  <main
+    className="sc-htpNat jrSCQS"
+  >
+    <aside
+      className="sc-gqjmRU NZkOf"
+    >
+      <img
+        className="sc-jTzLTM cCSXzZ"
+        name="bannerImage"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg"
+      />
+      <img
+        className="sc-VigVT ktMhto"
+        name="profileImage"
+        src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+      />
+      <h2>
+        Kaiya
+         
+        <span
+          className="sc-jzJRlG lbLyrw"
+        >
+          @ladybeard
+        </span>
+      </h2>
+      <p
+        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+      >
+        Fullstack MERN Developer / Animal Lover / Hiker
+      </p>
+      <p
+        className="sc-cSHVUG sc-kAzzGY jVZsxo"
+      >
+        Portland, OR
+      </p>
+    </aside>
+    <section
+      className="sc-kgoBCf cTLlkN"
+    >
+      <section>
+        <ul
+          className="sc-iwsKbI dkBjBu"
+        >
+          <li>
+            <article
+              className="sc-kGXeez igAvJF"
+            >
+              <header>
+                <img
+                  className="sc-VigVT ktMhto"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Ray
+                   
+                  <span
+                    className="sc-jzJRlG lbLyrw"
+                  >
+                    @stingraymond
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-chPdSV kZeSMp"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kGXeez igAvJF"
+            >
+              <header>
+                <img
+                  className="sc-VigVT ktMhto"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Kaiya
+                   
+                  <span
+                    className="sc-jzJRlG lbLyrw"
+                  >
+                    @ladybeard
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-chPdSV kZeSMp"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+          <li>
+            <article
+              className="sc-kGXeez igAvJF"
+            >
+              <header>
+                <img
+                  className="sc-VigVT ktMhto"
+                  src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+                />
+                <h2>
+                  Randy
+                   
+                  <span
+                    className="sc-jzJRlG lbLyrw"
+                  >
+                    @randyroute
+                  </span>
+                </h2>
+              </header>
+              <p
+                className="sc-chPdSV kZeSMp"
+              >
+                tweet tweet tweet
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
     </section>
-  </section>
-</main>
+  </main>,
+]
 `;

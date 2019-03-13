@@ -1,24 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav component matches a snapshot 1`] = `
-<nav>
-  <ul>
+<nav
+  className="sc-htoDjs sc-dnqmqq cUlef"
+>
+  <ul
+    className="sc-iwsKbI dkBjBu"
+  >
     <a
+      className="sc-bdVaJa cVFclJ"
       href="/home"
       onClick={[Function]}
     >
-      <li>
+      <li
+        className="sc-gZMcBi eRJHvU"
+      >
         Home
       </li>
     </a>
     <a
+      className="sc-bdVaJa cVFclJ"
       href="/profile"
       onClick={[Function]}
     >
-      <li>
+      <li
+        className="sc-gZMcBi eRJHvU"
+      >
         Profile
       </li>
     </a>
+    <a
+      className="sc-bdVaJa cVFclJ"
+      href="/followers"
+      onClick={[Function]}
+    >
+      <li
+        className="sc-gZMcBi eRJHvU"
+      >
+        Followers
+      </li>
+    </a>
   </ul>
+  <form
+    className="sc-bxivhb sc-ifAKCX hpdzZf"
+  >
+    <input
+      className="sc-EHOje iUmBVY"
+      id="search"
+      readOnly={true}
+      type="text"
+      value=""
+    />
+    <button
+      className="sc-bZQynM duCUaL"
+    >
+      Search Chirp
+    </button>
+  </form>
 </nav>
 `;

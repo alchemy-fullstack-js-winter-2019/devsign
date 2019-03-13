@@ -1,29 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Signin component matches a snapshot 1`] = `
-<form>
-  <input
-    name="handle"
-    readOnly={true}
-    type="text"
-    value="handle"
-  />
-  <input
-    name="password"
-    readOnly={true}
-    type="password"
-    value="password"
-  />
-  <button>
-    Sign In
-  </button>
-  <a
-    href="/signup"
-    onClick={[Function]}
+Array [
+  <header
+    className="sc-bwzfXH ikzJqp"
   >
-    <p>
-      Not a User?
-    </p>
-  </a>
-</form>
+    <h1>
+      Chirp
+    </h1>
+  </header>,
+  <form
+    className="sc-bxivhb dBAuwS"
+  >
+    <input
+      className="sc-EHOje iUmBVY"
+      name="handle"
+      readOnly={true}
+      type="text"
+      value="handle"
+    />
+    <input
+      className="sc-EHOje iUmBVY"
+      name="password"
+      readOnly={true}
+      type="password"
+      value="password"
+    />
+    <button
+      className="sc-bZQynM duCUaL"
+    >
+      Sign In
+    </button>
+    <a
+      className="sc-bdVaJa cVFclJ"
+      href="/signup"
+      onClick={[Function]}
+    >
+      <p
+        className="sc-gzVnrw fnneVj"
+      >
+        Not a User?
+      </p>
+    </a>
+  </form>,
+]
 `;
