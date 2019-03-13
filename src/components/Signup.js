@@ -1,12 +1,19 @@
 import React from 'react';
 import Logo from './Logo';
+import styled from 'styled-components';
 import { Form, Input, Button, Label } from '../styles/mainStyle';
+
+const SignupForm = styled(Form) `
+  @media (min-width: 700px) {
+    width: 50%;
+  }
+`;
 
 function Signup() {
   return (
     <>
     <Logo />
-    <Form>
+    <SignupForm>
       <Label htmlFor="name">Name</Label>
       <Input readOnly={true} type="text" name="name" id="name" value="name"/>
 
@@ -21,7 +28,7 @@ function Signup() {
 
       <Label htmlFor="sign-up"></Label>
       <Button id="sign-up">Sign Up</Button>
-    </Form>
+    </SignupForm>
     </>
   );
 }

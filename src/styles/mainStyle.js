@@ -20,7 +20,6 @@ export const MainLogo = styled.h1 `
 export const Main = styled.main `
   @media (min-width: 700px) {
     display: flex;
-    border-top: #a2a1a1 solid 3px;
     justify-content: space-around;
     padding-top: 10px;
   }

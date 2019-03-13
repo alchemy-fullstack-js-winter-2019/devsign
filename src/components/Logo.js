@@ -4,6 +4,11 @@ import styled from 'styled-components';
 const Img = styled.img `
   width: 50%;
   margin: 2em 5em;
+
+  @media (min-width: 700px) {
+    margin: 0;
+    width: 25%;
+  }
 `;
 
 export default function Logo() {
