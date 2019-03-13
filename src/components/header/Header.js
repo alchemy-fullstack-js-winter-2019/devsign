@@ -5,10 +5,10 @@ import {
   Switch,
   Link
 } from 'react-router-dom';
-import LoginSignup from './LoginSignUp';
-import Home from './Home';
-import Notifications from './Notifications';
-import Profile from './Profile';
+import LoginSignup from '../login/LoginSignUp';
+import Home from '../home/Home';
+import Notifications from '../notifications/Notifications';
+import Profile from '../profile/Profile';
 import style from './Header.css';
 
 export default function Header() {

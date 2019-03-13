@@ -12,8 +12,11 @@ section {
       font-size: 1em;
     }
   }
+  
   img {
     max-height: 15vh;
+    border-radius: 60px
+
   }
   p {
     max-height: 10vh;
