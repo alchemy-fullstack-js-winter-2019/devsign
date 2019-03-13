@@ -7,9 +7,15 @@ export const StyledLink = styled(Link) `
 
 export const StyledHeader = styled.header `
   font-family: 'Dosis', sans-serif;
-  color: #c16834;
+  color: white;
   display: flex;
   justify-content: space-around;
+`;
+
+export const MainLogo = styled.h1 `
+  font-size: 4em;
+  margin: 0;
+  margin-top: 0.5em;
 `;
 
 export const Main = styled.main `
@@ -20,16 +26,16 @@ export const Main = styled.main `
 `;
 
 export const Form = styled.form `
-  background-color: white;
+  background-color: #c16834;
   padding: 5px;
   display: flex;
   flex-direction: column;
-  margin: 1em auto;
+  margin: 0 auto;
   width: 70%;
 `;
 
 export const Label = styled.label `
-  color: white;
+  color: #c16834;
 `;
 
 export const MobileForm = styled(Form) `
@@ -50,14 +56,16 @@ export const Input = styled.input `
 `;
 
 export const Button = styled.button `
-  font-family: 'Prompt', sans-serif;
-  background-color: white;
-  border-radius: 3px;
-  width: 50%;
+  font-family: 'Prompt',sans-serif;
+  background-color: #75b593;
+  color: white;
+  border-radius: 7px;
+  border: 0;
+  width: 100px;
   margin: 0 auto;
   padding: 5px;
-  border-right: #bdbbbb solid 3px;
-  border-bottom: #a2a1a1 solid 3px;
+  border-right: #5b8e73 solid 3px;
+  border-bottom: #3a5648 solid 3px;
 `;
 
 export const P = styled.p `

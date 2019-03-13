@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyledHeader } from '../styles/mainStyle';
+import { StyledHeader, MainLogo } from '../styles/mainStyle';
 
 function Header() {
   return (
     <StyledHeader>
-      <h1>Chirp</h1>
+      <MainLogo>Chirp</MainLogo>
     </StyledHeader>
   );
 }

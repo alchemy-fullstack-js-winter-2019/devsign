@@ -1,12 +1,11 @@
 import React from 'react';
-import { Form, Input, Button, StyledHeader, Label } from '../styles/mainStyle';
+import Header from './Header';
+import { Form, Input, Button, Label } from '../styles/mainStyle';
 
 function Signup() {
   return (
     <>
-    <StyledHeader>
-      <h1>Chirp</h1>
-    </StyledHeader>
+    <Header />
     <Form>
       <Label htmlFor="name">Name</Label>
       <Input readOnly={true} type="text" name="name" id="name" value="name"/>
@@ -17,8 +16,8 @@ function Signup() {
       <Label htmlFor="password">password</Label>
       <Input readOnly={true} type="password" name="password" id="password" value="password"/>
 
-      <Label htmlFor="sign-in"></Label>
-      <Button id="sign-in">Sign In</Button>
+      <Label htmlFor="sign-up"></Label>
+      <Button id="sign-up">Sign Up</Button>
     </Form>
     </>
   );
