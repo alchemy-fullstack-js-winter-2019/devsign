@@ -24,8 +24,10 @@ export default function Home() {
         <TweetSearch onChange={onChange}  term={'Search'}/>
       </section>
 
-      <section className={styles.tweetList}>
-        {tweetList}
+      <section>
+        <ul className={styles.tweetList}>
+          {tweetList}
+        </ul>
       </section>
     </main>
   );

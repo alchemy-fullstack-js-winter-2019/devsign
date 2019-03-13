@@ -13,7 +13,7 @@ export default function Profile() {
       <p>301 retweets</p>
       <p>98 likes</p>
       
-      <img src="https://fakeimg.pl/640x360"/>
+      <img src="https://fakeimg.pl/640x360" alt='profile placeholder'/>
     </section>
     </>
   );

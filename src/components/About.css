@@ -5,7 +5,12 @@
 	position: relative;
 	font: 2em Helvetica, Sans-Serif;
 	letter-spacing: -2px;
-  color: rgba(255,0,0,0.5)
+  color: rgba(0,0,255,0.5)
+}
+.aboutHeader:after {
+	content: "About Us";
+	position: absolute; left: 150px; top: 3px;
+	color: rgba(255,0,0,0.5);   
 }
 
 .aboutImage {

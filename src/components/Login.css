@@ -8,7 +8,7 @@ input {
   box-sizing: border-box;
   margin: 1em 0em;
 }
-::placeholder {
+.labels {
   margin: 0;
   text-align: center;
   display: inline;
@@ -16,6 +16,15 @@ input {
 	font: 1em Helvetica, Sans-Serif;
 	letter-spacing: 5px;
 	color: rgba(255,0,0,0.5);
+}
+::placeholder {
+  margin: 0;
+  text-align: center;
+  display: inline;
+	position: relative;
+	font: 1em Helvetica, Sans-Serif;
+	letter-spacing: 2px;
+	color: rgba(0,0,0,0.5);
 }
 
 form {
