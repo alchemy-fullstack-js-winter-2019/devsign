@@ -3,10 +3,10 @@
 exports[`Home component matches a snapshot 1`] = `
 Array [
   <nav
-    className="sc-eNQAEJ sc-hMqMXs scZBO"
+    className="sc-ckVGcZ cSqQkL"
   >
     <ul
-      className="sc-kEYyzF kbZRkL"
+      className="sc-jKJlTe cykEnT"
     >
       <a
         className="sc-bdVaJa cVFclJ"
@@ -14,7 +14,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-iAyFgw uYoYC"
+          className="sc-gZMcBi sc-hMqMXs jqmRfg"
         >
           Chirp
         </li>
@@ -25,7 +25,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-kkGfuU fhFPuL"
+          className="sc-gZMcBi sc-eNQAEJ laIvQR"
         >
           Home
         </li>
@@ -36,34 +36,44 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-kkGfuU fhFPuL"
+          className="sc-gZMcBi sc-eNQAEJ laIvQR"
         >
           Profile
         </li>
       </a>
     </ul>
+    <a
+      className="sc-bdVaJa cVFclJ"
+      href="/profile"
+      onClick={[Function]}
+    >
+      <img
+        className="sc-kEYyzF iLSoUb"
+        src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+      />
+    </a>
     <form
-      className="sc-ifAKCX sc-kpOJdX evpCQB"
+      className="sc-ifAKCX sc-kgoBCf hauRHd"
     >
       <label
-        className="sc-jKJlTe bHvegO"
+        className="sc-dxgOiQ egCJwJ"
         htmlFor="search"
       >
         Search
       </label>
       <input
-        className="sc-bZQynM sc-dxgOiQ rqkeo"
+        className="sc-bZQynM sc-kGXeez dLZXMm"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
       <label
-        className="sc-jKJlTe bHvegO"
+        className="sc-dxgOiQ egCJwJ"
         htmlFor="searchButton"
       />
       <button
-        className="sc-gzVnrw sc-ckVGcZ eTcjhr"
+        className="sc-gzVnrw sc-kpOJdX bRFsMn"
         id="searchButton"
       >
         Search
@@ -74,7 +84,7 @@ Array [
     className="sc-bxivhb jHTRIX"
   >
     <aside
-      className="sc-kGXeez jnNXV"
+      className="sc-chPdSV ecAaUG"
     >
       <img
         className="sc-gqjmRU hTssrt"
@@ -85,24 +95,24 @@ Array [
         Kaiya
          
         <span
-          className="sc-fjdhpX FzRiJ"
+          className="sc-jTzLTM bxQZkh"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-jzJRlG sc-cSHVUG Nvkhd"
+        className="sc-fjdhpX eUAEJX"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-jzJRlG sc-cSHVUG Nvkhd"
+        className="sc-fjdhpX eUAEJX"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-chPdSV jJNJzY"
+      className="sc-cSHVUG jxaPmy"
     >
       <section>
         <ul
@@ -110,7 +120,7 @@ Array [
         >
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -121,14 +131,14 @@ Array [
                   Ray
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @stingraymond
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -136,7 +146,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -147,14 +157,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -162,7 +172,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -173,14 +183,14 @@ Array [
                   Randy
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @randyroute
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -188,7 +198,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -199,14 +209,14 @@ Array [
                   Ray
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @stingraymond
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -214,7 +224,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -225,14 +235,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -240,7 +250,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -251,14 +261,14 @@ Array [
                   Randy
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @randyroute
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>

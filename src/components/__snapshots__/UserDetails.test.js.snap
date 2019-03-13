@@ -2,7 +2,7 @@
 
 exports[`UserDetails component matches a snapshot 1`] = `
 <aside
-  className="sc-kGXeez jnNXV"
+  className="sc-chPdSV ecAaUG"
 >
   <img
     className="sc-gqjmRU hTssrt"
@@ -13,13 +13,13 @@ exports[`UserDetails component matches a snapshot 1`] = `
     Kaiya
      
     <span
-      className="sc-fjdhpX FzRiJ"
+      className="sc-jTzLTM bxQZkh"
     >
       @ladybeard
     </span>
   </h2>
   <p
-    className="sc-jzJRlG sc-cSHVUG Nvkhd"
+    className="sc-fjdhpX eUAEJX"
   >
     Fullstack MERN Developer / Animal Lover / Hiker
   </p>

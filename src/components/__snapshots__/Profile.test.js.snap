@@ -3,10 +3,10 @@
 exports[`Profile component matches a snapshot 1`] = `
 Array [
   <nav
-    className="sc-kkGfuU sc-iAyFgw bNWjri"
+    className="sc-hMqMXs dbUHYG"
   >
     <ul
-      className="sc-hSdWYo bmXlgX"
+      className="sc-kEYyzF kbZRkL"
     >
       <a
         className="sc-bdVaJa cVFclJ"
@@ -14,7 +14,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-cvbbAY ezzHtK"
+          className="sc-gZMcBi sc-iAyFgw uYoYC"
         >
           Chirp
         </li>
@@ -25,7 +25,7 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-eHgmQL dExrCs"
+          className="sc-gZMcBi sc-kkGfuU fhFPuL"
         >
           Home
         </li>
@@ -36,34 +36,44 @@ Array [
         onClick={[Function]}
       >
         <li
-          className="sc-gZMcBi sc-eHgmQL dExrCs"
+          className="sc-gZMcBi sc-kkGfuU fhFPuL"
         >
           Profile
         </li>
       </a>
     </ul>
+    <a
+      className="sc-bdVaJa cVFclJ"
+      href="/profile"
+      onClick={[Function]}
+    >
+      <img
+        className="sc-hSdWYo hcsGuV"
+        src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+      />
+    </a>
     <form
-      className="sc-ifAKCX sc-jKJlTe iTIXFK"
+      className="sc-ifAKCX sc-dxgOiQ ZDpZY"
     >
       <label
-        className="sc-kEYyzF glwdyy"
+        className="sc-eNQAEJ iqowgK"
         htmlFor="search"
       >
         Search
       </label>
       <input
-        className="sc-bZQynM sc-eNQAEJ hLdnyq"
+        className="sc-bZQynM sc-ckVGcZ dfGCWT"
         id="search"
         readOnly={true}
         type="text"
         value=""
       />
       <label
-        className="sc-kEYyzF glwdyy"
+        className="sc-eNQAEJ iqowgK"
         htmlFor="searchButton"
       />
       <button
-        className="sc-gzVnrw sc-hMqMXs dlrvya"
+        className="sc-gzVnrw sc-jKJlTe hHTIcO"
         id="searchButton"
       >
         Search
@@ -72,7 +82,7 @@ Array [
   </nav>,
   <section>
     <form
-      className="sc-ifAKCX sc-kpOJdX dGCeeh"
+      className="sc-ifAKCX sc-kgoBCf fdofMG"
     >
       <label
         className="sc-EHOje kYkHpN"
@@ -81,7 +91,7 @@ Array [
         Name
       </label>
       <input
-        className="sc-bZQynM sc-dxgOiQ eLhPIy"
+        className="sc-bZQynM sc-kGXeez kJKpum"
         id="newChirpText"
         name="newChirpText"
         readOnly={true}
@@ -92,7 +102,7 @@ Array [
         htmlFor="newChirp"
       />
       <button
-        className="sc-gzVnrw sc-ckVGcZ jQlLHz"
+        className="sc-gzVnrw sc-kpOJdX gFAKbC"
         id="newChirp"
       >
         Chirp
@@ -103,7 +113,7 @@ Array [
     className="sc-bxivhb jHTRIX"
   >
     <aside
-      className="sc-kGXeez jnNXV"
+      className="sc-chPdSV ecAaUG"
     >
       <img
         className="sc-gqjmRU hTssrt"
@@ -114,24 +124,24 @@ Array [
         Kaiya
          
         <span
-          className="sc-fjdhpX FzRiJ"
+          className="sc-jTzLTM bxQZkh"
         >
           @ladybeard
         </span>
       </h2>
       <p
-        className="sc-jzJRlG sc-cSHVUG Nvkhd"
+        className="sc-fjdhpX eUAEJX"
       >
         Fullstack MERN Developer / Animal Lover / Hiker
       </p>
       <p
-        className="sc-jzJRlG sc-cSHVUG Nvkhd"
+        className="sc-fjdhpX eUAEJX"
       >
         Portland, OR
       </p>
     </aside>
     <section
-      className="sc-chPdSV jJNJzY"
+      className="sc-cSHVUG jxaPmy"
     >
       <section>
         <ul
@@ -139,7 +149,7 @@ Array [
         >
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -150,14 +160,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -165,7 +175,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -176,14 +186,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -191,7 +201,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -202,14 +212,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -217,7 +227,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -228,14 +238,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -243,7 +253,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -254,14 +264,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>
@@ -269,7 +279,7 @@ Array [
           </li>
           <li>
             <article
-              className="sc-kgoBCf epfkgj"
+              className="sc-kAzzGY bSaNbd"
             >
               <header>
                 <img
@@ -280,14 +290,14 @@ Array [
                   Kaiya
                    
                   <span
-                    className="sc-fjdhpX FzRiJ"
+                    className="sc-jTzLTM bxQZkh"
                   >
                     @ladybeard
                   </span>
                 </h2>
               </header>
               <p
-                className="sc-kAzzGY ceyFEx"
+                className="sc-jzJRlG fefLBr"
               >
                 tweet tweet tweet
               </p>

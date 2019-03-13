@@ -3,7 +3,7 @@
 exports[`CreateTweetForm component matches a snapshot 1`] = `
 <section>
   <form
-    className="sc-ifAKCX sc-kGXeez hSUQzy"
+    className="sc-ifAKCX sc-chPdSV ciquKg"
   >
     <label
       className="sc-EHOje kYkHpN"
@@ -12,7 +12,7 @@ exports[`CreateTweetForm component matches a snapshot 1`] = `
       Name
     </label>
     <input
-      className="sc-bZQynM sc-kpOJdX jumTyb"
+      className="sc-bZQynM sc-kgoBCf gSXxbD"
       id="newChirpText"
       name="newChirpText"
       readOnly={true}
@@ -23,7 +23,7 @@ exports[`CreateTweetForm component matches a snapshot 1`] = `
       htmlFor="newChirp"
     />
     <button
-      className="sc-gzVnrw sc-dxgOiQ fQRYkK"
+      className="sc-gzVnrw sc-kGXeez gwOBrv"
       id="newChirp"
     >
       Chirp

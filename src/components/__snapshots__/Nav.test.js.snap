@@ -2,10 +2,10 @@
 
 exports[`Nav component matches a snapshot 1`] = `
 <nav
-  className="sc-jKJlTe sc-eNQAEJ cvuLCG"
+  className="sc-dxgOiQ cAryKe"
 >
   <ul
-    className="sc-hMqMXs cpSUjM"
+    className="sc-ckVGcZ lcUqFn"
   >
     <a
       className="sc-bdVaJa cVFclJ"
@@ -13,7 +13,7 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gZMcBi sc-kkGfuU htYVvr"
+        className="sc-gZMcBi sc-eNQAEJ ctAoWp"
       >
         Chirp
       </li>
@@ -24,7 +24,7 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gZMcBi sc-kEYyzF kALsIh"
+        className="sc-gZMcBi sc-jKJlTe fESUJK"
       >
         Home
       </li>
@@ -35,34 +35,44 @@ exports[`Nav component matches a snapshot 1`] = `
       onClick={[Function]}
     >
       <li
-        className="sc-gZMcBi sc-kEYyzF kALsIh"
+        className="sc-gZMcBi sc-jKJlTe fESUJK"
       >
         Profile
       </li>
     </a>
   </ul>
+  <a
+    className="sc-bdVaJa cVFclJ"
+    href="/profile"
+    onClick={[Function]}
+  >
+    <img
+      className="sc-hMqMXs iFZTxG"
+      src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+    />
+  </a>
   <form
-    className="sc-ifAKCX sc-kGXeez dzJOyJ"
+    className="sc-ifAKCX sc-chPdSV kxfkII"
   >
     <label
-      className="sc-ckVGcZ bmXmTd"
+      className="sc-kpOJdX ijyKBI"
       htmlFor="search"
     >
       Search
     </label>
     <input
-      className="sc-bZQynM sc-kpOJdX ddicPd"
+      className="sc-bZQynM sc-kgoBCf bxthsg"
       id="search"
       readOnly={true}
       type="text"
       value=""
     />
     <label
-      className="sc-ckVGcZ bmXmTd"
+      className="sc-kpOJdX ijyKBI"
       htmlFor="searchButton"
     />
     <button
-      className="sc-gzVnrw sc-dxgOiQ kNomgF"
+      className="sc-gzVnrw sc-kGXeez fYDtGc"
       id="searchButton"
     >
       Search
