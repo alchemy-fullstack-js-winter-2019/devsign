@@ -1,10 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tweets matches a snapshot 1`] = `
+exports[`Tweets Test mathes a snapshot 1`] = `
 <section>
   <ul>
     <li>
-      list of tweets
+      <li>
+        <section>
+          <header
+            className="tweet"
+          >
+            <img
+              alt="bugs bunny"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRJRA8ywW_omvM7B-9KwlPGxsP6WCdGuKShl211WtKEoJ_h6D"
+            />
+            <h2>
+              BugS
+            </h2>
+            <h3>
+              @bugsbunny
+            </h3>
+          </header>
+          <p>
+            It is sunny
+          </p>
+        </section>
+      </li>
+      <li>
+        <section>
+          <header
+            className="tweet"
+          >
+            <img
+              alt="bugs bunny"
+              src="http://johngomex.jpeg"
+            />
+            <h2>
+              John Gomex
+            </h2>
+            <h3>
+              @JohnX
+            </h3>
+          </header>
+          <p>
+            It is fake news
+          </p>
+        </section>
+      </li>
     </li>
   </ul>
 </section>
