@@ -8,17 +8,24 @@ import {
 } from 'react-router-dom';
 import { getRoutes } from '../routes';
 import Header from '../header/Header';
+import styles from 'styled-components';
+
+const AppStyle = styles.body`
+  background: #fff6be;
+`;
 
 export default function App() {
   return (
-    <Router>
-    <>
-    <Header />
-    <Switch>
-          {getRoutes()}
-    </Switch>
-    <Footer />
-    </>
-    </Router>
+    <AppStyle>
+      <Router>
+      <>
+      <Header />
+      <Switch>
+            {getRoutes()}
+      </Switch>
+      <Footer />
+      </>
+      </Router>
+    </AppStyle>
   );
 }
