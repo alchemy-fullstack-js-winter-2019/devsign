@@ -43,7 +43,7 @@ const LinkProfile = styles.a`
   }
 `;
 
-const LinkChirps= styles.a`
+const LinkChirps = styles.a`
 @media (min-width: 374px) {
   margin-left: 80px;
   margin-right: 25px;
@@ -64,12 +64,7 @@ const NavStyle = styles.nav`
   }
 `;
 
-const ChirpLogo = styles.h1`
-@media (min-width: 374px) {
-  letter-spacing: .04em;
-  color: #ffa1ac;
-  } 
-`;
+
 export default function Header() {
   return (
     <HeaderStyle>

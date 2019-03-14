@@ -1,4 +1,4 @@
-import { SET_SESSION } from "../actions/session";
+import { SET_SESSION } from '../actions/session';
 
 const initialState =  {
   token: '',

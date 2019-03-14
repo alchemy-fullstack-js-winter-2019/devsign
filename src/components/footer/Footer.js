@@ -11,11 +11,11 @@ const FooterStyle = styles.footer`
 
 function Footer() {
   return (
-  <FooterStyle>
-    <section>
-      <h3>CHIRP 2019 ©</h3>
-    </section>
-  </FooterStyle>   
+    <FooterStyle>
+      <section>
+        <h3>CHIRP 2019 ©</h3>
+      </section>
+    </FooterStyle>   
   );
 }
 

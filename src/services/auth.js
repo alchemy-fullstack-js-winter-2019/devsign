@@ -18,7 +18,6 @@ export const handleAuth = () => {
       if(result && result.accessToken && result.idToken) {
         auth0.client.userInfo(result.accessToken, (err, info) => {
           if(err) return reject(err);
-          console.log(info);
           resolve({
             token: result.idToken,
             id: info.sub,
@@ -32,5 +31,4 @@ export const handleAuth = () => {
       }
     });
   });
-
-}
+};

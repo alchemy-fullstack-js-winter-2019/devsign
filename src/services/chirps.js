@@ -1,5 +1,4 @@
-
-  export const getChirps = () => {
+export const getChirps = () => {
   // return fetch('http://localhost:7890/tweets')
   //   .then(res => res.json());
   return Promise.resolve([

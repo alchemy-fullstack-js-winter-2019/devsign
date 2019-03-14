@@ -32,13 +32,13 @@ const ProfileUser = styles.aside`
 
 function Profile() {
   return (
-   <ProfileUser>
-    <section>
-      <h2><i className="fas fa-kiwi-bird"></i> PERSONAL USERNAME </h2>
-      <ProfileAvatar src={profilePic} width="10%" />
-      <p> A person who loves you will never kick you when your down or pour salad on your wounds</p>
-    </section>
-  </ProfileUser>
+    <ProfileUser>
+      <section>
+        <h2><i className="fas fa-kiwi-bird"></i> PERSONAL USERNAME </h2>
+        <ProfileAvatar src={profilePic} width="10%" />
+        <p> A person who loves you will never kick you when your down or pour salad on your wounds</p>
+      </section>
+    </ProfileUser>
   );
 }
 

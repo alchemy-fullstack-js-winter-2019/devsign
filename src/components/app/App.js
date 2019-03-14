@@ -20,7 +20,7 @@ export default function App() {
       <>
       <Header />
       <Switch>
-            {getRoutes()}
+        {getRoutes()}
       </Switch>
       <Footer />
       </>
