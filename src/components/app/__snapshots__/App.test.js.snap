@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches a snapshot 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <nav>
+      <nav
+        className="nav"
+      >
+        <ul>
+          <a
+            href="/home"
+            onClick={[Function]}
+          >
+            <li>
+              Home
+            </li>
+          </a>
+          <a
+            href="/profile"
+            onClick={[Function]}
+          >
+            <li>
+              Profile
+            </li>
+          </a>
+          <a
+            href="/twitter"
+            onClick={[Function]}
+          >
+            <li>
+              My Twitter Page
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </nav>
+  </header>,
+  <main
+    className="main"
+  >
+    <h1>
+      Welcome to your Tweety Tweets
+    </h1>
+    <h2>
+      Just another way to staying relevant!
+    </h2>
+    <div
+      className="register"
+    >
+      <a
+        href="#0"
+      >
+        Sign up
+      </a>
+      <a
+        href="#0"
+      >
+        Log in
+      </a>
+    </div>
+  </main>,
+]
+`;

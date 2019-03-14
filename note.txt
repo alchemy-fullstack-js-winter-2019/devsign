@@ -1,0 +1,272 @@
+<main>
+  <section class="red">
+    <section class="blue">
+      Inner
+    </section>
+  </section>  
+</main>
+
+.red {
+  width: 700px;
+  height: 500px;
+
+  background-color: red;
+}
+
+.blue {
+  width: 250px;
+  height: 250px;
+
+  background-color: blue;
+  color: white;
+
+
+  font-size: 3em;
+}
+
+content-box model - creats the width first and continues - makes it larger because padding it out
+border-box - the entire width including border is 250px - width that includes border and padding
+
+margin - creates space on the outside - adds more space out
+padding - creaes inside on inside of content area - squeese content
+
+margin->border->padding->content
+
+content - width and height is the sizing of context box
+default is content-box styles
+
+border box messuaring from border to border 
+
+Selectors
+- select on tag name
+  - i.e 
+  main {
+    background-color: yellow
+  }
+- select by class
+- seletct by inside #
+- universal selector *{} select anything on page
+- attribute selector
+  - <a href="https://google.com>Google</a>
+  - <a href="https:facbood>Facebook</a>
+  a [href="https://google.com] {
+    color: white;
+  }
+  a[href*=facebook]
+  -<a>Test123</a>
+    a[href] {
+      color:yellow;
+    }
+- sibling selectors
+<section>
+  orange
+<section>
+.blue + section { //+ means is the sibling next to blue will be selected due to + 
+background-color:orange;
+}
+- Another sibling selector
+- ~ //any sibling of blue should be
+.blue ~ selector {
+  background-clor: yellow;
+}
+- to use silbing selectors order matters  - the latest rule always gets applied in class. So ~ goes before +
+
+- > child selector - any first child of blue - only direct desendents of this class will be selected
+ie. blue > p { background-color: yelllow}
+
+- Desended selector
+ie. .blue p {
+}
+
+- seudo class
+p:hover {
+  color: red;
+}
+
+- p:active { //when you click on it it turns to blue
+  color:blue; 
+}
+
+- input:focus { //when type into input box the color will change
+  background-color: red;
+}
+
+html
+<table>
+  <tr class="header">
+    <td>Rover</td>
+    <td>
+
+- select rows with nth-child
+  ie. tr:nth-child(1) {
+    background-color: red;
+  }
+  or 
+  tr:first-child
+  or
+  tr:last-child
+  tr:nth-child(2n+1) {} will highlight odd rows
+  tr:nth-child(2n){} will select only event rows
+  tr:nth-child(n + 2) {}
+  tr:nth-child(3n) {} Every third row
+
+Pseudo clases have one :
+Pseudo elements have ::
+
+th::before { //before each will add the content header
+  content: 'Header:'
+}
+
+th::after { //this will add a . after
+  content: '.'
+}
+
+td::selection { // when select something it will turn the highlighting into blue
+  background-color: blue;
+}
+
+td::first-letter { //first letter of table will always have a lowercase letter and first letter will be green 
+  text-transform: lowercase;
+  background-color: green;
+}
+
+p::first-line { //targets the first line of a paragh
+  color: red;
+}
+
+typography 
+- font:size: 2em; //double font size of family
+- font-weight: normal/bold/bolder/0/100; //
+- font-style: italic/oblique/oblique 20deg;
+- line-height: 2em; //makes space between the lines of text
+- font-family: //allows you to change the font you are using
+- google fonts - at top of file paste @import  and paste fon't family
+
+color
+-dribbble - is a got site to see colors schemes and hex code
+- transparent - color: rgba(0,0,255,0.8) 0.8 value is for transparent
+-
+
+Position
+- static
+- relative - everything will become relative to where it currently on the screen 
+-absolute - absolute to the entire screen
+
+position: absolutely; //absolute to the entire screen
+top: 0; // bottome: 0;
+
+fixed - we see it a lot with nav bars
+
+sticky - loads normally and once it gets to top it will stick like a contact
+
+Display
+- block - they want to move downwards - horizontal
+- inline - makes the elements want to go horizontal - next to each other - vertical
+
+transform 
+- rotate 
+img {
+  width: 200px;
+  transform: rotateX(90deg); / rotateY(60deg) // rotate on X or Y axis
+}
+
+Animation
+@keyframes are stages
+- start with @keyframes {
+}
+- delay is how long we want it to delay
+@keyframes rotateImage {
+  from/0% {
+    width: 200px;
+    transform: roate(0deg);
+    animation-name: rotateImage;
+    animation-duration: 1s;
+    animation-timing-function: linear; // does the same spin the whole way around
+    animation-delay: 1s;
+    animation-iteration-count: 5/infinite;
+    animation-direction: reverse/both/alternate/forward;
+    animation-fill-mode: none/forwards/backwards/both //wherw we want it to stop
+    animation-play-state: running/pause;
+
+  }
+  to/100%/ {
+    transform: rotate(360deg)
+  }
+}
+
+short cut to writing animations
+animation: rotateImage 1s linear 1s infinite;
+
+easein and easeout - for when like dropping something
+cubic-bezier.com - lets you creae your own curve 
+  - you can pass this into your animation as your timing function
+
+transitions
+- lets us transition the look of our site based on events that happen
+
+transform-property: opacity; //
+transform-dureation: 1s;
+
+Accessibility 
+in Chrom Audits
+- click on Accessibility type it will tell you why
+- 
+Color Accessibility - website 
+
+take array of tweets
+- create a tweets.js file
+export const 
+
+reducers
+- tweets.js
+const initalState = {
+  tweets: []
+};
+
+
+
+export default function reducer(state= initalState, action ) {
+  switch(action.type) {
+    case FETCH_TWEETS:
+  }
+}
+
+actions
+import { createAction } from 'promise-middleware-redux';
+import { getTweets } from '../services/tweets';
+
+export const fetchTweets = () => ({
+  type: FETCH_TWEETS, 
+  pendingType: FETCH_TWEETS_PENDING,
+  payload: getTweets
+});
+or
+export const [
+  fetchTweets,
+  FETCH_TWEETS,
+  FETCH_TWEETS_PENDING
+] = createAction('FETCH_TWEETS', getTweets);
+
+
+containers
+PopularTweets.js
+import { connect }
+
+const mapStateToProps = state => ({
+  tweets: state.tweets.tweets //usea selector
+});
+
+const mapDispatchToProps = dispatch => ({
+  fetch() {
+    dispatch(fetchTweets());
+  }
+})
+export default connect
+
+Home.js
+import PopularTweets from '../../
+
+<PopularTweets />
+
+- fetch tweets pending we can have animations and transitions on site
+

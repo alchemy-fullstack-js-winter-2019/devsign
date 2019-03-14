@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweets matches a snapshot 1`] = `
+<section>
+  <ul>
+    <li>
+      tweets
+    </li>
+  </ul>
+</section>
+`;
