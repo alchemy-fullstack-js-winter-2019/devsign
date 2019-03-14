@@ -15,7 +15,11 @@ class CurrentUser extends PureComponent {
   }
 
   render() {
-    return <UserDetails { ...this.props } />;
+    return (
+      <>
+      {this.props && <UserDetails { ...this.props } />}
+      </>
+    );
   }
 }
 

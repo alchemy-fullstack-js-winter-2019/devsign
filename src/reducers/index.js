@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import chirps from './chirps';
-import userDetails from './userDetails';
+import user from './userDetails';
 import session from './session';
 
 export default combineReducers({
   chirps,
-  userDetails,
+  user,
   session
 });
