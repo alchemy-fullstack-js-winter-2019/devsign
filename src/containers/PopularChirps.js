@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import Chirps from '../components/Chirps';
-import { getAllChirps } from '../selectors/chirps';
+import { getAllChirps, isChirpsLoading } from '../selectors/chirps';
 import { fetchChirps } from '../actions/chirps';
 import PropTypes from 'prop-types';
 
@@ -20,7 +20,8 @@ class PopularChirps extends PureComponent {
 }
 
 const mapStateToProps = state => ({
-  chirps: getAllChirps(state)
+  chirps: getAllChirps(state),
+  loading: isChirpsLoading(state)
 });
 
 const mapDispatchToProps = dispatch => ({

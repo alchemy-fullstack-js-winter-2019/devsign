@@ -1,4 +1,4 @@
-import { FETCH_USER } from '../actions/chirps';
+import { FETCH_USER } from '../actions/userDetails';
 
 const initialState = {
   user: {}
