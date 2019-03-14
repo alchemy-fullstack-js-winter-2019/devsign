@@ -9,29 +9,50 @@ function Home() {
         <nav>
           <ul>
             <p><li><a href="/Home">HOME </a></li></p>
-            <p><li><a href="/LogIn">LOG IN</a></li></p>
-            <p><li><a href="/Register">REGISTER</a></li></p>
+            <p><li><a href="/SignOut">SIGN OUT</a></li></p>
           </ul>
         </nav>
       </header>
         
       <section>
-        <h2>Top Fashion Bird Photo</h2>
-        <summary>Fashion Bird</summary>
-        <img src="https://i.pinimg.com/originals/c2/64/77/c264774547a8875f5bfab4a9fb152829.jpg"/>
+        <p></p>
       </section>
+      <div className="fashion">
+        <h2>Fashion Bird News</h2>
+        {/* <img src="https://i.pinimg.com/originals/c2/64/77/c264774547a8875f5bfab4a9fb152829.jpg"/> */}
+        <ul>
+          <li>News 1</li>
+          <li>News 2</li>
+          <li>News 3</li>
+        </ul>
+      </div>
 
-      <section>
-        <h2>Top Funny Bird Photo</h2>
-        <summary>Funny Bird</summary>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE3yyfU9hxFefll8j0yPwwn0XVO7fACxxpBVUeEJOFGo9qiMb-"/>
-      </section>
+      <div className="funny">
+        <h2>Funny Bird News</h2>
+        {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE3yyfU9hxFefll8j0yPwwn0XVO7fACxxpBVUeEJOFGo9qiMb-"/> */}
+        <ul>
+          <li>News 1</li>
+          <li>News 2</li>
+          <li>News 3</li>
+        </ul>
+      </div>
 
-      <section>
-        <h2>Artsy Bird Photo</h2>
-        <summary>Artsy Bird</summary>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnWkraVt_TTeY7Z3h9oMlqa6fdws6kuu-2ysXXDo_YY2Pw38x"/>
-      </section>
+      <div className="artsy">
+        <h2>Artsy Bird News</h2>
+        {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnWkraVt_TTeY7Z3h9oMlqa6fdws6kuu-2ysXXDo_YY2Pw38x"/> */}
+        <ul>
+          <li>News 1</li>
+          <li>News 2</li>
+          <li>News 3</li>
+        </ul>
+      </div>
+
+      <div className="sidebar">
+        <h2>Trending</h2>
+        <li>Trend 1</li>
+        <li>Trend 2</li>
+        <li>Trend 3</li>
+      </div>
       <footer><p>©Copyright. All rights reserved</p></footer>
     </main>
   );

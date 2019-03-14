@@ -2,17 +2,23 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import Home from './components/Home';
 import LogIn from './components/LogIn';
+import User from './components/User';
 
 export const ROUTES = {
   HOME: {
-    path: '/',
+    path: '/home',
     Component: Home,
-    linkTo: () => '/'
+    linkTo: () => '/home'
   },
   LOGIN: {
-    path: '/login',
+    path: '/',
     Component: LogIn,
-    linkTo: () => '/login'
+    linkTo: () => '/'
+  },
+  USER: {
+    path: '/user',
+    Component: User,
+    linkTo: () => '/user'
   }
 };
 
