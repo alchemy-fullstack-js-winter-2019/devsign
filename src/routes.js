@@ -1,8 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from './components/Home';
-import LogIn from './components/LogIn';
-import User from './components/User';
+import Home from './components/home/Home';
+import Callback from './containers/Callback';
+import LogIn from './components/login/LogIn';
+import User from './components/user/User';
+import { withSession } from './containers/withSession';
+
 
 export const ROUTES = {
   HOME: {
@@ -10,15 +13,20 @@ export const ROUTES = {
     Component: Home,
     linkTo: () => '/home'
   },
+  CALLBACK: {
+    path: '/callback',
+    Component: Callback,
+    linkTo: () => '/callback'
+  },
   LOGIN: {
-    path: '/',
+    path: '/logIn',
     Component: LogIn,
-    linkTo: () => '/'
+    linkTo: () => '/logIn'
   },
   USER: {
-    path: '/user',
-    Component: User,
-    linkTo: () => '/user'
+    path: '/',
+    Component: withSession(User),
+    linkTo: () => '/'
   }
 };
 

@@ -1,0 +1,11 @@
+.User {
+  margin: 10px;
+  padding: 20px;
+div {
+  box-sizing: content_box;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid black;
+}
+}

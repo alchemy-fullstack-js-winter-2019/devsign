@@ -46,13 +46,6 @@ function Home() {
           <li>News 3</li>
         </ul>
       </div>
-
-      <div className="sidebar">
-        <h2>Trending</h2>
-        <li>Trend 1</li>
-        <li>Trend 2</li>
-        <li>Trend 3</li>
-      </div>
       <footer><p>©Copyright. All rights reserved</p></footer>
     </main>
   );

@@ -4,5 +4,5 @@ import { handleAuth } from '../services/auth';
 export const [
   setSession,
   SET_SESSION,
-  SET_SESSION_PENDING
+  // SET_SESSION_PENDING
 ] = createAction('SET SESSION', handleAuth);
