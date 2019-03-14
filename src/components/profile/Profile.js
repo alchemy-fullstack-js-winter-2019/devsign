@@ -11,14 +11,16 @@ const user = {
 
 export default function Profile() {
   return (
-    <main >
+    <main className={styles.Profile}>
       <article>
         <User user={user} />
+        <aside>
+          <p>Trends</p>
+        </aside>
+      </article>
+      <article>
         <ProfileContainer />
       </article>
-      <aside>
-        <p>Trends</p>
-      </aside>
     </main>
   );
 }
