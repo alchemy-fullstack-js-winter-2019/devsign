@@ -88,10 +88,96 @@ export const getChirps = () => {
 
 export const getUser = () => {
   return Promise.resolve({
-    name: 'Kaiya',
-    handle: 'ladybeard',
-    profileImage: 'https://joeschmoe.io/api/v1/random',
+    name: 'Jeane',
+    handle: 'denimJeane',
+    profileImage: 'https://joeschmoe.io/api/v1/jeane',
     bio: 'Fullstack MERN Developer / Animal Lover / Hiker',
     location: 'Portland, OR'
   });
+};
+
+export const getUserChirps = () => {
+  return Promise.resolve([
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+  ]);
 };
