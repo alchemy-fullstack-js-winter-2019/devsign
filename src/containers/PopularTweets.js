@@ -8,7 +8,7 @@ import { fetchTweets } from '../actions/tweets';
 class PopularTweets extends PureComponent {
   static propTypes = {
     tweets: PropTypes.array,
-    // fetch: PropTypes.function.isRequired
+    fetch: PropTypes.func.isRequired
   }
   componentDidMount() {
     this.props.fetch();
@@ -21,6 +21,7 @@ class PopularTweets extends PureComponent {
 }
 const mapStateToProps = state => ({
   tweets: getTweets(state)
+  
 });
 
 const mapDispatchToProps = dispatch => ({

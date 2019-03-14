@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import React, { PureComponent } from 'react';
+// import PropTypes from 'prop-types';
 
-export const withFetch
+// export const withFetch
