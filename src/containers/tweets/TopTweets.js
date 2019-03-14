@@ -8,7 +8,7 @@ import Tweets from '../../components/tweets/Tweets';
 
 class TopTweets extends PureComponent {
   static propTypes = {
-    tweets: PropTypes.string.isRequired,
+    tweets: PropTypes.array.isRequired,
     fetch: PropTypes.func.isRequired 
   };
 
