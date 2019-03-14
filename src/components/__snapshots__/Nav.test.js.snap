@@ -2,10 +2,10 @@
 
 exports[`Nav component matches a snapshot 1`] = `
 <nav
-  className="sc-kGXeez dcHRRN"
+  className="sc-kGXeez kHJuoe"
 >
   <ul
-    className="sc-kpOJdX eSSkdt"
+    className="sc-kpOJdX ifvqSH"
   >
     <li
       className="sc-gZMcBi sc-ckVGcZ fJmOAI"
@@ -48,12 +48,12 @@ exports[`Nav component matches a snapshot 1`] = `
   >
     <img
       alt="profile pic"
-      className="sc-jKJlTe hLhmlh"
-      src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+      className="sc-jKJlTe fhvuZn"
+      src="https://joeschmoe.io/api/v1/jeane"
     />
   </a>
   <form
-    className="sc-ifAKCX sc-cSHVUG bmJTsc"
+    className="sc-ifAKCX sc-cSHVUG bPDerF"
   >
     <label
       className="sc-kgoBCf iOxteu"
@@ -62,7 +62,7 @@ exports[`Nav component matches a snapshot 1`] = `
       Search
     </label>
     <input
-      className="sc-bZQynM sc-kAzzGY kNfhYh"
+      className="sc-bZQynM sc-kAzzGY hecALk"
       id="search"
       readOnly={true}
       type="text"

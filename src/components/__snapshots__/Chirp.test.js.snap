@@ -2,15 +2,19 @@
 
 exports[`Chirp component matches a snapshot 1`] = `
 <article
-  className="sc-jzJRlG jFfDbd"
+  className="sc-jzJRlG dFsfHb"
 >
-  <header>
+  <header
+    className="sc-chPdSV iJfIXb"
+  >
     <img
       alt="Kaiya"
       className="sc-jTzLTM fkBueS"
       src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
     />
-    <h2>
+    <h2
+      className="sc-cSHVUG eRmrdv"
+    >
       Kaiya
        
       <span
@@ -21,7 +25,7 @@ exports[`Chirp component matches a snapshot 1`] = `
     </h2>
   </header>
   <p
-    className="sc-gqjmRU dRATxY"
+    className="sc-gqjmRU sc-kAzzGY ctCWvU"
   >
     chirp chirp chirp
   </p>
