@@ -6,7 +6,7 @@ function TweetForm({ tweetText, onChange, onSubmit }) {
   return (
     <form onSubmit={onSubmit}>
       <label>
-        <input type="text" placeholder="Tweet Something" onChange={onChange} value={tweetText} />
+        <input type="text" placeholder="Tweet Something" onChange={(onChange)} value={tweetText} />
         <button type="submit">Tweet</button>
       </label>
     </form>

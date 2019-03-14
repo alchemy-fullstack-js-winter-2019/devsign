@@ -22,8 +22,8 @@ SignForm.propTypes = {
   signType: PropTypes.string.isRequired,
   username: PropTypes.string.isRequired,
   password: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired
+  onChange: PropTypes.func,
+  onSubmit: PropTypes.func
 };
 
 export default SignForm;
