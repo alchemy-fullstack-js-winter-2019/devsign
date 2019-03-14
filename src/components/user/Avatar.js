@@ -1,6 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from 'styled-components';
-import profilePic from '../../../assets/drew.jpg';
+import { getImageUrl } from '../../services/images';
+
+export default function Avatar({ user, className }) {
+  const { handle, profileImg } = user;
+  return (
+    <ProfileUser>
+      <figure className={className}>
+        <i className="fas fa-kiwi-bird"><ProfileAvatar alt={`profile image for ${handle}`} src={getImageUrl(profileImg, ['w_250'])} /></i>
+        <figcaption>{handle}</figcaption>
+      </figure>
+    </ProfileUser>
+  );
+}
+
+Avatar.propTypes = {
+  user: PropTypes.object.isRequired,
+  className: PropTypes.string
+};
+
 
 const ProfileAvatar = styles.img`
 @media (min-width: 374px) {
@@ -29,17 +48,3 @@ const ProfileUser = styles.aside`
   }
 `;
 
-
-function Profile() {
-  return (
-    <ProfileUser>
-      <section>
-        <h2><i className="fas fa-kiwi-bird"></i> PERSONAL USERNAME </h2>
-        <ProfileAvatar src={profilePic} width="10%" />
-        <p> A person who loves you will never kick you when your down or pour salad on your wounds</p>
-      </section>
-    </ProfileUser>
-  );
-}
-
-export default Profile;

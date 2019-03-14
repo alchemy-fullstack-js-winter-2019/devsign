@@ -2,17 +2,18 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Callback from './container/auth/Callback';
+import { withSession } from './container/auth/withSession';
 
 export const ROUTES = {
   HOME: {
     path: '/',
-    Component: Home,
+    Component: withSession(Home),
     linkTo: () => '/'
   },
   CALLBACK: {
     path: '/callback',
     Component: Callback,
-    linkTo: () => '/'
+    linkTo: () => '/callback'
   }
 };
 
