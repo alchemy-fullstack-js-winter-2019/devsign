@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPost snapshot can match a snapshot 1`] = `
+Array [
+  <p>
+    My Blog
+  </p>,
+  <nav>
+    <span>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </span>
+    <span>
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </span>
+    <span>
+      <a
+        href="/posts"
+        onClick={[Function]}
+      >
+        Posts
+      </a>
+    </span>
+    <span>
+      <a
+        href="/about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+    </span>
+  </nav>,
+  <section>
+    <h3>
+      Add New Post
+    </h3>
+    <form>
+      <label
+        htmlFor="title"
+      >
+        Post Title
+      </label>
+      <input
+        id="title"
+        name="title"
+        placeholder="post title"
+        required={true}
+        size="30"
+        type="text"
+      />
+      <label
+        htmlFor="post"
+      >
+        Enter new post here
+      </label>
+      <textarea
+        cols="40"
+        id="post"
+        name="post"
+        rows="10"
+      >
+        Another awesome content here...
+      </textarea>
+      <button>
+        Add
+      </button>
+    </form>
+  </section>,
+  <p>
+    Copyright 2019
+  </p>,
+]
+`;

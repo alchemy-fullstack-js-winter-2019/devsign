@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home snapshot can match a snapshot 1`] = `
+Array [
+  <p>
+    My Blog
+  </p>,
+  <nav>
+    <span>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </span>
+    <span>
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </span>
+    <span>
+      <a
+        href="/posts"
+        onClick={[Function]}
+      >
+        Posts
+      </a>
+    </span>
+    <span>
+      <a
+        href="/about"
+        onClick={[Function]}
+      >
+        About
+      </a>
+    </span>
+  </nav>,
+  <section>
+    <h1>
+      Latest Posts
+    </h1>
+    <ul>
+      <li>
+        Post#1 Superfoods
+      </li>
+      <li>
+        Post#2 LeafyGreens
+      </li>
+      <li>
+        Post#3 Herbs & Spices
+      </li>
+    </ul>
+  </section>,
+  <p>
+    Copyright 2019
+  </p>,
+]
+`;
