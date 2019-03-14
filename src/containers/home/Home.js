@@ -31,12 +31,13 @@ const mapStateToProps = state => ({
   tweets: getTweets(state)
 });
 
-// const mapDispatchToProps = dispatch => ({
-//   onChange() {
+const mapDispatchToProps = () => ({
+  onChange() {
 
-//   }
-// });
+  }
+});
 
 export default connect(
-  mapStateToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(Home);

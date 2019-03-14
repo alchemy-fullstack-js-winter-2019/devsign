@@ -8,7 +8,7 @@ import Header from '../Header';
 import Home from '../../containers/home/Home';
 import SignPage from '../../containers/register/SignPage';
 import TopTweets from '../../containers/tweets/TopTweets';
-import User from '../users/User';
+import UserDisplay from '../../containers/users/UserDispaly';
 import './App.css';
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
       <>
         <Header />
         <Switch>
-          <Route path="/user/:id" component={User}></Route>
+          <Route path="/user/:id" component={UserDisplay}></Route>
           <Route path="/toptweets" component={TopTweets}></Route>
           <Route path="/register" component={SignPage}></Route>
           <Route path="/" component={Home}></Route>

@@ -1,18 +1,35 @@
+import { connect } from 'react-redux';
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import User from '../../components/users/User';
+import { getUser } from '../../selectors/tweets';
 
-export default class UserDisplay extends PureComponent {
+class UserDisplay extends PureComponent {
   static propTypes = {
-    fetch: PropTypes.func.isRequired,
-    user: PropTypes.object.isRequired
-  }
+    user: PropTypes.object.isRequired,
+    fetch: PropTypes.func
+  };
 
   componentDidMount() {
-    this.fetch();
+    this.props.fetch();
   }
 
   render() {
-    return <User {...this.props} />;
+    const { user } = this.props;
+    return <User {...user} />;
   }
 }
+
+const mapStateToProps = state => ({
+  user: getUser(state)
+});
+
+const mapDispatchToProps = () => ({
+  fetch() { 
+  }
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(UserDisplay);

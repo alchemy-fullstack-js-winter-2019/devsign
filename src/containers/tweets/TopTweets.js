@@ -7,7 +7,7 @@ import { getTweets } from '../../selectors/tweets';
 class TopTweets extends PureComponent {
   static propTypes = {
     tweets: PropTypes.array.isRequired
-  }
+  };
 
   render() {
     return (
