@@ -1,4 +1,4 @@
-.main {
+/* .main {
   ul {
     padding: 0;
   }
@@ -32,4 +32,30 @@
       
     }
   }
-}  
+}   */
+.MainTweets {
+  margin: auto;
+  section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 1px solid black;
+    margin: .5em;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  img {
+    max-height: 10vh;
+  }
+  figure {
+    margin: auto;
+  }
+  h3 {
+    margin: 2px;
+    text-align: center;
+  }
+  p {
+    margin: auto;
+  }
+}

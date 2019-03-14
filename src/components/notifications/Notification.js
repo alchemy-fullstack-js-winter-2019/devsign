@@ -5,7 +5,7 @@ import styles from './Notification.css';
 function Notification({ notification }) {
   const { user, action } = notification;
   return (
-    <section style={styles}>
+    <section className={styles.Notification}>
       <img src={user.image} alt="user avatar" />
       <p>{action}</p>
       <h3>{user.handle}</h3>
