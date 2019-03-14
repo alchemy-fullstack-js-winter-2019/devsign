@@ -6,6 +6,9 @@
     margin: .5em;
     padding: 0;
   }
+  ul {
+    list-style: none;
+  }
 }
 .date {
   font-size: .75em;

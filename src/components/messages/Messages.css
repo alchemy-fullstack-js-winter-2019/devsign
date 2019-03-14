@@ -1,0 +1,11 @@
+.Messages {
+  display: block;
+  h3{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+
+  }
+}

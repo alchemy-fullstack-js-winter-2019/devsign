@@ -1,24 +1,18 @@
-.User {
-  article {
-    text-align: center;
-  } 
+.User { 
   figure {
+    height: 10vh;
     margin: .5em;
   }
   img {
     border-radius: 60px;
-    margin: auto;
   }
   h3 {
-    text-align: center;
     margin: .5em;
   }
   h4{
-    text-align: center;
     margin: .5em;
   }
   p {
     font-size: .75em;
-    text-align: center;
   }
 }

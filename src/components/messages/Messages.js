@@ -1,6 +1,7 @@
 import React from 'react';
 import Message from './Message';
 import PropTypes from 'prop-types';
+import styles from './Messages.css';
 
 const alerts = [
   {
@@ -34,10 +35,10 @@ export default function Messages({ messages = alerts }) {
   });
   
   return (
-    <>
+    <section className={styles.Messages}>
       <h3>Messages</h3>
-      <ul>{listOfMessages}</ul>
-    </>
+      <ul >{listOfMessages}</ul>
+    </section>
   );
 }
 
