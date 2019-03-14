@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { getToken } from '../../selectors/session';
 import { Redirect } from 'react-router-dom';
 import { setSession } from '../../actions/session';
+import Loading from '../../components/Loading';
 // import { ROUTES } from '../../routes';
 
 class Callback extends PureComponent {
@@ -20,7 +21,7 @@ class Callback extends PureComponent {
     if(this.props.token) {
       return <Redirect to='/home' />;
     }
-    return <h1>LOADING</h1>;
+    return <Loading />;
   }
 }
 

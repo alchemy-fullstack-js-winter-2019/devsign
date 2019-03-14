@@ -1,25 +1,25 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const Container = styled.section `
+const Container = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 `;
 
-const loader = keyframes `
+const loader = keyframes`
   from { letter-spacing: -1px; }
   to { letter-spacing: 15px; }
 `;
 
-const Banner = styled.h2 `
+const Banner = styled.div`
   position: relative;
   padding: 10px 20px;
-  animation: ${loader} 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
+  animation: ${loader} 1s cubic-bezier(0.5, 0.1,0.15, 1) alternate infinite;
 
-  &::before {
-    content: ';
+  ::before {
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
@@ -31,7 +31,7 @@ const Banner = styled.h2 `
   }
 `;
 
-const SubBanner = styled.div `
+const SubBanner = styled.div`
   width: 60px;
   height: 100%;
   position: absolute;
@@ -41,15 +41,15 @@ const SubBanner = styled.div `
   background-color: #ccc;
 `;
 
-const subBannerLeft = keyframes `
+const subBannerLeft = keyframes`
   from { right: 82%; }
   to { right: 90%; }
 `;
 
 const LeftBanner = styled(SubBanner)`
-  animation: ${subBannerLeft} 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
+  animation: ${subBannerLeft} 1s cubic-bezier(0.5,0.1, 0.15, 1) alternate infinite;
 
-  &::before {
+  ::before {
     content: '';
     width: 0;
     height: 0;
@@ -58,11 +58,11 @@ const LeftBanner = styled(SubBanner)`
     left: -1px;
     border: 22px solid;
     border-color: transparent;
-    border-left-color: #18506F
+    border-left-color: #c16834
   }
 `;
 
-const subBannerRight = keyframes `
+const subBannerRight = keyframes`
   from { left: 82% }
   to { left: 90% }
 `;
@@ -70,7 +70,7 @@ const subBannerRight = keyframes `
 const RightBanner = styled(SubBanner)`
   animation: ${subBannerRight} 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
 
-  &::before {
+  ::before {
     content: '';
     width: 0;
     height: 0;
@@ -79,7 +79,7 @@ const RightBanner = styled(SubBanner)`
     right: -1px;
     border: 22px solid;
     border-color: transparent;
-    border-right-color: #18506F
+    border-right-color: #c16834
   }
 `;
 

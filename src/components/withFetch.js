@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
+import Loading from './Loading';
 
 export const withFetch = Component => {
   class WithFetch extends PureComponent {
@@ -17,7 +18,7 @@ export const withFetch = Component => {
     }
 
     render() {
-      if(this.props.loading) return <h1>LOADING</h1>;
+      if(this.props.loading) return <Loading />;
       return <Component { ...this.props } />;
     }
   }
