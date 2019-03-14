@@ -35,7 +35,7 @@ export const Form = styled.form `
 `;
 
 export const Label = styled.label `
-  color: #c16834;
+  display: none;
 `;
 
 export const Input = styled.input `
