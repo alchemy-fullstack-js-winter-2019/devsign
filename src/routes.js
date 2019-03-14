@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Profile from './components/Profile';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Profile from './components/profile/Profile';
 import Callback from './containers/auth/Callback';
 import { withSession } from './containers/auth/withSession';
 
