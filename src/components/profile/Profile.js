@@ -1,6 +1,6 @@
 import React from 'react';
 import User from '../user/User';
-import ProfileContainer from '../../containers/ProfileContainer';
+import ProfileTweets from '../../containers/ProfileTweets';
 import styles from './Profile.css';
 const user = {
   handle: 'T_on_A',
@@ -19,7 +19,7 @@ export default function Profile() {
         </aside>
       </article>
       <article>
-        <ProfileContainer />
+        <ProfileTweets />
       </article>
     </main>
   );
