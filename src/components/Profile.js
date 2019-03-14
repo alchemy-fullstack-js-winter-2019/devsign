@@ -10,10 +10,10 @@ function Profile() {
   return (
     <>
     <Nav />
-      <CreateChirpForm />
     <Main>
       <CurrentUser />
       <Section>
+        <CreateChirpForm />
         <UserProfileChirps />
       </Section>
     </Main>

@@ -19,7 +19,7 @@ function Nav() {
       </List>
 
       <StyledLink to="profile">
-        <MobileProfileImage alt="profile pic" src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"/>
+        <MobileProfileImage alt="profile pic" src="https://joeschmoe.io/api/v1/jeane"/>
       </StyledLink>
       
       <SearchForm />

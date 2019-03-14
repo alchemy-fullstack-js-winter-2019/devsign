@@ -10,7 +10,7 @@ function CreateChirpForm({ text }) {
         <Label htmlFor="newChirpText">Name</Label>
         <NewChirpInput readOnly={true} type="text" name="newChirpText" id="newChirpText" value={text} />
         <Label htmlFor="newChirp"></Label>
-        <NewChirpButton id="newChirp">Chirp</NewChirpButton>
+        <NewChirpButton id="newChirp">Post</NewChirpButton>
       </ChirpForm>
     </section>
   );

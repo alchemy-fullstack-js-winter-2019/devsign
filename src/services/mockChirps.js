@@ -3,147 +3,147 @@
 export const getChirps = () => {
   return Promise.resolve([
     { _id: '1234', 
-      text: 'some text', 
+      text: 'Never once touched my per diem. Id go to Craft Service, get some raw veggies, bacon, Cup-A-Soup…baby, I got a stew goin', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jolee',
+        handle: '@boleejolee',
         profileImage: 'https://joeschmoe.io/api/v1/jolee',
-        location: 'location'
+        location: 'Minneapolis, MN'
       }
     },
     { _id: '1235', 
-      text: 'some text', 
+      text: 'Michael was concerned that he was caught in a lie about his family. The family was concerned that they were being confronted by a woman they had clubbed, drugged, and left on a bench. A lady of the evening.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jed',
+        handle: '@jedAndNed',
         profileImage: 'https://joeschmoe.io/api/v1/jed',
-        location: 'location'
+        location: 'Palm Beach, FL'
       }
     },
     { _id: '1236', 
-      text: 'some text', 
+      text: 'What is she doing at a beauty pageant?', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jodi',
+        handle: '@takeMeSailing',
         profileImage: 'https://joeschmoe.io/api/v1/jodi',
-        location: 'location'
+        location: 'Tulsa, OK'
       }
     },
     { _id: '1237',
-      text: 'some text', 
+      text: 'What, so the guy we are meeting with cant even grow his own hair? COME ON! ', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jean',
+        handle: '@kittyKat',
         profileImage: 'https://joeschmoe.io/api/v1/jean',
-        location: 'location'
+        location: 'New York, NY'
       }
     },
     { _id: '1238', 
-      text: 'some text', 
+      text: 'Everything they do is so dramatic and flamboyant. It just makes me want to set myself on fire. - Lucille Bluth.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jeri',
+        handle: '@gimmeAllTheIceCream',
         profileImage: 'https://joeschmoe.io/api/v1/jeri',
-        location: 'location'
+        location: 'San Francisco, CA'
       }
     },
     { _id: '1239', 
-      text: 'some text', 
+      text: 'You need to do more with Rita. Believe me, Id like to. She keeps saying that God is going to show me a sign. The… something of my ways.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jerry',
+        handle: '@whoopThereItIs',
         profileImage: 'https://joeschmoe.io/api/v1/jerry',
-        location: 'location'
+        location: 'Salt Lake City, UT'
       }
     },
     { _id: '12340', 
-      text: 'some text', 
+      text: 'The Army had half a day.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jane',
+        handle: '@nope_nope',
         profileImage: 'https://joeschmoe.io/api/v1/jane',
-        location: 'location'
+        location: 'Los Angeles, CA'
       }
     },
     { _id: '1241', 
-      text: 'some text', 
+      text: 'The guy in the $4,000 suit is holding the elevator for a guy who doesnt make that in three months.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jaqueline',
+        handle: '@jackie420',
         profileImage: 'https://joeschmoe.io/api/v1/jaqueline',
-        location: 'location'
+        location: 'Phoenix, AZ'
       }
     },
     { _id: '1242', 
-      text: 'some text', 
+      text: 'In fact, it was a box of Oscars legally obtained medical marijuana. Primo bud.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jai',
+        handle: '@bananananana',
         profileImage: 'https://joeschmoe.io/api/v1/jai',
-        location: 'location'
+        location: 'Portland, OR'
       }
     },
     { _id: '1236', 
-      text: 'some text', 
+      text: 'Never once touched my per diem.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jodi',
+        handle: '@takeMeSailing',
         profileImage: 'https://joeschmoe.io/api/v1/jodi',
-        location: 'location'
+        location: 'Tulsa, OK'
       }
     },
     { _id: '1237',
-      text: 'some text', 
+      text: 'Should beat everything.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jean',
+        handle: '@kittyKat',
         profileImage: 'https://joeschmoe.io/api/v1/jean',
-        location: 'location'
+        location: 'New York, NY'
       }
     },
     { _id: '1238', 
-      text: 'some text', 
+      text: 'Youre losing blood, arent you? Probably, my socks are wet.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jeri',
+        handle: '@gimmeAllTheIceCream',
         profileImage: 'https://joeschmoe.io/api/v1/jeri',
-        location: 'location'
+        location: 'San Francisco, CA'
       }
     },
     { _id: '1239', 
-      text: 'some text', 
+      text: 'Ive always been deeply passionate about nature.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jerry',
+        handle: '@whoopThereItIs',
         profileImage: 'https://joeschmoe.io/api/v1/jerry',
-        location: 'location'
+        location: 'Salt Lake City, UT'
       }
     },
     { _id: '12340', 
-      text: 'some text', 
+      text: 'Well, Michael, I did not find their buffoonery amusing.', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jane',
+        handle: '@nope_nope',
         profileImage: 'https://joeschmoe.io/api/v1/jane',
-        location: 'location'
+        location: 'Los Angeles, CA'
       }
     },
     { _id: '1241', 
-      text: 'some text', 
+      text: 'Sure, let the little fruit do it. HUZZAH! ', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jaqueline',
+        handle: '@jackie420',
         profileImage: 'https://joeschmoe.io/api/v1/jaqueline',
-        location: 'location'
+        location: 'Phoenix, AZ'
       }
     },
     { _id: '1242', 
-      text: 'some text', 
+      text: 'I need a fake passport, preferably to France… ', 
       user: {
-        name: 'name',
-        handle: 'handle',
+        name: 'Jai',
+        handle: '@bananananana',
         profileImage: 'https://joeschmoe.io/api/v1/jai',
-        location: 'location'
+        location: 'Portland, OR'
       }
     }
   ]);
@@ -152,7 +152,7 @@ export const getChirps = () => {
 export const getUser = () => {
   return Promise.resolve({
     name: 'Jeane',
-    handle: 'denimJeane',
+    handle: '@denimJeane',
     profileImage: 'https://joeschmoe.io/api/v1/jeane',
     bio: 'Fullstack MERN Developer / Animal Lover / Hiker',
     location: 'Portland, OR'
@@ -165,7 +165,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -174,7 +174,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -183,7 +183,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -192,7 +192,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -201,7 +201,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -210,7 +210,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -219,7 +219,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -228,7 +228,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -237,7 +237,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -246,7 +246,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -255,7 +255,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -264,7 +264,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -273,7 +273,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -282,7 +282,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -291,7 +291,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -300,7 +300,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -309,7 +309,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
@@ -318,7 +318,7 @@ export const getUserChirps = () => {
       text: 'Chirpity chirp chirp chiiiiirrrrp', 
       user: {
         name: 'Jeane',
-        handle: 'denimJeane',
+        handle: '@denimJeane',
         profileImage: 'https://joeschmoe.io/api/v1/jeane',
         location: 'Portland, OR'
       }
