@@ -16,3 +16,18 @@ label {
 .tweetList {
   list-style: none;
 }
+
+h1 {
+  margin: 0;
+  text-align: center;
+  display: inline;
+	position: relative;
+	font: 5em Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+h1:after {
+	content: "Rockin Robin";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
+}
