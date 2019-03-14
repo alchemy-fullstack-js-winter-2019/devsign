@@ -10,7 +10,7 @@ export const withFetch = Component => {
 
     static defaultProps = {
       loading: false
-    }
+    };
 
     componentDidMount() {
       this.props.fetch();
