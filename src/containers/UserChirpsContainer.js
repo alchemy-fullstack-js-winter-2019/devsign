@@ -1,11 +1,13 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { fetchPopularChirps } from '../actions/chirps';
+import { fetchChirps } from '../actions/chirps';
 import PropTypes from 'prop-types';
-import PopularChirps from '../components/chirps/PopularChirps';
+import UserChirps from '../components/chirps/UserChirps';
 import { getChirps } from '../selectors/chirps';
 
-class ChirpsContainer extends PureComponent {
+//need to fix selector to match only the user's tweets 
+
+class UserChirpsContainer extends PureComponent {
   static propTypes = {
     chirps: PropTypes.array,
     fetchPopular: PropTypes.func
@@ -17,7 +19,7 @@ class ChirpsContainer extends PureComponent {
 
   render() {
     return (
-      <PopularChirps chirps={this.props.chirps} />
+      <UserChirps chirps={this.props.chirps} />
     );
   }
 }
@@ -27,11 +29,11 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   fetchPopular() {
-    dispatch(fetchPopularChirps());
+    dispatch(fetchChirps());
   }
 });
 
 export default connect(
   mapStateToProps, 
   mapDispatchToProps
-)(ChirpsContainer);
+)(UserChirpsContainer);

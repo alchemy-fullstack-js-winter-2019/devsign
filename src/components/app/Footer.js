@@ -8,7 +8,7 @@ const Section = styled.section`
   padding: 2px;
   width: 100%;
   position: relative;
- margin-top: 60px;
+  margin-top: 60px;
   height: 60px;
 `;
 export default function Footer() {
@@ -20,8 +20,3 @@ export default function Footer() {
     </Section>
   );
 }
-
-
-
-
-
