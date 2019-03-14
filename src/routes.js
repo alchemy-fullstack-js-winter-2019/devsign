@@ -4,11 +4,13 @@ import Profile from './containers/Profile';
 import Home from './containers/Home';
 import Settings from './components/settings/Settings';
 import Login from './components/login/Login';
+import { withSession } from './containers/auth/withSession';
+
 
 export const ROUTES  = {
     HOME: {
         path: '/',
-        component: Home,
+        component: withSession(Home),
         linkTo: () => '/'
     },
 

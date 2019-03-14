@@ -9,6 +9,9 @@
     "browser": true,
     "jest": true
   },
+  "globals": {
+    "process"
+  },
   "plugins": [
     "babel",
     "react"
