@@ -40,11 +40,11 @@ export const Label = styled.label `
 
 export const Input = styled.input `
   background-color: white;
-  border-radius: 2px;
-  border-top: #bdbbbb solid 1px;
-  border-left: #bdbbbb solid 1px;
-  border-right: #bdbbbb solid 3px;
-  border-bottom: #a2a1a1 solid 3px;
+  border-radius: 7px;
+  border-top: #fae6d4 solid 1px;
+  border-left: #fae6d4 solid 1px;
+  border-right: #f1cd9e solid 3px;
+  border-bottom: #f2cca3 solid 3px;
   margin-bottom: 5px;
   padding: 5px;
 `;

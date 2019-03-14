@@ -9,6 +9,9 @@ export const Aside = styled.aside `
   font-family: 'Prompt', sans-serif;
   background-color: white;
   border-bottom: #e2e2dc solid 2px;
+  border-bottom: #b95000 solid 4px;
+  border-right: #e6a573 solid 4px;
+  border-top-left-radius: 7px;
   align-self: flex-start;
 }
 `;
