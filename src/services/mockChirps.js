@@ -7,7 +7,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jolee',
         location: 'location'
       }
     },
@@ -16,7 +16,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jed',
         location: 'location'
       }
     },
@@ -25,7 +25,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jodi',
         location: 'location'
       }
     },
@@ -34,7 +34,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jean',
         location: 'location'
       }
     },
@@ -43,7 +43,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jeri',
         location: 'location'
       }
     },
@@ -52,7 +52,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jerry',
         location: 'location'
       }
     },
@@ -61,7 +61,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jane',
         location: 'location'
       }
     },
@@ -70,7 +70,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jaqueline',
         location: 'location'
       }
     },
@@ -79,7 +79,7 @@ export const getChirps = () => {
       user: {
         name: 'name',
         handle: 'handle',
-        profileImage: 'https://joeschmoe.io/api/v1/random',
+        profileImage: 'https://joeschmoe.io/api/v1/jai',
         location: 'location'
       }
     },
