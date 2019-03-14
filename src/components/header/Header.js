@@ -29,12 +29,12 @@ export default function Header() {
           </nav>
         </header>
         <Switch>
-          <Route exact path='/' component={withSession(Landing)} />
-          <Route exact path='/login-signup' component={LoginSignup} />
-          <Route exact path='/notifications' component={Notifications} />
-          <Route exact path='/profile' component={Profile} />
+          <Route exact path='/' component={Landing} />
+          
+          <Route exact path='/notifications' component={withSession(Notifications)} />
+          <Route exact path='/profile' component={withSession(Profile)} />
           <Route exact path='/loading' component={Loading} />
-          <Route exact path='/messages' component={Messages} />
+          <Route exact path='/messages' component={withSession(Messages)} />
   
         </Switch>
       </div>
