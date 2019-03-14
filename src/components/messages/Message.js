@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Message.css';
 
-export default function Message({ message }) {
+function Message({ message }) {
   const { user, text, date } = message;
   return (
     <>
@@ -22,4 +22,4 @@ Message.propTypes = {
   message: PropTypes.object
 };
 
-
+export default Message;

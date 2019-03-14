@@ -8,7 +8,7 @@ import {
 import Landing from '../landing/Landing';
 import NotificationsContainer from '../../containers/NotificationsContainer';
 import Profile from '../profile/Profile';
-import Messages from '../messages/Messages';
+import MessagesContainer from '../../containers/MessagesContainer';
 import style from './Header.css';
 // import { withSession } from '../../containers/auth/withSession';
 
@@ -30,7 +30,7 @@ export default function Header() {
           <Route exact path='/' component={Landing} />
           <Route exact path='/notifications' component={NotificationsContainer} />
           <Route exact path='/profile' component={Profile} />
-          <Route exact path='/messages' component={Messages} />
+          <Route exact path='/messages' component={MessagesContainer} />
   
         </Switch>
       </div>

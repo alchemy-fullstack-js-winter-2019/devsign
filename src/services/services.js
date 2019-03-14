@@ -36,3 +36,32 @@ export const getNotifications = () => {
     }
   ]);
 }; 
+
+export const getMessages = () => {
+  return Promise.resolve([
+    {
+      user: {
+        handle: 'Huey',
+        image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg'
+      },
+      text: 'Good morrning',
+      date: 'March 13, 2019'
+    },
+    {
+      user: {
+        handle: 'Luey',
+        image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg'
+      },
+      text: 'Good morrning',
+      date: 'March 13, 2019'
+    },
+    {
+      user: {
+        handle: 'Duey',
+        image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg'
+      },
+      text: 'Good morrning',
+      date: 'March 13, 2019'
+    }
+  ]);
+};
