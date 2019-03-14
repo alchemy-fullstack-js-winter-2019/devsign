@@ -29,11 +29,9 @@ export default function Header() {
         </header>
         <Switch>
           <Route exact path='/' component={Landing} />
-
           <Route exact path='/notifications' component={withSession(Notifications)} />
-          <Route exact path='/profile' component={withSession(Profile)} />
-          <Route exact path='/loading' component={Loading} />
-          <Route exact path='/messages' component={withSession(Messages)} />
+          <Route exact path='/profile' component={Profile} />
+          <Route exact path='/messages' component={Messages} />
   
         </Switch>
       </div>

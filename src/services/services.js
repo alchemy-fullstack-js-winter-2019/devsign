@@ -7,3 +7,12 @@ export const getTweets = () => {
     { _id: '5', text: 'my firth tweet', user: { handle: 'R_R', image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg' } }
   ]);
 };
+
+export const getMyTweets = () => {
+  return Promise.resolve([
+    { _id: '1', text: 'my first tweet', user: { handle: 'T_on_A', image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg' } },
+    { _id: '2', text: 'my first tweet', user: { handle: 'T_on_A', image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg' } },
+    { _id: '3', text: 'my first tweet', user: { handle: 'T_on_A', image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg' } },
+    { _id: '4', text: 'my first tweet', user: { handle: 'T_on_A', image: 'https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg' } }
+  ]);
+};
