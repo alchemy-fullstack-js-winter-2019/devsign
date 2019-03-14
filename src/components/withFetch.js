@@ -5,7 +5,7 @@ import Loading from './Loading';
 export const withFetch = Component => {
   class WithFetch extends PureComponent {
     static propTypes = {
-      loading: PropTypes.bool,
+      loading: PropTypes.bool.isRequired,
       fetch: PropTypes.func.isRequired
     };
 

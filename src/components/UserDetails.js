@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { Aside, Bio } from '../styles/userDetails';
 import { ProfileImg, Handle } from '../styles/mainStyle';
 
-function UserDetails({ name, handle, profileImage, bio, location }) {
+function UserDetails({ user }) {
+  const { name, handle, profileImage, bio, location } = user;
   return (
     <Aside>
       <ProfileImg name="profileImage" src={profileImage} />
@@ -15,11 +16,7 @@ function UserDetails({ name, handle, profileImage, bio, location }) {
 }
 
 UserDetails.propTypes = {
-  name: PropTypes.string.isRequired,
-  handle: PropTypes.string.isRequired,
-  profileImage: PropTypes.string.isRequired,
-  bio: PropTypes.string.isRequired,
-  location: PropTypes.string
+  user: PropTypes.object.isRequired
 };
 
 export default UserDetails;

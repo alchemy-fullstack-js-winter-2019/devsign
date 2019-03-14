@@ -10,7 +10,8 @@ export default function reducer(state = initialState, { type, payload }) {
     case FETCH_USER:
       return {
         ...state,
-        user: payload
+        user: payload,
+        loading: false
       };
     case FETCH_USER_PENDING:
       return {

@@ -1,27 +1,8 @@
-import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import UserDetails from '../components/UserDetails';
 import { getUser, isUserLoading } from '../selectors/userDetails';
 import { fetchUser } from '../actions/userDetails';
-import PropTypes from 'prop-types';
-
-class CurrentUser extends PureComponent {
-  static propTypes = {
-    fetch: PropTypes.func.isRequired
-  };
-
-  componentDidMount() {
-    this.props.fetch();
-  }
-
-  render() {
-    return (
-      <>
-      {this.props && <UserDetails { ...this.props } />}
-      </>
-    );
-  }
-}
+import { withFetch } from '../components/withFetch';
 
 const mapStateToProps = state => ({
   user: getUser(state),
@@ -37,4 +18,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(CurrentUser);
+)(withFetch(UserDetails));

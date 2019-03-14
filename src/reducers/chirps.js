@@ -11,7 +11,8 @@ export default function reducer(state = initialState, { type, payload }) {
     case FETCH_CHIRPS:
       return {
         ...state,
-        chirps: payload
+        chirps: payload,
+        loading: false
       };
     case FETCH_CHIRPS_PENDING:
       return {
