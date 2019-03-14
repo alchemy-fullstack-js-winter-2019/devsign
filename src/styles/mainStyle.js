@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const StyledLink = styled(Link) `
@@ -117,6 +117,17 @@ export const Article = styled.article `
   background-color: white;
   border: #e2e2dc solid 2px;
   padding: 10px;
+  animation-name: ${listFall};
+  animation-duratcion: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1s;
+  animation-direction: forward;
+`;
+
+export const listFall = keyframes `
+  from { opacity: 0; }
+  to { opacity: 1; }
 `;
 
 

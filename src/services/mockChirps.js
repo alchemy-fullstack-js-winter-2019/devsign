@@ -83,6 +83,69 @@ export const getChirps = () => {
         location: 'location'
       }
     },
+    { _id: '1236', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jodi',
+        location: 'location'
+      }
+    },
+    { _id: '1237',
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jean',
+        location: 'location'
+      }
+    },
+    { _id: '1238', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jeri',
+        location: 'location'
+      }
+    },
+    { _id: '1239', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jerry',
+        location: 'location'
+      }
+    },
+    { _id: '12340', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jane',
+        location: 'location'
+      }
+    },
+    { _id: '1241', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jaqueline',
+        location: 'location'
+      }
+    },
+    { _id: '1242', 
+      text: 'some text', 
+      user: {
+        name: 'name',
+        handle: 'handle',
+        profileImage: 'https://joeschmoe.io/api/v1/jai',
+        location: 'location'
+      }
+    }
   ]);
 };
 
@@ -179,5 +242,86 @@ export const getUserChirps = () => {
         location: 'Portland, OR'
       }
     },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    },
+    { _id: '1234', 
+      text: 'Chirpity chirp chirp chiiiiirrrrp', 
+      user: {
+        name: 'Jeane',
+        handle: 'denimJeane',
+        profileImage: 'https://joeschmoe.io/api/v1/jeane',
+        location: 'Portland, OR'
+      }
+    }
   ]);
 };

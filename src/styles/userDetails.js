@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ProfileImg } from './mainStyle';
 
 export const Aside = styled.aside `
   display: none;
@@ -14,6 +15,11 @@ export const Aside = styled.aside `
   border-top-left-radius: 7px;
   align-self: flex-start;
 }
+`;
+
+export const Avatar = styled(ProfileImg) `
+  width: 100px;
+  height: 100px;
 `;
 
 export const Bio = styled.p `
