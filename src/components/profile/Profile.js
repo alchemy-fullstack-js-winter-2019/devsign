@@ -4,6 +4,7 @@ function Profile() {
   return (
     <>
       <img src="https://via.placeholder.com/150" />
+      <h2>Username</h2>
     </>
   );
 }

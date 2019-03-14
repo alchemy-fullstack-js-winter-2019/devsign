@@ -13,6 +13,11 @@
     justify-content: flex-end;
     list-style-type: none;
     align-items: center;
+    padding: 20px;
+  }
+
+  li {
+    padding: 10px;
   }
 }
 
