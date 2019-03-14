@@ -12,6 +12,10 @@ export const login = () => {
   return auth0.authorize();
 };
 
+export const logout = () => {
+  return auth0.logout();
+};
+
 export const handleAuth = () => {
   return new Promise((resolve, reject) => {
     auth0.parseHash((err, result) => {
