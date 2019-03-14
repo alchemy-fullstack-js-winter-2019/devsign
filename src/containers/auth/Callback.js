@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getToken } from '../../selectors/session';
 import { Redirect } from 'react-router-dom';
 import { setSession } from '../../actions/session';
-import { ROUTES } from '../../routes';
+// import { ROUTES } from '../../routes';
 
 class Callback extends PureComponent {
   static propTypes = {

@@ -98,7 +98,6 @@ export const Section = styled.section `
 
   @media (min-width: 700px) {
     width: 72%;
-    margin: 5px;
   }
 `;
 

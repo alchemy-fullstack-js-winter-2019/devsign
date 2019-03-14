@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import UserDetails from '../components/UserDetails';
-import { getUser } from '../selectors/userDetails';
+import { getUser, isUserLoading } from '../selectors/userDetails';
 import { fetchUser } from '../actions/userDetails';
 import PropTypes from 'prop-types';
 
@@ -20,7 +20,8 @@ class CurrentUser extends PureComponent {
 }
 
 const mapStateToProps = state => ({
-  user: getUser(state)
+  user: getUser(state),
+  loading: isUserLoading(state)
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -32,4 +33,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(UserDetails);
+)(CurrentUser);

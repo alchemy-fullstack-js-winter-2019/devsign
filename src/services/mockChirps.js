@@ -87,10 +87,11 @@ export const getChirps = () => {
 };
 
 export const getUser = () => {
-  return Promise.resolve({
+  return Promise.resolve([{
     name: 'Kaiya',
     handle: 'ladybeard',
     profileImage: 'https://joeschmoe.io/api/v1/random',
+    bio: 'Fullstack MERN Developer / Animal Lover / Hiker',
     location: 'Portland, OR'
-  });
+  }]);
 };

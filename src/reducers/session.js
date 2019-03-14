@@ -3,10 +3,8 @@ import { SET_SESSION } from '../actions/session';
 const initialState = {
   token: '',
   id: '',
-  handle: '',
-  profileImage: '',
-  bio: '',
-  location: ''
+  nickname: '',
+  name: '',
 };
 
 export default function reducer(state = initialState, { type, payload }) {
