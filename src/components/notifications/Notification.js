@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Notification.css';
 
-export default function Notification({ notification }) {
+function Notification({ notification }) {
   const { user, action } = notification;
   return (
     <section style={styles}>
@@ -15,3 +15,5 @@ export default function Notification({ notification }) {
 Notification.propTypes = {
   notification: PropTypes.object
 };
+
+export default Notification;

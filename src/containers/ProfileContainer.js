@@ -8,11 +8,11 @@ import { withFetch } from '../components/withFetch';
 const mapStateToProps = state => ({
   tweets: getMyTweets(state),
   loading: isLoading(state)
-})
+});
 
 const mapDispatchToProps = dispatch => ({
   fetch() {
-    return dispatch(fetchMyTweets())
+    return dispatch(fetchMyTweets());
   }
 });
 

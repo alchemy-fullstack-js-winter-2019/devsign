@@ -6,19 +6,18 @@ import {
   Link
 } from 'react-router-dom';
 import Landing from '../landing/Landing';
-import Notifications from '../notifications/Notifications';
+import NotificationsContainer from '../../containers/NotificationsContainer';
 import Profile from '../profile/Profile';
-import Loading from '../loading/Loading';
 import Messages from '../messages/Messages';
 import style from './Header.css';
-import { withSession } from '../../containers/auth/withSession';
+// import { withSession } from '../../containers/auth/withSession';
 
 export default function Header() {
   return (
     <Router>
       <div styles={style.header}>
         <header>
-          <h1>Twitter Clone</h1>
+          <h1>rettiwT</h1>
           <nav>
             <Link to='/'>Home</Link>
             <Link to='/messages'>Messages</Link>
@@ -29,7 +28,7 @@ export default function Header() {
         </header>
         <Switch>
           <Route exact path='/' component={Landing} />
-          <Route exact path='/notifications' component={withSession(Notifications)} />
+          <Route exact path='/notifications' component={NotificationsContainer} />
           <Route exact path='/profile' component={Profile} />
           <Route exact path='/messages' component={Messages} />
   
