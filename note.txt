@@ -278,3 +278,82 @@ about: {
   component: About,
   linkTo: () => '/about'
 }
+
+
+Backend
+
+add eslint file from a backend app
+
+server.js
+- const app = require('./lib/app);
+  const PORT = process.env.PORT || 7891
+  app.listen(PORT, () => {
+    console.log('Running');
+  })
+lib folder
+- tests
+  - seedData.js
+  const chance = require('chance').Chance();
+  const Tweet = require('../lib/models/Tweet);
+  function seeData() {
+    const tweetsToCreate = [...Array(100)];
+    tweetsToCreate.map({
+      handle: chance.name(),
+      text: chance.sentence()
+    })
+  }
+- app.js
+  - const express = require('express');
+  const app = express();
+  module.exports = app;
+  const connection = require('./middleware/connection');
+  const { handler } = require('/middleware/error');
+  app.use('/tweets', connection, require('./routes/tweets'));
+  const error 
+- middleware file
+  - connection - connect to mongodb
+  - error // error handler
+- util folder 
+  - connect file //check we are connected to mongodb
+
+models folder
+- Tweet.js
+  const mongoose = require('mongoose');
+  const tweetSchema = new mongoose.Schema({
+    user: {
+      type: String,
+      required: true
+    },
+    text: {
+      type: String,
+      required: true
+    }
+  });
+  const Tweet = mongoose.model('Tweet', tweetSchema);
+  module.exports = Tweet;
+
+routes folder
+- tweets.js file
+  const { Router } = require('express');
+  module.export = Router()
+  .post('/', (req,res, next ) => {
+
+  })
+  .get()
+  .get()
+  .delete()
+
+npm i express 
+npm i mongoose
+npm init - y 
+npm i -D eslint supertest jest
+
+starting mongodb and start robot 3T
+npm run seed
+npm i -D dotenv
+
+create a dotenv file
+- mongodb
+
+seeData
+profileImage: chance.pickOne()

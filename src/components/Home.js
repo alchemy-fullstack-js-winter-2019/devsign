@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import PopularTweets from '../services/tweets';
+import TrendingTweets from '../containers/TrendingTweets';
 import { login } from '../services/auth';
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Navigation />
     </header>
     <main>
-      <PopularTweets />
+      <TrendingTweets />
     </main>
     </>
   );

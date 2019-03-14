@@ -7,7 +7,7 @@ export default function Tweet({ name, handle, text, profileImage }) {
     <>
     <section>
       <header className={styles.tweet}>
-        <img src={profileImage} alt="bugs bunny"/>
+        <img src={profileImage} alt={name}/>
         <h2>{name}</h2>
         <h3>{handle}</h3>
       </header>
