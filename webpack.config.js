@@ -1,17 +1,20 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
+const DotenvPlugin = require('dotenv-webpack');
 
 //eslint-disable-next-line
 module.exports = {
   entry: './react-mockup/src/index.js',
   output: {
-    filename: 'bundle.[hash].js'
+    filename: 'bundle.[hash].js',
+    publicPath: '/'
   },
   devServer: {
     port: 7890,
     historyApiFallback: true
   },
   plugins: [
+    new DotenvPlugin(),
     new HtmlPlugin({
       template: './react-mockup/src/index.html'
     }),
