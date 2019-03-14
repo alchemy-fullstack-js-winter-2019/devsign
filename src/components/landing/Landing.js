@@ -1,8 +1,7 @@
 import React from 'react';
 import style from './Home.css';
-import Tweets from '../tweets/Tweets';
-
-export default function Home() {
+import PopularTweets from '../../containers/PopularTweets';
+export default function Landing() {
   return (
     <main className={style.main}>
       <header className={style.header}>
@@ -18,7 +17,7 @@ export default function Home() {
           <button>Tweet</button>
         </section>
       </header>
-      <Tweets tweets={tweets}/>
+      <PopularTweets />
     </main>
   );
 }

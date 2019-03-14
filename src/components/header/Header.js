@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom';
 import LoginSignup from '../login/LoginSignUp';
-import Home from '../home/Home';
+import Landing from '../landing/Landing';
 import Notifications from '../notifications/Notifications';
 import Profile from '../profile/Profile';
 import Loading from '../loading/Loading';
@@ -29,7 +29,7 @@ export default function Header() {
           </nav>
         </header>
         <Switch>
-          <Route exact path='/' component={withSession(Home)} />
+          <Route exact path='/' component={withSession(Landing)} />
           <Route exact path='/login-signup' component={LoginSignup} />
           <Route exact path='/notifications' component={Notifications} />
           <Route exact path='/profile' component={Profile} />
