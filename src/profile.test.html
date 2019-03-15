@@ -1,0 +1,12 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+describe('Profile', () => {
+  it('matches a snapshot', () => {
+    <profile/>;
+    const tree = renderer.create(
+      <profile/>
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
