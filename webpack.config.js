@@ -1,6 +1,8 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const DotenvPlugin = require('dotenv-webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 /* eslint-disable-next-line */
 module.exports = {
   entry: ['@babel/polyfill', './src/index.js'],
@@ -13,6 +15,9 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    new CopyWebpackPlugin([{ 
+      from: 'public'
+    }]),
     new DotenvPlugin(),
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanPlugin('./dist')

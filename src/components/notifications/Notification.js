@@ -6,9 +6,11 @@ function Notification({ notification }) {
   const { user, action } = notification;
   return (
     <section className={styles.Notification}>
-      <img src={user.image} alt="user avatar" />
+      <figure>
+        <img src={user.image} alt="user avatar" />
+        <h3>{user.handle}</h3>
+      </figure>
       <p>{action}</p>
-      <h3>{user.handle}</h3>
     </section>
   );
 }
