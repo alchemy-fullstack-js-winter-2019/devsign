@@ -1,6 +1,17 @@
 .Post {
+  height: 2em;
   background-color: #DEEBED;
-  label {
+  display: flex;
+  justify-content: center;
+
+  button {
     margin: auto;
+    background-color: #D8D8D8;
+    border-radius: 5px;
+  }
+  
+  input {
+    border-radius: 5px;
+    margin: 1.0em  
   }
 }

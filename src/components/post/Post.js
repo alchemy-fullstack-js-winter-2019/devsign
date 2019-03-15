@@ -6,7 +6,7 @@ function Post() {
       <section className={styles.Post}>
         <form>
           <label>Post a Tweet</label>
-          <input type="text" placeholder='Tweet at me'/>
+          <input type="text" placeholder='Tweet at me' name="post"/>
           <button>teewT</button>
         </form>
       </section>
