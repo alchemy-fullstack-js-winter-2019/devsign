@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import User from '../user/User';
 
 function Tweet({ tweet }) {
   const { text, user } = tweet;
   return (
     <>
-    <p>{text}</p>
-    <p>{user}</p>
+   <User user={user} />
+   <p>{text}</p>
     </>
   );
 }
