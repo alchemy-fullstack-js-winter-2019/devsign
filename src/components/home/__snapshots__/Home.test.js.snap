@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Layout makes a snapshot 1`] = `
+<main
+  className="Home"
+>
+  <ul
+    className="sc-htpNat lezfFx"
+  >
+    <li>
+      <section
+        className="sc-bwzfXH dBsLsH"
+      >
+        <figure
+          className="sc-bdVaJa cYaVV"
+        >
+          <img
+            alt="profile image for Tweedy"
+            src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/http://i.pravatar.cc/1000"
+          />
+          <figcaption>
+            Tweedy
+          </figcaption>
+        </figure>
+        <p>
+          My first tweet
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        className="sc-bwzfXH dBsLsH"
+      >
+        <figure
+          className="sc-bdVaJa cYaVV"
+        >
+          <img
+            alt="profile image for Mocking Jay"
+            src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/http://i.pravatar.cc/1000"
+          />
+          <figcaption>
+            Mocking Jay
+          </figcaption>
+        </figure>
+        <p>
+          I just flew in from Boise
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        className="sc-bwzfXH dBsLsH"
+      >
+        <figure
+          className="sc-bdVaJa cYaVV"
+        >
+          <img
+            alt="profile image for Parrot"
+            src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/http://i.pravatar.cc/1000"
+          />
+          <figcaption>
+            Parrot
+          </figcaption>
+        </figure>
+        <p>
+          A guy is sitting at an airport bar
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        className="sc-bwzfXH dBsLsH"
+      >
+        <figure
+          className="sc-bdVaJa cYaVV"
+        >
+          <img
+            alt="profile image for Doug"
+            src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/http://i.pravatar.cc/1000"
+          />
+          <figcaption>
+            Doug
+          </figcaption>
+        </figure>
+        <p>
+          ...Tower, please call me a fuel truck.
+        </p>
+      </section>
+    </li>
+    <li>
+      <section
+        className="sc-bwzfXH dBsLsH"
+      >
+        <figure
+          className="sc-bdVaJa cYaVV"
+        >
+          <img
+            alt="profile image for Polly"
+            src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/http://i.pravatar.cc/1000"
+          />
+          <figcaption>
+            Polly
+          </figcaption>
+        </figure>
+        <p>
+          KLM 242 expect start up in two hours
+        </p>
+      </section>
+    </li>
+  </ul>
+</main>
+`;

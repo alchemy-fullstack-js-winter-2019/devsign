@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Layout makes a snapshot 1`] = `
+<header
+  className="Header"
+>
+  <img
+    src="/path/to/image"
+  />
+  <h1>
+    TWISTLER
+  </h1>
+  <h2>
+    ...a yeah we are not twitter
+  </h2>
+</header>
+`;

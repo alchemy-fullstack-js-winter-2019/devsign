@@ -9,7 +9,7 @@ export default function Header() {
     <header className={styles.Header}>
       <img src={logoPic}/>
       <h1>TWISTLER</h1>
-      <h2>...a yeah we are not twitter</h2>
+      <h2>the only weather twitter app</h2>
     </header>
   );
-}
+};

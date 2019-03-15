@@ -1,14 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Header from './Header';
+import Home from './Home';
 
-describe('Header Layout', () => {
+
+describe('Home Layout', () => {
   it('makes a snapshot', () => {
     const component = renderer.create(
-      <Header />
+      <Home />
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
-
