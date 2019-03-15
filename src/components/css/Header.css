@@ -16,6 +16,10 @@
     padding: 20px;
   }
 
+  a {
+    color: white;
+  }
+
   li {
     padding: 10px;
   }

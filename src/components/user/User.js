@@ -7,7 +7,7 @@ function User({ user }) {
   return ( 
     <figure className={styles.user}>
       <figcaption>{handle}</figcaption>
-      <img src={profileImg} />
+      <img alt="profileImage" src={profileImg} />
     </figure>
   );
 }
