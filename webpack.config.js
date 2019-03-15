@@ -15,10 +15,10 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
-    new CopyWebpackPlugin([{ 
+    new DotenvPlugin(),
+    new CopyWebpackPlugin([{
       from: 'public'
     }]),
-    new DotenvPlugin(),
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanPlugin('./dist')
   ],
