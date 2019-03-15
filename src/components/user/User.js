@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../css/User.css';
 
 function User({ user }) {
   const { handle, profileImg } = user;
   return ( 
-    <figure>
+    <figure className={styles.user}>
       <figcaption>{handle}</figcaption>
       <img src={profileImg} />
     </figure>

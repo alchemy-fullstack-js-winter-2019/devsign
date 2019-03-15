@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { fetchTweets } from '../../actions/tweets';
 import { getTweets } from '../../selectors/tweets';
 import Tweets from '../../components/tweets/Tweets';
-// import Home from '../../components/home/Home';
 
 class TopTweets extends PureComponent {
   static propTypes = {
