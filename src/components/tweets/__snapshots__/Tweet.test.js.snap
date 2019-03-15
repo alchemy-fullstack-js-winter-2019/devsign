@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet matches a snapshot 1`] = `
+<section
+  className="sc-bwzfXH dBsLsH"
+>
+  <figure
+    className="sc-bdVaJa cYaVV"
+  >
+    <img
+      alt="profile image for undefined"
+      src="http://res.cloudinary.com/fieldnotesmedia/image/fetch/w_250/undefined"
+    />
+    <figcaption />
+  </figure>
+  <p />
+</section>
+`;

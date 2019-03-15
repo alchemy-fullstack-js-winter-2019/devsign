@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import { getImageUrl } from '../../services/image';
 
 function UserPic({ user, className }) {
-  const { handle, profileImg } = user;
+  const { handle, userPic } = user;
   return (
     <figure className={className}>
-      <img alt={`profile image for ${handle}`} src={getImageUrl(profileImg, ['w_250'])} />
+      <img alt={`profile image for ${handle}`} src={getImageUrl(userPic, ['w_250'])} />
       <figcaption>{handle}</figcaption>
     </figure>
   );
