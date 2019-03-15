@@ -10,7 +10,7 @@ import NotificationsContainer from '../../containers/NotificationsContainer';
 import Profile from '../profile/Profile';
 import MessagesContainer from '../../containers/MessagesContainer';
 import style from './Header.css';
-// import { withSession } from '../../containers/auth/withSession';
+import { withSession } from '../../containers/auth/withSession';
 
 export default function Header() {
   return (
@@ -28,9 +28,9 @@ export default function Header() {
         </header>
         <Switch>
           <Route exact path='/' component={Landing} />
-          <Route exact path='/notifications' component={NotificationsContainer} />
-          <Route exact path='/profile' component={Profile} />
-          <Route exact path='/messages' component={MessagesContainer} />
+          <Route exact path='/notifications' component={withSession(NotificationsContainer)} />
+          <Route exact path='/profile' component={withSession(Profile)} />
+          <Route exact path='/messages' component={withSession(MessagesContainer)} />
   
         </Switch>
       </div>
