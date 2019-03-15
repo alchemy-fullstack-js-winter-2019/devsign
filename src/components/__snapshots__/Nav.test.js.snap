@@ -1,40 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav component matches a snapshot 1`] = `
-<Router
-  history={
-    Object {
-      "action": "POP",
-      "block": [Function],
-      "canGo": [Function],
-      "createHref": [Function],
-      "entries": Array [
-        Object {
-          "hash": "",
-          "key": "xj6kvt",
-          "pathname": "/",
-          "search": "",
-          "state": undefined,
-        },
-      ],
-      "go": [Function],
-      "goBack": [Function],
-      "goForward": [Function],
-      "index": 0,
-      "length": 1,
-      "listen": [Function],
-      "location": Object {
-        "hash": "",
-        "key": "xj6kvt",
-        "pathname": "/",
-        "search": "",
-        "state": undefined,
-      },
-      "push": [Function],
-      "replace": [Function],
-    }
-  }
->
-  <Nav />
-</Router>
+<styled.nav>
+  <styled.ul>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/home"
+      >
+        Chirp
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/home"
+      >
+        Home
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/profile"
+      >
+        Profile
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+  </styled.ul>
+  <Styled(Link)
+    to="profile"
+  >
+    <styled.img
+      alt="profile pic"
+      src="https://joeschmoe.io/api/v1/jeane"
+    />
+  </Styled(Link)>
+  <Connect(SearchForm) />
+</styled.nav>
 `;

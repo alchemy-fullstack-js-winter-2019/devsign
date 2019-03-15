@@ -1,40 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component matches a snapshot 1`] = `
-<Router
-  history={
-    Object {
-      "action": "POP",
-      "block": [Function],
-      "canGo": [Function],
-      "createHref": [Function],
-      "entries": Array [
-        Object {
-          "hash": "",
-          "key": "7klvf1",
-          "pathname": "/",
-          "search": "",
-          "state": undefined,
-        },
-      ],
-      "go": [Function],
-      "goBack": [Function],
-      "goForward": [Function],
-      "index": 0,
-      "length": 1,
-      "listen": [Function],
-      "location": Object {
-        "hash": "",
-        "key": "7klvf1",
-        "pathname": "/",
-        "search": "",
-        "state": undefined,
-      },
-      "push": [Function],
-      "replace": [Function],
-    }
-  }
->
-  <App />
-</Router>
+<BrowserRouter>
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/loading"
+    />
+    <Route
+      component={[Function]}
+      path="/signup"
+    />
+    <Route
+      component={[Function]}
+      path="/home"
+    />
+    <Route
+      component={[Function]}
+      path="/profile"
+    />
+    <Route
+      component={[Function]}
+      path="/callback"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+  </Switch>
+</BrowserRouter>
 `;

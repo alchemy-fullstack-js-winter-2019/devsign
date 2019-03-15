@@ -8,7 +8,6 @@ export default function reducer(state = initialState, { type, payload }) {
   switch(type) {
     case CREATE_CHIRP:
       return {
-        ...state,
         text: payload
       };
     default:

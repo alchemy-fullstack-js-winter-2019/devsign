@@ -1,40 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Profile component matches a snapshot 1`] = `
-<Router
-  history={
-    Object {
-      "action": "POP",
-      "block": [Function],
-      "canGo": [Function],
-      "createHref": [Function],
-      "entries": Array [
-        Object {
-          "hash": "",
-          "key": "ul6z8n",
-          "pathname": "/",
-          "search": "",
-          "state": undefined,
-        },
-      ],
-      "go": [Function],
-      "goBack": [Function],
-      "goForward": [Function],
-      "index": 0,
-      "length": 1,
-      "listen": [Function],
-      "location": Object {
-        "hash": "",
-        "key": "ul6z8n",
-        "pathname": "/",
-        "search": "",
-        "state": undefined,
-      },
-      "push": [Function],
-      "replace": [Function],
-    }
-  }
->
-  <Profile />
-</Router>
+<Fragment>
+  <Nav />
+  <styled.main>
+    <Connect(WithFetch) />
+    <styled.section>
+      <Connect(CreateChirpForm) />
+      <Connect(WithFetch) />
+    </styled.section>
+  </styled.main>
+</Fragment>
 `;
