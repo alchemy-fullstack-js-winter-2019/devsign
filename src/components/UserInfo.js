@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { getImageUrl } from '../services/image'; to get image from cloudinary
+import { getImageUrl } from '../services/image';
 
-
-export default function UserInfo({ name, profileImage, handle }) {
+// name, profileImage, handle
+export default function UserInfo({ user }) {
+  const { handle, profileImage, name } = user;
   return (
     <>
     <figure >
-      <img alt={`profile image of ${handle}`} src={profileImage} >{profileImage}</img>
+      <img alt={`profile image of ${handle}`} src={getImageUrl(profileImage, ['w_250'])} />
       <figcaption>{handle}</figcaption>
     </figure>
     <aside>
       <ul>
         <li>{name}</li>
-        <li>{handle}</li>
+       
       </ul>
     </aside>
     </>
@@ -22,7 +23,5 @@ export default function UserInfo({ name, profileImage, handle }) {
 }
 
 UserInfo.propTypes = {
-  name: PropTypes.string.isRequired,
-  profileImage: PropTypes.string.isRequired,
-  handle: PropTypes.string.isRequired
+  user: PropTypes.object.isRequired,
 };

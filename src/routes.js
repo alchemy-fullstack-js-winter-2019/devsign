@@ -11,7 +11,7 @@ export const ROUTES = {
     Component: Landing,
     linkTo: () => '/'
   },
-  Home: {
+  HOME: {
     path: '/home',
     Component: withSession(Home),
     linkTo: () => '/home'

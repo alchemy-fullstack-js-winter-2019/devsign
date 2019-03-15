@@ -357,3 +357,99 @@ create a dotenv file
 
 seeData
 profileImage: chance.pickOne()
+
+Deployment 
+- Add to webpack
+  - new CopyWebpackPlug
+
+- create a public
+  - _redirects file
+
+- Netlify site
+  - creae an account
+  - new site from Git
+  - click on GitHub
+  - select devsign
+  - npm run build
+  - public directory
+    - dist 
+  - deploy site
+  - Site setting
+    - build and deploy
+      - build environment variables
+        - go back to .env and copy 
+          - auth0_clientID
+          - auth0_domain
+          -auth0_redirect = add nextlify https site located at top
+      - save
+  - Go to auth0
+    - applications
+      - default app 
+      - add new callback url from Netlify
+      - save changes
+  - go back to netlify and trigger a new deploy
+
+Back-end server Deployment
+- use heroku to deploy
+- to to heroku dashboard
+- create a new application => alchemy twitter
+- go to settings and get heroku git url
+- go back to devsign backend app
+  - git remote addd heroku https://git.heroku.com/alchemy-twitter.git
+  - heroku addons:create mongolab:sandbox -a alchecmy-twitter/nameofapp
+  - got back to heroku and in overview
+  - under settings 
+  - add all .env file to heroku
+    - add auth0_clientID
+  - add to travis
+    - go to travis CI and - type: gem install travis /in terminal
+      - find out where the gem is in stalled - look up travis document in how to install the gem
+    - that will add the api_key
+  - After heroku app is deployed take the heroku app url
+  - in services 
+    - tweets
+      -   production need to change were fetching
+      - return fetch(process.env.API_URL)
+    - add to .env file - API_URL=localhost/7891
+
+in netlify add another environment variable and paste heroku url - when in production ti will hit heroku app and locall local host
+
+
+
+  - git push heroku master
+  - treats heroku as a thirparty api
+  - netlify treats 
+- stagging happens in between 
+development -> stagging -> production
+production mode you 
+- you could seed your heroku database if want to have data 
+
+pseudo gem install travis
+
+- you can start taking promise .resolve and start fetching from api
+export const getTweets = () => { //this will allow us to handle errors in our reducers 
+  return fetch(`${process.env.API_URL}/tweets`)
+    .then(res => [res.ok, res.json()])
+    .then(([ok, json])=> {
+      if(!ok) throw json; //if the response isn't ok we throw an error - server throws json errors
+      return json;
+    });
+}
+
+in reducer
+error: {}
+
+case FETCH_TWEETS_REJECTED:
+  return {...state, tweets: [], loading: false, error: action.payload}
+
+create selector
+
+in tweets pass error: 
+component tweets pass error 
+
+withfetch component
+add error: propTypes.object
+under render()
+if(this.props.error) return 
+
+

@@ -18,7 +18,7 @@ class Callback extends React.PureComponent {
 
   render() {
     if(this.props.token) {
-      return <Redirect to={ROUTES.LANDING.linkTo()} />;
+      return <Redirect to={ROUTES.HOME.linkTo()} />;
     }
     return (
       <h1>Loading</h1>

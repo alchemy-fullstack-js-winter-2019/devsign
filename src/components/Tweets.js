@@ -5,7 +5,7 @@ import Tweet from './Tweet';
 
 export default function Tweets({ tweets }) {
   const listOfTweets = tweets.map(tweet => {
-    return <li key={tweet._id}><Tweet profileImage={tweet.profileImage} name={tweet.name} text={tweet.text} handle={tweet.handle} /></li>;
+    return <li key={tweet._id}><Tweet tweet={tweet}/></li>;
   });
 
   return (
