@@ -1,6 +1,6 @@
 import React from 'react';
 import CurrentUser from '../containers/CurrentUser';
-import CreateChirpForm from './CreateChirpForm';
+import CreateChirp from '../containers/CreateChirp';
 import Nav from './Nav';
 import { Main, Section } from '../styles/mainStyle';
 import UserProfileChirps from '../containers/UserProfileChirps';
@@ -13,7 +13,7 @@ function Profile() {
     <Main>
       <CurrentUser />
       <Section>
-        <CreateChirpForm />
+        <CreateChirp />
         <UserProfileChirps />
       </Section>
     </Main>
