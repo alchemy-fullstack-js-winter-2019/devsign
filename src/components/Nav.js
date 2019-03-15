@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchForm from './SearchForm';
+import Search from '../containers/Search';
 import { StyledLink } from '../styles/mainStyle';
 import { NavBar, List, MainLogo, NavLi, NavLink, MobileProfileImage, LogoLink } from '../styles/nav';
 
@@ -22,7 +22,7 @@ function Nav() {
         <MobileProfileImage alt="profile pic" src="https://joeschmoe.io/api/v1/jeane"/>
       </StyledLink>
       
-      <SearchForm />
+      <Search />
     </NavBar>
   );
 }

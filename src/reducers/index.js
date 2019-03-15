@@ -3,10 +3,12 @@ import chirps from './chirps';
 import user from './userDetails';
 import session from './session';
 import userChirps from './profile';
+import search from './search';
 
 export default combineReducers({
   chirps,
   user,
   session,
-  userChirps
+  userChirps,
+  search
 });
