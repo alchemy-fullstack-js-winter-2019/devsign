@@ -5,6 +5,7 @@ import Home from './containers/Home';
 import Settings from './components/settings/Settings';
 import Login from './components/login/Login';
 import { withSession } from './containers/auth/withSession';
+import Callback from './containers/auth/Callback';
 
 
 export const ROUTES  = {
@@ -20,15 +21,20 @@ export const ROUTES  = {
         linkTo: () => '/profile'
     },
     
-    Settings: {
+    SETTINGS: {
         path: '/Settings',
         component: Settings,
         linkTo: () => '/Settings'
     },
-    Login: {
+    LOGIN: {
         path: '/login',
         component: Login,
         linkTo: () => '/login'
+    },
+    CALLBACK: {
+        path: '/callback',
+        component: Callback,
+        linkTo: () => '/callback'
     }
     
 };

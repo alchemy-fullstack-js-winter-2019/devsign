@@ -16,7 +16,7 @@ export default class Home extends PureComponent {
     }
     render() {
         const onChange = () => {
-            return console.log('cahnged');
+            return console.log('changed');
         };
         console.log(this.props.tweets);
       

@@ -13,9 +13,7 @@ export default class Home extends PureComponent {
     componentDidMount() {
         this.props.fetchTweets();
     }
-    render() {
-        console.log(this.props.tweets, 'PROFILE IS FIRING');
-      
+    render() {      
         const tweetList = this.props.tweets.map(tweet => {
             return <Tweet tweet={tweet} key={tweet.id}/>;
       
