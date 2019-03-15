@@ -1,4 +1,4 @@
-import chirpsReducer from './chirps';
+import reducer from './chirps';
 import { fetchChirps } from '../actions/chirps';
 
 jest.mock('../services/mockChirps.js');
@@ -10,7 +10,7 @@ describe('reducers', () => {
       loading: false
     };
     const fetchedChirps = fetchChirps();
-    const updatedState = chirpsReducer(state, fetchedChirps);
+    const updatedState = reducer(state, fetchedChirps);
     console.log(updatedState);
 
     expect(updatedState).toEqual();
