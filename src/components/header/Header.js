@@ -7,9 +7,10 @@ import logoPic from '../../../assets/tornado.svg';
 export default function Header() {
   return (
     <header className={styles.Header}>
-      <img src={logoPic}/>
+      <img src={logoPic} alt="profile"/>
       <h1>TWISTLER</h1>
       <h2>the only weather twitter app</h2>
     </header>
   );
-};
+}
+

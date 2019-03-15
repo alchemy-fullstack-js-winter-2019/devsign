@@ -5,14 +5,14 @@ exports[`Home Layout makes a snapshot 1`] = `
   className="Home"
 >
   <ul
-    className="sc-htpNat lezfFx"
+    className="sc-htpNat ftTzRB"
   >
     <li>
       <section
-        className="sc-bwzfXH dBsLsH"
+        className="sc-bwzfXH bvfhip"
       >
         <figure
-          className="sc-bdVaJa cYaVV"
+          className="sc-bdVaJa gMwCZt"
         >
           <img
             alt="profile image for Tweedy"
@@ -29,10 +29,10 @@ exports[`Home Layout makes a snapshot 1`] = `
     </li>
     <li>
       <section
-        className="sc-bwzfXH dBsLsH"
+        className="sc-bwzfXH bvfhip"
       >
         <figure
-          className="sc-bdVaJa cYaVV"
+          className="sc-bdVaJa gMwCZt"
         >
           <img
             alt="profile image for Mocking Jay"
@@ -49,10 +49,10 @@ exports[`Home Layout makes a snapshot 1`] = `
     </li>
     <li>
       <section
-        className="sc-bwzfXH dBsLsH"
+        className="sc-bwzfXH bvfhip"
       >
         <figure
-          className="sc-bdVaJa cYaVV"
+          className="sc-bdVaJa gMwCZt"
         >
           <img
             alt="profile image for Parrot"
@@ -69,10 +69,10 @@ exports[`Home Layout makes a snapshot 1`] = `
     </li>
     <li>
       <section
-        className="sc-bwzfXH dBsLsH"
+        className="sc-bwzfXH bvfhip"
       >
         <figure
-          className="sc-bdVaJa cYaVV"
+          className="sc-bdVaJa gMwCZt"
         >
           <img
             alt="profile image for Doug"
@@ -89,10 +89,10 @@ exports[`Home Layout makes a snapshot 1`] = `
     </li>
     <li>
       <section
-        className="sc-bwzfXH dBsLsH"
+        className="sc-bwzfXH bvfhip"
       >
         <figure
-          className="sc-bdVaJa cYaVV"
+          className="sc-bdVaJa gMwCZt"
         >
           <img
             alt="profile image for Polly"

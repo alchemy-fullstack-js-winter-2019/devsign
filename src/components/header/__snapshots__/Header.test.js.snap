@@ -5,6 +5,7 @@ exports[`Header Layout makes a snapshot 1`] = `
   className="Header"
 >
   <img
+    alt="profile"
     src="/path/to/image"
   />
   <h1>

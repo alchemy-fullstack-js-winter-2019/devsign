@@ -7,7 +7,7 @@ describe('Tweet', () => {
     const tweet = {
       _id:'',
       userPic:'',
-      user:'',
+      user:{},
       body:''
     };
 

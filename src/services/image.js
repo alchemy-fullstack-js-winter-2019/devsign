@@ -1,5 +1,3 @@
-
-    
 const cloudinaryUsername = 'fieldnotesmedia';
 const cloudinaryUrl = `http://res.cloudinary.com/${cloudinaryUsername}/image/fetch`;
 
