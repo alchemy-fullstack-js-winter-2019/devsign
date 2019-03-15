@@ -1,0 +1,46 @@
+.Header {
+  background-image: linear-gradient(to right top, #2890d4, #80a8e0, #b4c2ea, #dedff4, #ffffff);
+  h1 {
+    text-align: center;
+    position: relative;
+    left: 45px;
+    font-family: Helvetica;
+    letter-spacing: .25em;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(129, 12, 137);
+    mix-blend-mode: multiply;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDFEFF;
+    text-align:right;
+    font-size:12px;
+  }
+  img { 
+    position:relative;
+    top:45px;
+    left:50px;
+    width:15%; 
+    z-index: 1; 
+  } 
+
+@media (min-width: 374px) {
+  display: in-block;
+  font-size: 2em;
+  padding: 4%;
+  margin: 0;
+  color: white;
+}
+
+@media (min-width: 413px) {
+  padding: 5.75% 5.75% 5.75% 5.75%;
+}
+
+
+@media (min-width: 700px) {
+  font-size: 30px;
+  padding-left: 15%;
+  width: 100%;  
+  }
+}
