@@ -1,15 +1,10 @@
 import React from 'react';
+import styles from './css/Footer.css';
 
 function Footer() {
   return (
-    <footer>
-      <h2>Footer</h2>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/search">Search</a></li>
-        </ul>
-      </nav>  
+    <footer className={styles.footer}>
+      <p>Tweeterization</p>
     </footer>
   );
 }

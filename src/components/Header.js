@@ -1,13 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import 'normalize.css';
+import styles from './css/Header.css';
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <h1>Tweeter</h1>
+
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/search">Search</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/profile">Profile</Link></li>
         </ul>
       </nav>
     </header>

@@ -1,15 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { getRoutes } from '../routes/routes';
 import Header from './Header';
 import Footer from './Footer';
-import Tweets from './Tweets';
 
 function App() {
   return (
-    <Fragment>
-      <Header />
-      <Tweets />
-      <Footer />
-    </Fragment>
+    <Router>
+      <>
+        <Header />
+        <Switch>
+          {getRoutes()}
+        </Switch>  
+        <Footer />
+      </>
+    </Router>
   );
 }
 
