@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// import { getImageUrl } from '../services/image'; to get image from cloudinary
 
 
 export default function UserInfo({ name, profileImage, handle }) {
   return (
     <>
-    <header>
-      <img alt={profileImage} >{profileImage}</img>
-    </header>
+    <figure >
+      <img alt={`profile image of ${handle}`} src={profileImage} >{profileImage}</img>
+      <figcaption>{handle}</figcaption>
+    </figure>
     <aside>
       <ul>
         <li>{name}</li>
