@@ -1,12 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function CreateTweet() {
+export default function CreateTweet({ onChange, text }) {
   return (
-    <div>
+    <section>
       <form>
-        <input type="text" name="text" value />
-        <button>Add Tweet</button>
+        <label >Name</label>
+        <input type="text" name="newTweet" value={text} onChange={onChange} />
+        <label>Your Tweety Tweet to the World</label>
+        <button>Fly</button>
       </form>
-    </div>
+    </section>
   );
 }
+
+CreateTweet.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  text: PropTypes.string.isRequired
+};
