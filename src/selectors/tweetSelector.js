@@ -1,5 +1,3 @@
-export const getTweets = state => {
-  return state.tweets;
-};
+export const getTweets = state => state.tweets.tweets;
 
 export const tweetsLoading = state => state.tweets.loading;
