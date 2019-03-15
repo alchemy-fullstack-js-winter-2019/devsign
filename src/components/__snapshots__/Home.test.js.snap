@@ -1,287 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home component matches a snapshot 1`] = `
-Array [
-  <nav
-    className="sc-dxgOiQ YOjhc"
-  >
-    <ul
-      className="sc-ckVGcZ lcUqFn"
-    >
-      <li
-        className="sc-VigVT sc-eNQAEJ hEjfQv"
-      >
-        <a
-          className="sc-htpNat sc-kkGfuU iFmWZ"
-          href="/home"
-          onClick={[Function]}
-        >
-          Chirp
-        </a>
-      </li>
-      <li
-        className="sc-VigVT sc-jKJlTe axDnb"
-      >
-        <a
-          className="sc-htpNat sc-kEYyzF iTJHIk"
-          href="/home"
-          onClick={[Function]}
-        >
-          Home
-        </a>
-      </li>
-      <li
-        className="sc-VigVT sc-jKJlTe axDnb"
-      >
-        <a
-          className="sc-htpNat sc-kEYyzF iTJHIk"
-          href="/profile"
-          onClick={[Function]}
-        >
-          Profile
-        </a>
-      </li>
-    </ul>
-    <a
-      className="sc-htpNat jZGOfu"
-      href="/profile"
-      onClick={[Function]}
-    >
-      <img
-        alt="profile pic"
-        className="sc-hMqMXs Uacgi"
-        src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-      />
-    </a>
-    <form
-      className="sc-bZQynM sc-chPdSV fVqLTu"
-    >
-      <label
-        className="sc-kpOJdX cjSQuq"
-        htmlFor="search"
-      >
-        Search
-      </label>
-      <input
-        className="sc-htoDjs sc-kgoBCf bxthsg"
-        id="search"
-        readOnly={true}
-        type="text"
-        value=""
-      />
-      <label
-        className="sc-kpOJdX cjSQuq"
-        htmlFor="searchButton"
-      />
-      <button
-        className="sc-dnqmqq sc-kGXeez fYDtGc"
-        id="searchButton"
-      >
-        Search
-      </button>
-    </form>
-  </nav>,
-  <main
-    className="sc-EHOje dvnEkc"
-  >
-    <aside
-      className="sc-bdVaJa cdPWoN"
-    >
-      <img
-        className="sc-jzJRlG gVHQuV"
-        name="profileImage"
-        src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
-      />
-      <h2>
-        Kaiya
-         
-        <span
-          className="sc-cSHVUG crXluK"
-        >
-          @ladybeard
-        </span>
-      </h2>
-      <p
-        className="sc-bwzfXH kQaOVY"
-      >
-        Fullstack MERN Developer / Animal Lover / Hiker
-      </p>
-      <p
-        className="sc-bwzfXH kQaOVY"
-      >
-        Portland, OR
-      </p>
-    </aside>
-    <section
-      className="sc-fjdhpX caAXUl"
-    >
-      <ul
-        className="sc-gqjmRU hBeZmn"
-      >
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Ray"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Ray
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @stingraymond
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Kaiya"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Kaiya
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @ladybeard
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Randy"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Randy
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @randyroute
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Ray"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Ray
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @stingraymond
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Kaiya"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Kaiya
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @ladybeard
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-        <li>
-          <article
-            className="sc-kAzzGY bSaNbd"
-          >
-            <header>
-              <img
-                alt="Randy"
-                className="sc-jzJRlG gVHQuV"
-                src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
-              />
-              <h2>
-                Randy
-                 
-                <span
-                  className="sc-cSHVUG crXluK"
-                >
-                  @randyroute
-                </span>
-              </h2>
-            </header>
-            <p
-              className="sc-jTzLTM bLPztG"
-            >
-              chirp chirp chirp
-            </p>
-          </article>
-        </li>
-      </ul>
-    </section>
-  </main>,
-]
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "key": "pnkdoq",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "pnkdoq",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <Home />
+</Router>
 `;

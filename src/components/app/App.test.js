@@ -1,15 +1,18 @@
 import React from 'react';
 import App from './App';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
+// import renderer from 'react-test-renderer'
 import { MemoryRouter } from 'react-router-dom';
+
+jest.mock('../../services/auth.js', () => ({}));
 
 describe('App component', () => {
   it('matches a snapshot', () => {
-    const tree = renderer.create(
+    const wrapper = shallow(
       <MemoryRouter>
         <App />
       </MemoryRouter>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(wrapper).toMatchSnapshot();
   });
 });

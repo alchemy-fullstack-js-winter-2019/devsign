@@ -7,10 +7,10 @@ function Chirps({ chirps }) {
 
   const chirpList = chirps.map((chirp, i) => {
     return <li key={i}><Chirp
-      profileImage={chirp.user.profileImage}
-      name={chirp.user.name} 
+      profileImage={chirp.profileImage}
+      name={chirp.name} 
       text={chirp.text}
-      handle={chirp.user.handle}
+      handle={chirp.handle}
     /></li>;
   });
   return (

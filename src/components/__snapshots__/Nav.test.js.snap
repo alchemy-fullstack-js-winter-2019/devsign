@@ -1,83 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav component matches a snapshot 1`] = `
-<nav
-  className="sc-kGXeez kHJuoe"
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "key": "xj6kvt",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "xj6kvt",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
 >
-  <ul
-    className="sc-kpOJdX ifvqSH"
-  >
-    <li
-      className="sc-gZMcBi sc-ckVGcZ fJmOAI"
-    >
-      <a
-        className="sc-bdVaJa sc-hMqMXs hDuBxd"
-        href="/home"
-        onClick={[Function]}
-      >
-        Chirp
-      </a>
-    </li>
-    <li
-      className="sc-gZMcBi sc-dxgOiQ btSlKp"
-    >
-      <a
-        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
-        href="/home"
-        onClick={[Function]}
-      >
-        Home
-      </a>
-    </li>
-    <li
-      className="sc-gZMcBi sc-dxgOiQ btSlKp"
-    >
-      <a
-        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
-        href="/profile"
-        onClick={[Function]}
-      >
-        Profile
-      </a>
-    </li>
-  </ul>
-  <a
-    className="sc-bdVaJa cVFclJ"
-    href="/profile"
-    onClick={[Function]}
-  >
-    <img
-      alt="profile pic"
-      className="sc-jKJlTe fhvuZn"
-      src="https://joeschmoe.io/api/v1/jeane"
-    />
-  </a>
-  <form
-    className="sc-ifAKCX sc-cSHVUG bPDerF"
-  >
-    <label
-      className="sc-kgoBCf iOxteu"
-      htmlFor="search"
-    >
-      Search
-    </label>
-    <input
-      className="sc-bZQynM sc-kAzzGY hecALk"
-      id="search"
-      readOnly={true}
-      type="text"
-      value=""
-    />
-    <label
-      className="sc-kgoBCf iOxteu"
-      htmlFor="searchButton"
-    />
-    <button
-      className="sc-gzVnrw sc-chPdSV eNmjaL"
-      id="searchButton"
-    >
-      Search
-    </button>
-  </form>
-</nav>
+  <Nav />
+</Router>
 `;

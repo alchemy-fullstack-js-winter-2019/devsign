@@ -1,30 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`UserDetails component matches a snapshot 1`] = `
-<aside
-  className="sc-bdVaJa cdPWoN"
->
-  <img
-    className="sc-jzJRlG gVHQuV"
+<styled.aside>
+  <Styled(styled.img)
     name="profileImage"
     src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
   />
   <h2>
     Kaiya
      
-    <span
-      className="sc-cSHVUG crXluK"
-    >
+    <styled.span>
       @ladybeard
-    </span>
+    </styled.span>
   </h2>
-  <p
-    className="sc-bwzfXH kQaOVY"
-  >
+  <styled.p>
     Fullstack MERN Developer / Animal Lover / Hiker
-  </p>
-  <p
-    className="sc-bwzfXH kQaOVY"
-  />
-</aside>
+  </styled.p>
+  <styled.p>
+    Portland, OR
+  </styled.p>
+</styled.aside>
 `;

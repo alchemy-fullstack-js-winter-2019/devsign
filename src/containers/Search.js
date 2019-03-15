@@ -10,6 +10,9 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   onChange({ target }) {
     dispatch(updateSearchTerm(target.value));
+  },
+  onSubmit(event) {
+    event.preventDefault();
   }
 });
 

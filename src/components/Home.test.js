@@ -1,15 +1,15 @@
 import React from 'react';
 import Home from './Home';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 import { MemoryRouter } from 'react-router-dom';
 
 describe('Home component', () => {
   it('matches a snapshot', () => {
-    const tree = renderer.create(
+    const wrapper = shallow(
       <MemoryRouter>
         <Home />
       </MemoryRouter>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(wrapper).toMatchSnapshot();
   });
 });

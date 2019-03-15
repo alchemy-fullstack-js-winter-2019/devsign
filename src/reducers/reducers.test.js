@@ -1,7 +1,5 @@
 import reducer from './chirps';
-import { fetchChirps } from '../actions/chirps';
-
-jest.mock('../services/mockChirps.js');
+import { FETCH_CHIRPS } from '../actions/chirps';
 
 describe('reducers', () => {
   it('can handle a fetch to update chirps', () => {
@@ -9,10 +7,27 @@ describe('reducers', () => {
       chirps: [],
       loading: false
     };
-    const fetchedChirps = fetchChirps();
-    const updatedState = reducer(state, fetchedChirps);
-    console.log(updatedState);
 
-    expect(updatedState).toEqual();
+    const payload = [
+      { _id: '1234', 
+        text: 'Never once touched my per diem. Id go to Craft Service, get some raw veggies, bacon, Cup-A-Soup…baby, I got a stew goin', 
+        user: {
+          name: 'Jolee',
+          handle: '@boleejolee',
+          profileImage: 'https://joeschmoe.io/api/v1/jolee',
+          location: 'Minneapolis, MN'
+        }
+      }
+    ]; 
+  
+
+    const updatedState = reducer(state, {
+      type: FETCH_CHIRPS,
+      payload
+    });
+    expect(updatedState).toEqual({
+      chirps: payload,
+      loading: false
+    });
   });
 });

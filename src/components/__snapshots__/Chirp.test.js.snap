@@ -1,33 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Chirp component matches a snapshot 1`] = `
-<article
-  className="sc-jzJRlG dFsfHb"
->
-  <header
-    className="sc-chPdSV iJfIXb"
-  >
-    <img
+<styled.article>
+  <styled.header>
+    <styled.img
       alt="Kaiya"
-      className="sc-jTzLTM fkBueS"
       src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
     />
-    <h2
-      className="sc-cSHVUG eRmrdv"
-    >
+    <styled.h2>
       Kaiya
        
-      <span
-        className="sc-fjdhpX FzRiJ"
-      >
+      <styled.span>
         @ladybeard
-      </span>
-    </h2>
-  </header>
-  <p
-    className="sc-gqjmRU sc-kAzzGY ctCWvU"
-  >
+      </styled.span>
+    </styled.h2>
+  </styled.header>
+  <Styled(styled.p)>
     chirp chirp chirp
-  </p>
-</article>
+  </Styled(styled.p)>
+</styled.article>
 `;

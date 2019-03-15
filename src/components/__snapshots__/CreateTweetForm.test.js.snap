@@ -15,8 +15,9 @@ exports[`CreateChirpForm component matches a snapshot 1`] = `
       className="sc-bZQynM sc-kAzzGY ceUQzO"
       id="newChirpText"
       name="newChirpText"
-      readOnly={true}
+      onChange={[MockFunction]}
       type="text"
+      value="text"
     />
     <label
       className="sc-EHOje vChbq"

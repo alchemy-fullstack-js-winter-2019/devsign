@@ -1,6 +1,6 @@
 import React from 'react';
 import Chirp from './Chirp';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 describe('Chirp component', () => {
   it('matches a snapshot', () => {
@@ -10,14 +10,14 @@ describe('Chirp component', () => {
       handle: '@ladybeard',
       text: 'chirp chirp chirp'
     };
-    const tree = renderer.create(
+    const wrapper = shallow(
       <Chirp
         profileImage={chirp.profileImage}
         name={chirp.name}
         handle={chirp.handle}
         text={chirp.text}
       />
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(wrapper).toMatchSnapshot();
   });
 });
