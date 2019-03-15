@@ -22,5 +22,11 @@ Tweets.propTypes = {
 
 export default styled(Tweets)`
   list-style-type: none;
-  padding: 0;
+  box-sixing:border-box;
+  background-color: rgba(55, 147, 210, 0.8);
+  padding: 2.5%;
+  margin: 0 auto;
+  width:100%;
+
+  
 `;

@@ -20,6 +20,7 @@ UserPic.propTypes = {
 
 export default styled(UserPic)`
   display: inline-block;
+  text
   img {
     max-width: 250px;
   }

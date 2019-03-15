@@ -21,4 +21,9 @@ Tweet.propTypes = {
 export default styled(Tweet)`
   display: grid;
   grid-template-columns: 1fr 4fr;
+  font-family: "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+  background-color:#fff;
+  border-radius:10px;
+  margin:12px;
 `;
+
