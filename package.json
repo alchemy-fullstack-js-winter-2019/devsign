@@ -37,6 +37,7 @@
   "dependencies": {
     "auth0-js": "^9.10.0",
     "dotenv-webpack": "^1.7.0",
+    "jest-enzyme": "^7.0.2",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
     "radium": "^0.25.1",
