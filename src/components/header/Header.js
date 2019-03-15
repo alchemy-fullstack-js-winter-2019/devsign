@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { logout } from '../../services/auth';
 
 const Header = () => {
   return (
@@ -9,10 +10,12 @@ const Header = () => {
           listStyle: 'none',
           display: 'flex',
           justifyContent: 'space-between',
-          padding: 0
+          padding: 0,
+          marginTop: 0
         }}>
-          <li>➕</li>
-          <li>🙂</li>
+          <li><Link to="/new">➕</Link></li>
+          <li><button onClick={logout}>Log out</button></li>
+          <li><Link to="/profile">🙂</Link></li>
         </ul>
         <ul style={{
           listStyle: 'none',
@@ -21,8 +24,8 @@ const Header = () => {
           padding: 0
         }}>
           <li><Link to="/">🏠</Link></li>
-          <li>🔍</li>
-          <li>🔔</li>
+          <li><Link to="/search">🔍</Link></li>
+          <li><Link to="/notifications">🔔</Link></li>
         </ul>
       </nav>
     </header>

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet matches a snapshot 1`] = `
+Array [
+  <img
+    alt="profile-pic"
+    className="img"
+    src="../../assets/circle_sm.png"
+  />,
+  <h3
+    className="h3"
+  >
+    Aasdfa
+  </h3>,
+  <span
+    className="span"
+  >
+    Lorem ipsum dolor sit amet, uioua adipiscing elit, sed do eiusmod. #asdfasdf #tehklj
+  </span>,
+]
+`;

@@ -1,16 +1,11 @@
 import React from 'react';
-import { MemoryRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import Header from './Header';
+import Profile from './Profile';
 
-jest.mock('../../services/auth.js', () => ({}));
-
-describe('Header', () => {
+describe('Profile', () => {
   it('matches a snapshot', () => {
     const component = renderer.create(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>
+      <Profile />
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
