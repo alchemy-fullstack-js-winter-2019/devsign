@@ -16,6 +16,22 @@ export const logout = () => {
   return auth0.logout();
 };
 
-// export const logout = () => {
-//   return auth0.logout(); 
-// };
+export const handleAuth = () => {
+  return new Promise((resolve, reject) => {
+    auth0.parseHash((err, result) => {
+      if(result && result.accessToken && result.idToken) {
+        auth0.client.userInfo(result.accessToken, (err, info) => {
+          if(err) return reject(err);
+          return resolve({
+            token: result.idToken,
+            id: info.sub,
+            handle: info.nickname,
+            profilePicture: info.picture
+          });
+        });
+      } else {
+        reject(err || 'Something is wrong!');
+      }
+    });
+  });
+};
