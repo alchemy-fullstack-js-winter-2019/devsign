@@ -1,5 +1,5 @@
 export const getAllTweets = () =>  {
-    return fetch('https://git.heroku.com/twitterclonebe.git/tweets')
+    return fetch('https://twitterclonebe.herokuapp.com//tweets')
         .then(res => res.json());
 }
 ;
