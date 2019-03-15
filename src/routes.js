@@ -4,7 +4,7 @@ import Profile from './containers/Profile';
 import Home from './containers/Home';
 import Settings from './components/settings/Settings';
 import Login from './components/login/Login';
-import { withSession } from './containers/auth/withSession';
+import { withSession } from './containers/auth/WithSession';
 import Callback from './containers/auth/Callback';
 
 
