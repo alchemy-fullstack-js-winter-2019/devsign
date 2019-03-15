@@ -21,3 +21,10 @@ import Tweets from "./src/components/tweets/Tweets";
 // routes/Tweets.js
 
 // const { Router } = require
+
+
+res.header('Access-Control-Allow-Origin', '*');
+res.header('Access-Control-Allow-Header', '*');
+next()
+
+

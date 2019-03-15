@@ -10,11 +10,14 @@ export const withSession = Component => {
       token: PropTypes.string.isRequired
     }
     componentDidMount() {
+      console.log('hi');
       if(!this.props.token) {
         login();
       }
     }
     render() {
+      console.log('bye');
+
       if(!this.props.token) {
         return <h1>NOT LOGGED IN</h1>;
       }

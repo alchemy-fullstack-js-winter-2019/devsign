@@ -11,6 +11,7 @@ import Profile from '../profile/Profile';
 import MessagesContainer from '../../containers/MessagesContainer';
 import style from './Header.css';
 import { withSession } from '../../containers/auth/withSession';
+import Callback from '../../containers/auth/Callback';
 
 export default function Header() {
   return (
@@ -31,7 +32,7 @@ export default function Header() {
           <Route exact path='/notifications' component={withSession(NotificationsContainer)} />
           <Route exact path='/profile' component={withSession(Profile)} />
           <Route exact path='/messages' component={withSession(MessagesContainer)} />
-  
+          <Route exact path='/callback' component={Callback} />
         </Switch>
       </div>
     </Router>
