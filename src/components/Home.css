@@ -1,0 +1,11 @@
+.Home {
+  
+  margin: auto;
+  ul {
+    color: green;
+    font-size: 1.25em;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  }
+

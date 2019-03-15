@@ -4,6 +4,8 @@ import Home from '../Home';
 import About from '../About';
 import Posts from '../Posts';
 import Login from '../Login';
+import 'normalize.css';
+import './App.css';
 
 
 export default function App() {
