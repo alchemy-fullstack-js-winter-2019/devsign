@@ -7,7 +7,7 @@
         color: black;
         padding: 1em;
         
-        Button {
+        button {
             border: 2px white solid;
             background-color: black;
             color: white;
@@ -17,13 +17,12 @@
             margin: auto;
             border-radius: .2em;
 
-            &:hover {
-                background-color: white;
-                border: 2px black solid;
-                color: black
-
-            }
         }
+                button:hover {
+                    background-color: white;
+                    border: 2px black solid;
+                    color: black
+                }
     }
     
 }
