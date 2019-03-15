@@ -9,9 +9,9 @@ import { withSession } from './containers/withSession';
 
 export const ROUTES = {
   HOME: {
-    path: '/home',
-    Component: Home,
-    linkTo: () => '/home'
+    path: '/',
+    Component: withSession(Home),
+    linkTo: () => '/'
   },
   CALLBACK: {
     path: '/callback',
@@ -24,9 +24,9 @@ export const ROUTES = {
     linkTo: () => '/logIn'
   },
   USER: {
-    path: '/',
+    path: '/user',
     Component: withSession(User),
-    linkTo: () => '/'
+    linkTo: () => '/user'
   }
 };
 
