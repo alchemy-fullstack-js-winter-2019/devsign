@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chirp component matches a snapshot 1`] = `
+<styled.article>
+  <styled.header>
+    <styled.img
+      alt="Kaiya"
+      src="http://cdn.onlinewebfonts.com/svg/img_191958.png"
+    />
+    <styled.h2>
+      Kaiya
+       
+      <styled.span>
+        @ladybeard
+      </styled.span>
+    </styled.h2>
+  </styled.header>
+  <Styled(styled.p)>
+    chirp chirp chirp
+  </Styled(styled.p)>
+</styled.article>
+`;

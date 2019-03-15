@@ -1,32 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CreateTweetForm component matches a snapshot 1`] = `
+exports[`CreateChirpForm component matches a snapshot 1`] = `
 <section>
   <form
-    className="sc-ifAKCX sc-cSHVUG gqsBWV"
+    className="sc-ifAKCX sc-cSHVUG fNbhQM"
   >
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-EHOje vChbq"
       htmlFor="newChirpText"
     >
       Name
     </label>
     <input
-      className="sc-bZQynM sc-kAzzGY eObnWI"
+      className="sc-bZQynM sc-kAzzGY ceUQzO"
       id="newChirpText"
       name="newChirpText"
-      readOnly={true}
+      onChange={[MockFunction]}
       type="text"
+      value="text"
     />
     <label
-      className="sc-EHOje kYkHpN"
+      className="sc-EHOje vChbq"
       htmlFor="newChirp"
     />
     <button
-      className="sc-gzVnrw sc-chPdSV kAzanQ"
+      className="sc-gzVnrw sc-chPdSV hiOKy"
       id="newChirp"
     >
-      Chirp
+      Post
     </button>
   </form>
 </section>

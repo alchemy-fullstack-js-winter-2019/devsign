@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const StyledLink = styled(Link) `
@@ -35,16 +35,16 @@ export const Form = styled.form `
 `;
 
 export const Label = styled.label `
-  color: #c16834;
+  display: none;
 `;
 
 export const Input = styled.input `
   background-color: white;
-  border-radius: 2px;
-  border-top: #bdbbbb solid 1px;
-  border-left: #bdbbbb solid 1px;
-  border-right: #bdbbbb solid 3px;
-  border-bottom: #a2a1a1 solid 3px;
+  border-radius: 7px;
+  border-top: #fae6d4 solid 1px;
+  border-left: #fae6d4 solid 1px;
+  border-right: #f1cd9e solid 3px;
+  border-bottom: #f2cca3 solid 3px;
   margin-bottom: 5px;
   padding: 5px;
 `;
@@ -98,7 +98,6 @@ export const Section = styled.section `
 
   @media (min-width: 700px) {
     width: 72%;
-    margin: 5px;
   }
 `;
 
@@ -118,6 +117,17 @@ export const Article = styled.article `
   background-color: white;
   border: #e2e2dc solid 2px;
   padding: 10px;
+  animation-name: ${listFall};
+  animation-duratcion: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 1s;
+  animation-direction: forward;
+`;
+
+export const listFall = keyframes `
+  from { opacity: 0; }
+  to { opacity: 1; }
 `;
 
 

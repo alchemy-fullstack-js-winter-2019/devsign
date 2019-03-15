@@ -3,7 +3,7 @@ import { ListItem, StyledLink } from './mainStyle';
 
 export const NavBar = styled.nav `
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
   background-color: #fbe6d6;
 `;
 
@@ -11,6 +11,7 @@ export const List = styled.ul `
   width: 25%;
   padding: 5px;
   margin: 10px;
+  margin-top: 5px;
 `;
 
 export const NavLi = styled(ListItem) `
@@ -26,11 +27,11 @@ export const MainLogo = styled(ListItem) `
 
 export const MobileProfileImage = styled.img `
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   left: 85%;
-  top: 4%;
+  top: 1%;
 
   @media (min-width: 700px) {
     display: none;

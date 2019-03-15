@@ -1,11 +1,17 @@
 import React from 'react';
-import CreateTweetForm from './CreateTweetForm';
+import CreateChirpForm from './CreateChirpForm';
 import renderer from 'react-test-renderer';
 
-describe('CreateTweetForm component', () => {
+describe('CreateChirpForm component', () => {
   it('matches a snapshot', () => {
+    const text = 'text';
+    const onChange = jest.fn();
+
     const tree = renderer.create(
-      <CreateTweetForm />
+      <CreateChirpForm 
+        text={text}
+        onChange={onChange}
+      />
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

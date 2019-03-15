@@ -1,73 +1,35 @@
 import React from 'react';
-import UserDetails from './UserDetails';
-import Tweets from './Tweets';
+import CurrentUser from '../containers/CurrentUser';
+import PopularChirps from '../containers/PopularChirps';
 import Nav from './Nav';
 import { Section, Main } from '../styles/mainStyle';
+// import SearchForm from './SearchForm';
+// import styled from 'styled-components';
 
-const tweets = [
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Ray',
-    handle: '@stingraymond',
-    text: 'tweet tweet tweet'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Kaiya',
-    handle: '@ladybeard',
-    text: 'tweet tweet tweet'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Randy',
-    handle: '@randyroute',
-    text: 'tweet tweet tweet'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Ray',
-    handle: '@stingraymond',
-    text: 'tweet tweet tweet'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Kaiya',
-    handle: '@ladybeard',
-    text: 'tweet tweet tweet'
-  },
-  {
-    profileImage: 'http://cdn.onlinewebfonts.com/svg/img_191958.png',
-    name: 'Randy',
-    handle: '@randyroute',
-    text: 'tweet tweet tweet'
-  }
-];
+// const MobileSearch = styled(SearchForm) `
+//   display: block;
+//   flex-direction: row;
+//   align-items: center;
+//   width: 100%;
+//   background-color: white;
+//   border: #e2e2dc solid 2px;
+//   padding: 10px;
+//   margin: 0;
 
-const  user = {
-  name: 'Kaiya',
-  handle: '@ladybeard',
-  profileImage: 'http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png',
-  bannerImage: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Saddle_tor_to_Hey_tor_pano.jpg',
-  bio: 'Fullstack MERN Developer / Animal Lover / Hiker',
-  location: 'Portland, OR'
-};
+//   @media (min-width: 700px) {
+//     display: none;
+//   }
+// `;
 
 function Home() {
-  const { name,  handle, profileImage, bannerImage, bio, location } = user;
   return (
     <>
     <Nav />
     <Main>
-      <UserDetails
-        name={name}
-        handle={handle}
-        profileImage={profileImage}
-        bannerImage={bannerImage}
-        bio={bio}
-        location={location}
-      />
+      <CurrentUser />
       <Section>
-        <Tweets tweets={tweets}/>
+        {/* <MobileSearch /> */}
+        <PopularChirps />
       </Section>
     </Main>
     </>

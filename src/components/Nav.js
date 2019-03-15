@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchForm from './SearchForm';
+import Search from '../containers/Search';
 import { StyledLink } from '../styles/mainStyle';
 import { NavBar, List, MainLogo, NavLi, NavLink, MobileProfileImage, LogoLink } from '../styles/nav';
 
@@ -19,10 +19,9 @@ function Nav() {
       </List>
 
       <StyledLink to="profile">
-        <MobileProfileImage alt="profile pic" src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"/>
+        <MobileProfileImage alt="profile pic" src="https://joeschmoe.io/api/v1/jeane"/>
       </StyledLink>
-      
-      <SearchForm />
+      <Search />
     </NavBar>
   );
 }

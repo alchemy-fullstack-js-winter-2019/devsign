@@ -15,13 +15,13 @@ Array [
     className="sc-EHOje sc-kAzzGY faVOgR"
   >
     <label
-      className="sc-bZQynM kZRkNx"
+      className="sc-bZQynM fqeBUw"
       htmlFor="name"
     >
       Name
     </label>
     <input
-      className="sc-gzVnrw iaGkko"
+      className="sc-gzVnrw grCMFv"
       id="name"
       name="name"
       readOnly={true}
@@ -29,13 +29,13 @@ Array [
       value="name"
     />
     <label
-      className="sc-bZQynM kZRkNx"
+      className="sc-bZQynM fqeBUw"
       htmlFor="handle"
     >
       Chirp Handle
     </label>
     <input
-      className="sc-gzVnrw iaGkko"
+      className="sc-gzVnrw grCMFv"
       id="handle"
       name="handle"
       readOnly={true}
@@ -43,13 +43,13 @@ Array [
       value="handle"
     />
     <label
-      className="sc-bZQynM kZRkNx"
+      className="sc-bZQynM fqeBUw"
       htmlFor="location"
     >
       City-and-State
     </label>
     <input
-      className="sc-gzVnrw iaGkko"
+      className="sc-gzVnrw grCMFv"
       id="city-and-state"
       name="location"
       readOnly={true}
@@ -57,13 +57,13 @@ Array [
       value="location"
     />
     <label
-      className="sc-bZQynM kZRkNx"
+      className="sc-bZQynM fqeBUw"
       htmlFor="password"
     >
       password
     </label>
     <input
-      className="sc-gzVnrw iaGkko"
+      className="sc-gzVnrw grCMFv"
       id="password"
       name="password"
       readOnly={true}
@@ -71,7 +71,7 @@ Array [
       value="password"
     />
     <label
-      className="sc-bZQynM kZRkNx"
+      className="sc-bZQynM fqeBUw"
       htmlFor="sign-up"
     />
     <button

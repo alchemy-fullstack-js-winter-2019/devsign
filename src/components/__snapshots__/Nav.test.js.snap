@@ -1,83 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Nav component matches a snapshot 1`] = `
-<nav
-  className="sc-kGXeez dcHRRN"
->
-  <ul
-    className="sc-kpOJdX eSSkdt"
-  >
-    <li
-      className="sc-gZMcBi sc-ckVGcZ fJmOAI"
-    >
-      <a
-        className="sc-bdVaJa sc-hMqMXs hDuBxd"
-        href="/home"
-        onClick={[Function]}
+<styled.nav>
+  <styled.ul>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/home"
       >
         Chirp
-      </a>
-    </li>
-    <li
-      className="sc-gZMcBi sc-dxgOiQ btSlKp"
-    >
-      <a
-        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
-        href="/home"
-        onClick={[Function]}
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/home"
       >
         Home
-      </a>
-    </li>
-    <li
-      className="sc-gZMcBi sc-dxgOiQ btSlKp"
-    >
-      <a
-        className="sc-bdVaJa sc-eNQAEJ gsdyPY"
-        href="/profile"
-        onClick={[Function]}
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+    <Styled(styled.li)>
+      <Styled(Styled(Link))
+        to="/profile"
       >
         Profile
-      </a>
-    </li>
-  </ul>
-  <a
-    className="sc-bdVaJa cVFclJ"
-    href="/profile"
-    onClick={[Function]}
+      </Styled(Styled(Link))>
+    </Styled(styled.li)>
+  </styled.ul>
+  <Styled(Link)
+    to="profile"
   >
-    <img
+    <styled.img
       alt="profile pic"
-      className="sc-jKJlTe hLhmlh"
-      src="http://capepremierrealty.com/wp-content/uploads/2018/11/generic-profile-icon-7.jpg.png"
+      src="https://joeschmoe.io/api/v1/jeane"
     />
-  </a>
-  <form
-    className="sc-ifAKCX sc-cSHVUG bmJTsc"
-  >
-    <label
-      className="sc-kgoBCf iOxteu"
-      htmlFor="search"
-    >
-      Search
-    </label>
-    <input
-      className="sc-bZQynM sc-kAzzGY kNfhYh"
-      id="search"
-      readOnly={true}
-      type="text"
-      value=""
-    />
-    <label
-      className="sc-kgoBCf iOxteu"
-      htmlFor="searchButton"
-    />
-    <button
-      className="sc-gzVnrw sc-chPdSV eNmjaL"
-      id="searchButton"
-    >
-      Search
-    </button>
-  </form>
-</nav>
+  </Styled(Link)>
+  <Connect(SearchForm) />
+</styled.nav>
 `;
