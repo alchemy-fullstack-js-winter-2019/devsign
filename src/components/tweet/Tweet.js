@@ -5,15 +5,7 @@ export default function Tweet({ tweet }) {
   return (
     <li>
       <p>
-        {tweet.body}
-      </p>
-      
-      <p>
-        Likes: {tweet.likes}
-      </p>
-
-      <p>
-        Retweets: {tweet.retweets}
+        {tweet.text}
       </p>
 
       <button>Like</button>
