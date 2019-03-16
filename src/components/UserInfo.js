@@ -8,13 +8,13 @@ export default function UserInfo({ user }) {
   return (
     <>
     <figure >
-      <img alt={`profile image of ${handle}`} src={getImageUrl(profileImage, ['w_250'])} />
-      <figcaption>{handle}</figcaption>
+      <img alt={`profile image of ${handle}`} src={getImageUrl(profileImage)} />
+      {/* <figcaption>{name} {handle}</figcaption> */}
     </figure>
     <aside>
       <ul>
         <li>{name}</li>
-       
+        <li>{handle}</li>
       </ul>
     </aside>
     </>
