@@ -1,7 +1,7 @@
 import { Create_Tweet } from '../actions/createTweetAction';
 
 const initialState = {
-  newTweet: ''
+  newTweet: {}
 };
 
 export default function reducer(state = initialState, action) {
