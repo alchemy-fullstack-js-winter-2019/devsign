@@ -5,7 +5,7 @@ import Tweets from '../tweets/Tweets';
 function User({ img, username, bio, tweets }) {
   return (
     <main>
-      <img src={img}/>
+      <img alt={`profile picture for ${username}`} src={img}/>
       <p>{username}</p>
       <p>{bio}</p>
       <Tweets tweets={tweets} />

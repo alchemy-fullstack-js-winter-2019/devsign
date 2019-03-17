@@ -11,5 +11,6 @@ nav {
   a {
     display: inline-block;
     margin: 0 2vw;
+    color: rgb(121, 8, 121);
   }
 }
