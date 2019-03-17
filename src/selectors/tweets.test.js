@@ -1,5 +1,6 @@
 import {
-  getTweets
+  getTweets,
+  getUser
 } from './tweets';
 
 describe('selectors', () => {
@@ -8,6 +9,10 @@ describe('selectors', () => {
   beforeEach(() => {
     state = {
       tweets: {
+        user: {
+          username: 'sha',
+          password: 'pass'
+        },
         tweets: [
           {
             id: 1,
@@ -53,5 +58,12 @@ describe('selectors', () => {
         text: 'twitter you twit twit twitter twit'
       }
     ]);
+  });
+
+  it('gets the user', () => {
+    expect(getUser(state)).toEqual({
+      username: 'sha',
+      password: 'pass'
+    });
   });
 });
