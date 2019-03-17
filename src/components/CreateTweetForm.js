@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function CreateTweet({ onChange, text }) {
   return (
+    <>
     <section>
       <form>
         <label >Name</label>
@@ -11,10 +12,11 @@ export default function CreateTweet({ onChange, text }) {
         <button>Fly</button>
       </form>
     </section>
+    </>
   );
 }
 
 CreateTweet.propTypes = {
   onChange: PropTypes.func.isRequired,
-  text: PropTypes.string.isRequired
+  text: PropTypes.object.isRequired
 };

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Margarine');
 body {
-  background: linear-gradient(110deg, #faed75 60%, rgb(248, 248, 190) 60%);
-  font-family: 'Montserrat', sans-serif;
+  background-color: #F8EA8C;
+  background-image: url('../../assets/tweety.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-family: 'Margarine', cursive;
+  color: #4c5270;
+
 }
 
 .main {

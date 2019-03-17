@@ -13,3 +13,9 @@ export const [
   FETCH_TWEETS,
   FETCH_TWEETS_PENDING
 ] = createAction('FETCH_TWEETS', getTweets);
+
+export const CREATE_TWEET = 'CREATE_TWEET';
+export const createTweet = tweet => ({
+  type: CREATE_TWEET,
+  payload: tweet
+});

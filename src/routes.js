@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Callback from './containers/auth/Callback';
 import Home from './components/Home';
 import { withSession } from './containers/auth/withSession';
+import CreateTweetForm from './components/CreateTweetForm';
 
 export const ROUTES = {
   Landing: {
@@ -15,6 +16,11 @@ export const ROUTES = {
     path: '/home',
     Component: withSession(Home),
     linkTo: () => '/home'
+  },
+  CREATE: {
+    path: '/createtweetform',
+    Component: withSession(CreateTweetForm),
+    linkTo: () => '/createtweetform'
   },
   CALLBACK: {
     path: '/callback',

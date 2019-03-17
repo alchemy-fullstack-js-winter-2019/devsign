@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import styles from './css/Landing.css';
 import { Link } from 'react-router-dom';
 
@@ -7,8 +7,9 @@ export default function Landing() {
   return (
     <>
     <header className={styles.header}>
+
       <nav>
-        <Navigation />
+        {/* <Navigation /> */}
       </nav>
     </header>
     <main className={styles.main}>

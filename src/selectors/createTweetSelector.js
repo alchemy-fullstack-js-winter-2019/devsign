@@ -1,1 +1,1 @@
-export const createTweet = state => state.tweets.createTweet;
+export const getCreatedTweet = state => state.createTweet.text;

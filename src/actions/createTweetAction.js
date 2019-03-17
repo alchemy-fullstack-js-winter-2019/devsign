@@ -1,7 +1,6 @@
-import { createAction } from 'promise-middleware-redux';
 
 export const CREATE_TWEET = 'CREATE_TWEET';
-export const createTweets = () => ({
+export const createTweet = text => ({
   type: CREATE_TWEET,
-  payload: createTweet
+  payload: text
 });
