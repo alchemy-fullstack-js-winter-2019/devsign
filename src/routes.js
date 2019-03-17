@@ -5,6 +5,7 @@ import Callback from './containers/Callback';
 import LogIn from './components/login/LogIn';
 import User from './components/user/User';
 import { withSession } from './containers/withSession';
+import SignOut from './components/signOut/SignOut';
 
 
 export const ROUTES = {
@@ -27,6 +28,11 @@ export const ROUTES = {
     path: '/user',
     Component: withSession(User),
     linkTo: () => '/user'
+  },
+  SIGNOUT: {
+    path: '/signout',
+    Component: SignOut,
+    linkTo: () => '/signout'
   }
 };
 

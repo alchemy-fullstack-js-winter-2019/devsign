@@ -1,24 +1,24 @@
 import React from 'react';
 import styles from './Home.css';
 import AllTweets from '../../containers/AllTweets';
-
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
+    <>
     <main className={styles.Home}>
       <header>
         <nav>
-          <ul>
-            <p><li><a href="/Home">HOME </a></li></p>
-            <p><li><a href="/SignOut">SIGN OUT</a></li></p>
-          </ul>
+          <Link to="/">Home</Link>
+          <Link to="/signout">Sign Out</Link>
         </nav>
-        <h1> Home Page</h1>
-        <AllTweets />
       </header>
-
-      <footer><p>©Copyright. All rights reserved</p></footer>
+      <section>
+        <h2>Popular Tweets</h2>
+        <AllTweets />
+      </section>
     </main>
+    </>
   );
 }
 export default Home;
