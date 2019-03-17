@@ -18,9 +18,9 @@ export const ROUTES = {
     linkTo: () => '/home'
   },
   CREATE: {
-    path: '/createtweetform',
+    path: '/createtweet',
     Component: withSession(CreateTweetForm),
-    linkTo: () => '/createtweetform'
+    linkTo: () => '/createtweet'
   },
   CALLBACK: {
     path: '/callback',

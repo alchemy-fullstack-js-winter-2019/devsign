@@ -1,0 +1,9 @@
+.form {
+  input {
+    width: 50%;
+    font-size: 11pt;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+}

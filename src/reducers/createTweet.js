@@ -1,4 +1,4 @@
-import { Create_Tweet } from '../actions/createTweetAction';
+import { CREATE_TWEET } from '../actions/createTweetAction';
 
 const initialState = {
   text: ''
@@ -6,7 +6,7 @@ const initialState = {
 
 export default function reducer(state = initialState, action) {
   switch(action.type) {
-    case Create_Tweet:
+    case CREATE_TWEET:
       return {
         ...state, text: action.payload
       };
