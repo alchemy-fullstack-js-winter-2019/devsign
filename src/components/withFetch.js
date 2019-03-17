@@ -6,7 +6,8 @@ export const withFetch = Component => {
   class WithFetch extends PureComponent {
     static propTypes = {
       loading: PropTypes.bool,
-      fetch: PropTypes.func.isRequired
+      fetch: PropTypes.func.isRequired,
+      error: PropTypes.object
     };
 
     static defaultProps = {
@@ -18,7 +19,9 @@ export const withFetch = Component => {
     }
 
     render() {
+      if(this.props.error) return <h1>ERROR COULD NOT FIND TWEETS</h1>;
       if(this.props.loading) return <Loading />;
+      
       return <Component {...this.props} />;
     }
   }

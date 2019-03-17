@@ -4,7 +4,9 @@ import { getTweets, getMyTweets } from '../services/services';
 export const [ 
   fetchTweets, 
   FETCH_TWEETS,
-  FETCH_TWEETS_PENDING
+  FETCH_TWEETS_PENDING,
+  FETCH_TWEETS_FULFILLED,
+  FETCH_TWEETS_REJECTED
 ] = createAction('FETCH_TWEETS', getTweets);
 
 export const [ 

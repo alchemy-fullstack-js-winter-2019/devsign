@@ -1,7 +1,8 @@
-import { FETCH_TWEETS, FETCH_TWEETS_PENDING } from '../actions/tweets';
+import { FETCH_TWEETS, FETCH_TWEETS_PENDING, FETCH_TWEETS_REJECTED } from '../actions/tweets';
 const initialState = {
   tweets: [],
-  loading: false
+  loading: false, 
+  error: null
 };
 
 export default function reducer(state = initialState, action) {
@@ -15,6 +16,10 @@ export default function reducer(state = initialState, action) {
       return {
         ...state,
         loading: true
+      };
+    case FETCH_TWEETS_REJECTED:
+      return {
+        ...state, tweets: [], loading: false, error: action.payload
       };
     default:
       return state;
