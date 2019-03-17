@@ -13,4 +13,4 @@ export const [
   fetchMyTweets, 
   FETCH_MY_TWEETS,
   FETCH_MY_TWEETS_PENDING
-] = createAction('FETCH_TWEETS', getMyTweets);
+] = createAction('FETCH_MY_TWEETS', getMyTweets);
