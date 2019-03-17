@@ -4,12 +4,12 @@ exports[`Login matches a snapshot 1`] = `
 <main>
   <section>
     <h2>
-      Already A User?
+      Already a user?
     </h2>
     <figure>
       <img
         alt="user avatar"
-        src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
+        src="image"
       />
     </figure>
     <form>
@@ -18,12 +18,14 @@ exports[`Login matches a snapshot 1`] = `
       </label>
       <input
         type="text"
+        value="handle"
       />
       <label>
         Password
       </label>
       <input
         type="text"
+        value="password"
       />
       <button>
         Tweet

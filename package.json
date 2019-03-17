@@ -8,8 +8,7 @@
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p",
-    "lint": "eslint .",
-    "pretest": "npm run lint"
+    "lint": "eslint ."
   },
   "jest": {
     "moduleNameMapper": {
@@ -23,7 +22,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
+    "auth0-js": "^9.10.0",
     "normalize.css": "^8.0.1",
+    "promise-middleware-redux": "^1.0.5",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-redux": "^6.0.1",
@@ -44,7 +45,9 @@
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^5.0.1",
     "css-loader": "^2.1.0",
+    "dotenv-webpack": "^1.7.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "enzyme-to-json": "^3.3.5",

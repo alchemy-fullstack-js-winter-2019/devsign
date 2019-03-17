@@ -29,6 +29,7 @@ exports[`Profile matches a snapshot 1`] = `
       >
         <figure>
           <img
+            alt="user avatar"
             src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
           />
           <h3>
@@ -46,6 +47,7 @@ exports[`Profile matches a snapshot 1`] = `
       >
         <figure>
           <img
+            alt="user avatar"
             src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
           />
           <h3>
@@ -63,6 +65,7 @@ exports[`Profile matches a snapshot 1`] = `
       >
         <figure>
           <img
+            alt="user avatar"
             src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
           />
           <h3>
@@ -80,6 +83,7 @@ exports[`Profile matches a snapshot 1`] = `
       >
         <figure>
           <img
+            alt="user avatar"
             src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
           />
           <h3>
@@ -97,6 +101,7 @@ exports[`Profile matches a snapshot 1`] = `
       >
         <figure>
           <img
+            alt="user avatar"
             src="https://pbs.twimg.com/media/C8QsNInXUAAyjZQ.jpg"
           />
           <h3>

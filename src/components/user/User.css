@@ -1,7 +1,9 @@
-.User {
-  article {
-    text-align: center;
-  } 
+.User { 
+  border: 1px solid black;
+  width: 20vw;
+  text-align: center;
+  margin: .5em;
+  
   figure {
     margin: .5em;
   }
@@ -10,15 +12,12 @@
     margin: auto;
   }
   h3 {
-    text-align: center;
     margin: .5em;
   }
   h4{
-    text-align: center;
     margin: .5em;
   }
   p {
     font-size: .75em;
-    text-align: center;
   }
 }

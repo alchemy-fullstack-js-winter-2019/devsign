@@ -1,14 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Home  from './Home';
+import Landing from './Landing';
 import { MemoryRouter } from 'react-router-dom';
 
-describe('Home', () => {
+describe('Landing', () => {
   it('matches a snapshot', () => {
 
     const tree = renderer.create(
       <MemoryRouter>
-        <Home />
+        <Landing />
       </MemoryRouter>
     ).toJSON();
     expect(tree).toMatchSnapshot();

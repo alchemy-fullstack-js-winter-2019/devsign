@@ -2,16 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Notification.css';
 
-export default function Notification({ notification }) {
+function Notification({ notification }) {
   const { user, action } = notification;
   return (
-    <section style={styles}>
-      <img src={user.image} alt="user avatar" />
+    <section className={styles.Notification}>
+      <figure>
+        <img src={user.image} alt="user avatar" />
+        <h3>{user.handle}</h3>
+      </figure>
       <p>{action}</p>
-      <h3>{user.handle}</h3>
     </section>
   );
 }
 Notification.propTypes = {
   notification: PropTypes.object
 };
+
+export default Notification;
