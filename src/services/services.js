@@ -1,6 +1,7 @@
-import { get } from './request';
+import { get, post } from './request';
 
 export const getTweets = () => get('/tweets');
+export const createTweet = tweet => post('/tweets', tweet);
 
 export const getMyTweets = () => {
   return Promise.resolve([

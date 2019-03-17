@@ -1,5 +1,5 @@
 import { createAction } from 'promise-middleware-redux';
-import { getTweets, getMyTweets } from '../services/services';
+import { getTweets, getMyTweets, createTweet } from '../services/services';
 
 export const [ 
   fetchTweets, 
@@ -14,3 +14,9 @@ export const [
   FETCH_MY_TWEETS,
   FETCH_MY_TWEETS_PENDING
 ] = createAction('FETCH_MY_TWEETS', getMyTweets);
+
+export const [ 
+  createMyTweet, 
+  CREATE_MY_TWEET,
+  CREATE_MY_TWEET_PENDING
+] = createAction('CREATE_MY_TWEET', createTweet);
