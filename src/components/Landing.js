@@ -7,18 +7,20 @@ export default function Landing() {
   return (
     <>
     <header className={styles.header}>
-
-      <nav>
-        {/* <Navigation /> */}
-      </nav>
+      <img src='src/assets/tweety.png' alt='tweetybird'/>
+      {/* <nav>
+        <Navigation />
+      </nav> */}
     </header>
     <main className={styles.main}>
-      <h1>Welcome to your Tweety Tweets</h1>
+      <h1>Welcome to your Tweety School Tweets</h1>
       <h2>Just another way to staying relevant!</h2>
-      <div className={styles.register}>
-        <Link to="/home">Signup</Link>
-        <Link to="/home" >Sign up</Link>
-      </div>
+      <section className={styles.account}>
+        <ul>
+          <Link to="/home">Create an Account</Link>
+          <Link to="/home" >Sign In</Link>
+        </ul>
+      </section>
     </main>
     </>
   );

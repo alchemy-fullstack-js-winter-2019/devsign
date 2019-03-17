@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Margarine');
 body {
   background-color: #F8EA8C;
-  background-image: url('../../assets/tweety.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   font-family: 'Margarine', cursive;
   color: #4c5270;
 
 }
 
+.header {
+  img {
+    width: 10%;
+  }
+}
 .main {
   h1 {
     text-align: center;
@@ -20,20 +21,27 @@ body {
   }
 }
 
-.register {
-  link {
-    text-decoration: none;
+.account {
+  ul {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    list-style-type: none;
     align-items: center;
+  }
+  a {
+    text-decoration: none;
+    
     flex: 1 1 auto;
+   
     margin: 10px;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-  
+    color: #4c5270;
+    box-shadow: 0 0 20px #4c5270;
     border-radius: 10px;
   
     :hover {
