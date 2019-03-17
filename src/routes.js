@@ -6,7 +6,7 @@ import LogIn from './components/login/LogIn';
 import User from './components/user/User';
 import { withSession } from './containers/withSession';
 import SignOut from './components/signOut/SignOut';
-
+import TrendingList from './components/trending/TrendingList';  
 
 export const ROUTES = {
   HOME: {
@@ -28,6 +28,11 @@ export const ROUTES = {
     path: '/user',
     Component: withSession(User),
     linkTo: () => '/user'
+  },
+  TRENDING: {
+    path: '/trending',
+    Component: TrendingList,
+    linkTo: () => '/trending'
   },
   SIGNOUT: {
     path: '/signout',

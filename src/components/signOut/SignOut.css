@@ -1,0 +1,14 @@
+.SignOut {
+padding: 100px;
+transition: all 1s ease-in-out; 
+}
+body {
+  background-color: #F1BF98;
+}
+@media only screen and (max-width: 600px) {
+  .Trending {
+    background-color: lightgray;
+    color: white;
+  }
+  
+}

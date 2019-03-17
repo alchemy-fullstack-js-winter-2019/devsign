@@ -10,11 +10,12 @@ function Home() {
       <header>
         <nav>
           <Link to="/">Home</Link>
+          <Link to="/trending">Trending Tweets</Link>
           <Link to="/signout">Sign Out</Link>
         </nav>
       </header>
       <section>
-        <h2>Popular Tweets</h2>
+        <h2>Tweets</h2>
         <AllTweets />
       </section>
     </main>
