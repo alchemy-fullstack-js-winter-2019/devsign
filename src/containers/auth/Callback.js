@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 import { setSession } from '../../actions/session';
 import { getToken } from '../../selectors/session';
 import PropTypes from 'prop-types';
-import Landing from '../../components/landing/Landing';
+import Loading from '../../components/loading/Loading';
 
 class CallBack extends PureComponent {
   static propTypes = {
@@ -12,8 +12,6 @@ class CallBack extends PureComponent {
     handleAuth: PropTypes.func.isRequired
   }
   componentDidMount() {
-    console.log('cmsm');
-
     this.props.handleAuth();
   }
   render() {
@@ -21,7 +19,7 @@ class CallBack extends PureComponent {
       return <Redirect to='/'/>;
     }
     return (
-      <h2>LOADING</h2>
+      <h2><Loading /></h2>
     );
   }
 }
