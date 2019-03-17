@@ -19,10 +19,13 @@ export const withFetch = Component => {
     }
 
     render() {
-      if(this.props.error) return <h1>ERROR COULD NOT FIND TWEETS</h1>;
       if(this.props.loading) return <Loading />;
-      
-      return <Component {...this.props} />;
+      return (
+        <>
+          {this.props.error && <h1>UHH OH ERROR</h1>}
+          <Component {...this.props} />;
+        </>
+      );
     }
   }
 

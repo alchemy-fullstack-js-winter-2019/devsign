@@ -19,7 +19,7 @@ class CallBack extends PureComponent {
       return <Redirect to='/'/>;
     }
     return (
-      <h2><Loading /></h2>
+      <Loading />
     );
   }
 }
