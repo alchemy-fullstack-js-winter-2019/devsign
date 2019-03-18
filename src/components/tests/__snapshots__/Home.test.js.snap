@@ -1,11 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home snapshot can match a snapshot 1`] = `
-Array [
+<main
+  className="Home"
+>
   <p>
     My Blog
-  </p>,
-  <nav>
+  </p>
+  <nav
+    className="Header"
+  >
     <span>
       <a
         href="/"
@@ -38,7 +42,7 @@ Array [
         About
       </a>
     </span>
-  </nav>,
+  </nav>
   <section>
     <h1>
       Latest Posts
@@ -54,9 +58,9 @@ Array [
         Post#3 Herbs & Spices
       </li>
     </ul>
-  </section>,
+  </section>
   <p>
     Copyright 2019
-  </p>,
-]
+  </p>
+</main>
 `;

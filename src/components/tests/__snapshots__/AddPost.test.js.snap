@@ -5,7 +5,9 @@ Array [
   <p>
     My Blog
   </p>,
-  <nav>
+  <nav
+    className="Header"
+  >
     <span>
       <a
         href="/"
