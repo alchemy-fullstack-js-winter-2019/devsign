@@ -17,7 +17,7 @@ export const withSession = Component => {
     }
 
     render() {
-      if(!this.props.token) return <h1>LOADING COMPONENT WILL GO HERE</h1>;
+      if(!this.props.token) return <h3>LOADING COMPONENT WILL GO HERE</h3>;
 
       return <Component {...this.props} />;
     }
