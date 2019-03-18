@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Tweet({ tweet }) {
   return (
     <>
-      <img src={tweet.img} />
+      <img alt={`profile picture for ${tweet.user}`} src={tweet.img} />
       <p>{tweet.text}</p>
     </>
   );

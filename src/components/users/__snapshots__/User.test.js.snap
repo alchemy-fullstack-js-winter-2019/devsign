@@ -3,6 +3,7 @@
 exports[`User displays a user 1`] = `
 <main>
   <img
+    alt="profile picture for user2"
     src="image.com"
   />
   <p>
@@ -24,6 +25,7 @@ exports[`User displays a user 1`] = `
           onClick={[Function]}
         >
           <img
+            alt="profile picture for undefined"
             src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
           />
           <p>
@@ -37,6 +39,7 @@ exports[`User displays a user 1`] = `
           onClick={[Function]}
         >
           <img
+            alt="profile picture for undefined"
             src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
           />
           <p>
@@ -50,6 +53,7 @@ exports[`User displays a user 1`] = `
           onClick={[Function]}
         >
           <img
+            alt="profile picture for undefined"
             src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thinking_Face_Emoji_large.png?v=1480481060"
           />
           <p>
