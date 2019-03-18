@@ -1,8 +1,15 @@
+import store from '../store';
+
 export const getAllTweets = () =>  {
-    return fetch('https://twitterclonebe.herokuapp.com/tweets')
-        .then(res => {
-            console.log(res.body);
-            res.json();
+    return fetch('https://twitterclonebe.herokuapp.com/tweets', {
+        headers: {
+            Authorization: `Bearer ${store.getState().session.token}`
+        }
+    })
+        .then(res => [res.ok, res.json()])
+        .then(([ok, json]) => {
+            if(!ok) throw json;
+            return json;
         });
 };
 
