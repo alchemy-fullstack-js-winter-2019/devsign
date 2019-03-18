@@ -11,11 +11,11 @@ function Header() {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/hum-feed">HumFeed</Link></li>
-            <li><Link to="/user">User</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
           </ul>
         </Nav>
       </Div>
-      <img src="react-mockup/src/assets/logo.png" alt="Hummingbird logo" />
+      <img src="https://res.cloudinary.com/dkrup6iyl/image/fetch/v1552429847/https://res.cloudinary.com/dkrup6iyl/image/upload/v1552429521/download.png" alt="Hummingbird logo" />
     </Wrapper>
   );
 }

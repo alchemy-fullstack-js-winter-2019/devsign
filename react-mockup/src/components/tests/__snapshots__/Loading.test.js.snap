@@ -12,7 +12,7 @@ Array [
         hummingbird
       </h1>
       <nav
-        className="sc-htpNat doBOJi"
+        className="sc-htpNat kemIxo"
       >
         <ul>
           <li>
@@ -33,10 +33,10 @@ Array [
           </li>
           <li>
             <a
-              href="/user"
+              href="/profile"
               onClick={[Function]}
             >
-              User
+              Profile
             </a>
           </li>
         </ul>
@@ -44,7 +44,7 @@ Array [
     </div>
     <img
       alt="Hummingbird logo"
-      src="react-mockup/src/assets/logo.png"
+      src="https://res.cloudinary.com/dkrup6iyl/image/fetch/v1552429847/https://res.cloudinary.com/dkrup6iyl/image/upload/v1552429521/download.png"
     />
   </header>,
   <div
