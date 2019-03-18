@@ -1,5 +1,4 @@
 import { get, post } from './request';
-import { FETCH_TWEETS } from '../actions/tweetsAction';
 
 export const createTweet = tweet => post('/tweets', tweet);
 export const getTweets = () => get('/tweets');
