@@ -8,14 +8,12 @@ describe('Tweets', () => {
       {
         name: 'Bugs Bunny',
         profileImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRJRA8ywW_omvM7B-9KwlPGxsP6WCdGuKShl211WtKEoJ_h6D',
-        handle: '@bugsbunny',
         text: 'It is sunny'
 
       },
       {
         name: 'John Gomex',
         profileImage: 'http://johngomex.jpeg',
-        handle: '@JohnX',
         text: 'It is fake news'
       }
     ];
@@ -23,7 +21,6 @@ describe('Tweets', () => {
       <Tweets
         profileImage={tweet.profileImage}
         name={tweet.name}
-        handle={tweet.handle}
         text={tweet.text} />
     ).toJSON();
     expect(tree).toMatchSnapshot();

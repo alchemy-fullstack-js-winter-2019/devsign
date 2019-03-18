@@ -9,7 +9,6 @@ export default function UserInfo({ user }) {
     <>
     <figure >
       <img alt={`profile image of ${handle}`} src={getImageUrl(profileImage)} />
-      {/* <figcaption>{name} {handle}</figcaption> */}
     </figure>
     <aside>
       <ul>

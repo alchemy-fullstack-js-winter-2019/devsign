@@ -4,6 +4,10 @@ exports[`Navigation matches a snapshot 1`] = `
 <nav
   className="nav"
 >
+  <img
+    alt="tweetybird"
+    src="src/assets/tweety.png"
+  />
   <ul>
     <a
       href="/home"
@@ -14,19 +18,11 @@ exports[`Navigation matches a snapshot 1`] = `
       </li>
     </a>
     <a
-      href="/profile"
+      href="/createTweet"
       onClick={[Function]}
     >
       <li>
-        Profile
-      </li>
-    </a>
-    <a
-      href="/twitter"
-      onClick={[Function]}
-    >
-      <li>
-        My Twitter Page
+        Create New Tweet
       </li>
     </a>
   </ul>
