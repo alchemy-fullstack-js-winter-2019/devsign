@@ -36,4 +36,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TrendingTweet); //Do I wrap (withFetch(Tweets))
+)(TrendingTweet); 

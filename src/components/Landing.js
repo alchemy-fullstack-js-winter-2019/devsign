@@ -8,9 +8,6 @@ export default function Landing() {
     <>
     <header className={styles.header}>
       <img src='src/assets/tweety.png' alt='tweetybird'/>
-      {/* <nav>
-        <Navigation />
-      </nav> */}
     </header>
     <main className={styles.main}>
       <h1>Welcome to your Tweety School Tweets</h1>
