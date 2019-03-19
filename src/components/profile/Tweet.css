@@ -1,0 +1,33 @@
+.li {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 80% 20%;
+    margin: .5em;
+    border: 1px black solid;
+    border-radius: .5em;
+    padding: .5em;
+    font-size: 1.2em;
+    background-color: rgb(245, 245, 245);
+    section {
+        margin: auto;
+    }
+
+    #buttons {
+        border-top: 1px black solid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+        margin-top: .7em;
+        margin-bottom: .1em;
+    }
+    #count {
+        border-right: 1px black solid;
+    }
+    p {
+        margin: .5em;
+    }
+}
+
+
+
+

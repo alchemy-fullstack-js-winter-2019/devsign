@@ -1,0 +1,31 @@
+.Home {
+    display: grid;
+    padding: 1em;
+    figure {
+      width: 100%;
+      margin: auto;
+    }
+  
+    #banner {
+      
+      width: 100%;
+      margin: auto;
+      display: block;
+    }
+    #about {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      img {
+        width: 50%;
+      margin: auto;
+      }
+      p {
+        display: inline;
+      }
+    }
+    #tweets {
+      margin: -1em;
+    }
+  }

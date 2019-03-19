@@ -1,0 +1,14 @@
+.div {
+    background-color:white;
+    border: .05em black solid;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+        input {
+            font-size: 1.2em;
+            margin: .2em;
+            align-content: center;
+            border:  1px rgb(66, 66, 66) solid;
+            border-radius: 2em;
+    }
+}
