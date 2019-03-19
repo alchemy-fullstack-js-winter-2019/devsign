@@ -1,5 +1,5 @@
-import { WebAuth } from 'auth0-js'
-;
+import { WebAuth } from 'auth0-js';
+
 const auth0 = new WebAuth({
     clientID: process.env.AUTH0_CLIENT_ID,
     domain: process.env.AUTH0_DOMAIN,
@@ -8,13 +8,8 @@ const auth0 = new WebAuth({
     scope: 'openid profile'
 });
 
-
 export const login = () => {
     return auth0.authorize();
-};
-
-export const logout = () => {
-    return auth0.logout();
 };
 
 export const handleAuth = () => {
@@ -30,11 +25,9 @@ export const handleAuth = () => {
                         profilePicture: info.picture
                     });
                 });
-            }
-            else {
-                reject(err || 'Ooopss');
+            } else {
+                reject(err || 'Something went wrong');
             }
         });
     });
 };
-

@@ -1,10 +1,11 @@
 import store from '../store';
-import getToken from '../selectors/session';
+import { getToken } from '../selectors/session';
 
 export const getAllTweets = () =>  {
-    return fetch('https://twitterclonebe.herokuapp.com/tweets', {
+    return fetch(`${process.env.API_URL}/tweets`, {
+        method: 'GET',
         headers: {
-            Authorization: `Bearer ${getToken(store.getState().session.token)}`
+            Authorization: `Bearer ${getToken(store.getState())}`
         }
     })
         .then(res => [res.ok, res.json()])

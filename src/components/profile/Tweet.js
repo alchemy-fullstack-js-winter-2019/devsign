@@ -20,7 +20,7 @@ export default function Tweet({ tweet }) {
                 </section>
                 <section>
                     <p>
-                        {tweet.body}
+                        {tweet.text}
                     </p>
                     <p>
                         {tweet.id}
