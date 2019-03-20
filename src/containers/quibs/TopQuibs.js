@@ -1,13 +1,13 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { fetchTweets } from '../../actions/tweets';
-import { getTweets } from '../../selectors/tweets';
-import Tweets from '../../components/tweets/Tweets';
+import { fetchQuibs } from '../../actions/quibs';
+import { getQuibs } from '../../selectors/quibs';
+import Quibs from '../../components/quibs/Quibs';
 
-class TopTweets extends PureComponent {
+class TopQuibs extends PureComponent {
   static propTypes = {
-    tweets: PropTypes.array.isRequired,
+    quibs: PropTypes.array.isRequired,
     fetch: PropTypes.func.isRequired 
   };
 
@@ -16,21 +16,21 @@ class TopTweets extends PureComponent {
   }
 
   render() {
-    return <Tweets {...this.props} />;
+    return <Quibs {...this.props} />;
   }
 }
 
 const mapStateToProps = state => ({
-  tweets: getTweets(state)
+  quibs: getQuibs(state)
 });
 
 const mapDispatchToProps = dispatch => ({
   fetch() {
-    return dispatch(fetchTweets());
+    return dispatch(fetchQuibs());
   }
 });
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TopTweets);
+)(TopQuibs);
