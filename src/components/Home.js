@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import styles from './Home.css';
 
 export default function Home() {
   return (
     <>
+    <main className={styles.Home}>
       <Header/>
       <section>
         <h1>Latest Posts</h1>
@@ -15,6 +17,7 @@ export default function Home() {
         </ul>
       </section>
       <Footer/>
+    </main>
     </>  
   );
 }

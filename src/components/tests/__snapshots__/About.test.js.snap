@@ -5,7 +5,9 @@ Array [
   <p>
     My Blog
   </p>,
-  <nav>
+  <nav
+    className="Header"
+  >
     <span>
       <a
         href="/"
@@ -43,7 +45,9 @@ Array [
     <h3>
       About CARMEN
     </h3>
-    <div>
+    <div
+      className="About"
+    >
       <p>
         Mother,  student,  software developer, food and nutrition enthusiast.
       </p>

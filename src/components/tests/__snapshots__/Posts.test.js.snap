@@ -5,7 +5,9 @@ Array [
   <p>
     My Blog
   </p>,
-  <nav>
+  <nav
+    className="Header"
+  >
     <span>
       <a
         href="/"
@@ -43,7 +45,9 @@ Array [
     <h1>
       List of Posts
     </h1>
-    <ul>
+    <ul
+      className="Posts"
+    >
       <li>
         Post#1 Title
       </li>
