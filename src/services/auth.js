@@ -1,3 +1,5 @@
+/*eslint-disable no-console*/
+
 import { WebAuth } from 'auth0-js';
 
 const auth0 = new WebAuth({
@@ -22,7 +24,7 @@ export const handleAuth = () => {
           return resolve({
             token: result.idToken,
             id: info.sub,
-            handle: info.handle,
+            handle: info.nickname,
             name: info.name,
             profileImg: info.picture
           });

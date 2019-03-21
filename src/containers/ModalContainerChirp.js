@@ -4,17 +4,7 @@ import { connect } from 'react-redux';
 import ChirpModal from '../components/chirps/ChirpModal';
 import { showModal, hideModal } from '../actions/modal';
 import { isOpen } from '../selectors/modal';
-import styled from 'styled-components';
-
-const Section = styled.section`
-  img { 
-    width: 40px;
-  }
-  button {
-    border: none;
-    background: white;
-  }
-`;
+import { Section } from './ModalContainerChirpSyles';
 
 export const withModalContainer = Component => {
   class WithModalContainer extends React.PureComponent {
@@ -27,7 +17,7 @@ export const withModalContainer = Component => {
     render() {
       return (
         <Section> 
-          <button type="submit" onClick={this.props.show}><img src='../../assets/logo.png' alt="logo"/></button>
+          <button type="submit" onClick={this.props.show}><img src='https://res.cloudinary.com/khortsch/image/upload/v1552673467/logo.png' alt="logo"/></button>
           <Component show={this.props.isOpen} onClose={this.props.hide} />
         </Section>  
       );

@@ -2,34 +2,8 @@ import React, { Fragment } from 'react';
 import Header from './Header';
 import Trending from '../chirps/Trending';
 import ChirpsContainer from '../../containers/PopularChirpsContainer';
-import MiniProfile from '../users/MiniProfile';
-import styled from 'styled-components';
-
-const Div1 = styled.div`
-  @media only screen and (max-width:600px)  { 
-    display: none;
-  }
-  width: 22%;
-  margin-left: 80px;
-  margin-right: 20px;
-`;
-
-const Div2 = styled.div`
-  @media only screen and (max-width:600px)  { 
-    width: auto;
-  }
-  @media only screen and (min-width:601px)  { 
-    width: 60%;
-    margin-right: 80px;
-  }
-`;
-
-const Section = styled.section`
-  @media only screen and (min-width:600px)  { 
-    display: flex;
-    flex-direction: row;
-  }
-`;
+import MiniProfileContainer from '../../containers/MiniProfileContainer';
+import { Div1, Div2, Section } from './HomeStyles';
 
 export default function DesktopHome() {
   return (
@@ -37,7 +11,7 @@ export default function DesktopHome() {
       <Header />
       <Section>
         <Div1>
-          <MiniProfile />
+          <MiniProfileContainer />
           <Trending />
         </Div1>
         <Div2>

@@ -1,36 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Chirp from './Chirp';
-import styled from 'styled-components';
+import { Main } from './PopularChirpsStyles';
+import Loading from '../app/Loading';
 
-const Main = styled.main`
-  h2 {
-    font-weight: 300;
-    text-align: center;
-  }
-  ul {
-    padding: 0;
-  }
-  li {
-    list-style-type: none;
-    border: 1px solid lightgray;
-    margin: 15px 15px;
-    padding: 10px;
-  }
-  @media only screen and (min-width:601px)  { 
-    li {
-      width: 90%;
-    }
-  }
-`;
-
-export default function PopularChirps({ chirps }) {
+export default function PopularChirps({ chirps, term, onChange, loading }) {
   const listOfChirps = chirps.map((chirp, i) => {
-    return <li key={i}><Chirp chirp={chirp.chirp} handle={chirp.handle} profileImg={chirp.profileImg} /></li>;
+    return <li key={i}><Chirp text={chirp.text} handle={chirp.user.nickname} profileImg={chirp.user.picture} name={chirp.user.name} /></li>;
   });
   return (
     <Main>
+      {loading && <Loading />}
       <h2>Popular Chirps</h2>
+      <label><input type="text" name="search" placeholder="Search" value={term} onChange={onChange} /></label>
       <ul>
         {listOfChirps}
       </ul>
@@ -39,5 +21,8 @@ export default function PopularChirps({ chirps }) {
 }
 
 PopularChirps.propTypes = {
-  chirps: PropTypes.array
+  chirps: PropTypes.array,
+  term: PropTypes.string,
+  onChange: PropTypes.func,
+  loading: PropTypes.bool
 };

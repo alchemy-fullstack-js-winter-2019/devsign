@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserChirps matches a snapshot 1`] = `
+<main
+  className="sc-bwzfXH jwTdiD"
+>
+  <h2>
+    My Chirps
+  </h2>
+  <ul>
+    <li>
+      <section
+        className="sc-bdVaJa jaDQod"
+      >
+        <img
+          alt="prof-pic"
+          height="40px"
+          src="some image"
+        />
+        <div
+          className="info"
+        >
+          <h4
+            className="name"
+          >
+            kristin
+          </h4>
+          <p
+            className="handle"
+          >
+            kh
+          </p>
+          <p
+            className="body"
+          >
+            hi
+          </p>
+        </div>
+      </section>
+    </li>
+  </ul>
+</main>
+`;

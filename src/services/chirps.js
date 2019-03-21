@@ -1,8 +1,6 @@
-export const getChirps = () => {
-  return Promise.resolve([
-    { id: 1234, chirp: 'life is great', handle: 'user1', profileImg: '../../assets/prof-pic.png' },
-    { id: 1235, chirp: 'life is meh', handle: 'user2', profileImg: '../../assets/prof-pic.png' },
-    { id: 1236, chirp: 'life is okay', handle: 'user3', profileImg: '../../assets/prof-pic.png' },
-    { id: 1237, chirp: 'life is fabulous', handle: 'user4', profileImg: '../../assets/prof-pic.png' }
-  ]);
-};
+import { get, post, getById, del } from './request';
+
+export const getChirps = () => get('/chirps');
+export const createChirp = chirp => post('/chirps', chirp);
+export const getChirpsById = (id) => getById(`/chirps/users/${id}`);
+export const deleteChirp = (id) => del(`/chirps/${id}`);

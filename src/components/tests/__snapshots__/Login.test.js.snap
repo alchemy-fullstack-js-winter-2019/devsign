@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login matches a snapshot 1`] = `
+<main
+  className="sc-bdVaJa bYWIQP"
+>
+  <h1>
+    ...LOADING
+  </h1>
+  <div
+    className="container"
+  >
+    <div
+      className="path"
+    >
+      <span
+        className="shape trail"
+        id="elem"
+      >
+        <img
+          src="https://res.cloudinary.com/khortsch/image/upload/v1552673467/logo.png"
+        />
+      </span>
+    </div>
+  </div>
+</main>
+`;
