@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Margarine');
 body {
-  background: linear-gradient(110deg, #faed75 60%, rgb(248, 248, 190) 60%);
-  font-family: 'Montserrat', sans-serif;
+  background-color: #F8EA8C;
+  font-family: 'Margarine', cursive;
+  color: #4c5270;
+
 }
 
+.header {
+  img {
+    width: 10%;
+  }
+}
 .main {
   h1 {
     text-align: center;
@@ -13,20 +21,27 @@ body {
   }
 }
 
-.register {
+.account {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+  }
   a {
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     flex: 1 1 auto;
+   
     margin: 10px;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-  
+    color: #4c5270;
+    box-shadow: 0 0 20px #4c5270;
     border-radius: 10px;
   
     :hover {

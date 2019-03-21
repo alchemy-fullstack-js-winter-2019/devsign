@@ -1,32 +1,30 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { getTweets } from '../selectors/tweetSelector';
+import { getTweets, tweetsLoading } from '../selectors/tweetSelector';
 import { fetchTweets } from '../actions/tweetsAction';
-import PropTypes from 'prop-types';
 import Tweets from '../components/Tweets';
+// import { withFetch } from '../components/';
+import PropTypes from 'prop-types';
 
-
-class PopularTweets extends PureComponent {
-  static propTypes ={
-    tweets: PropTypes.array.isRequired
+class TrendingTweet extends PureComponent {
+  static propTypes = {
+    fetch: PropTypes.func.isRequired
   };
 
   componentDidMount() {
-
+    this.props.fetch();
   }
 
   render() {
     return (
-      <>
-      <Tweets />
-      </>
+      <Tweets {...this.props} />
     );
   }
-
 }
 
 const mapStateToProps = state => ({
-  tweet: getTweets(state)
+  tweets: getTweets(state),
+  loading: tweetsLoading(state)
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -38,4 +36,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(PopularTweets);
+)(TrendingTweet); 

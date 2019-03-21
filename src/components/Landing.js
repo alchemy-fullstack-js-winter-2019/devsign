@@ -1,23 +1,23 @@
 import React from 'react';
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import styles from './css/Landing.css';
-
+import { Link } from 'react-router-dom';
 
 export default function Landing() {
   return (
     <>
     <header className={styles.header}>
-      <nav>
-        <Navigation />
-      </nav>
+      <img src='src/assets/tweety.png' alt='tweetybird'/>
     </header>
     <main className={styles.main}>
-      <h1>Welcome to your Tweety Tweets</h1>
+      <h1>Welcome to your Tweety School Tweets</h1>
       <h2>Just another way to staying relevant!</h2>
-      <div className={styles.register}>
-        <a href="#0" >Sign up</a>
-        <a href="#0">Log in</a>
-      </div>
+      <section className={styles.account}>
+        <ul>
+          <Link to="/home">Create an Account</Link>
+          <Link to="/home" >Sign In</Link>
+        </ul>
+      </section>
     </main>
     </>
   );

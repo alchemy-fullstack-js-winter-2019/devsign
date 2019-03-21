@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from '../components/css/Tweet.css';
 import PropTypes from 'prop-types';
+import UserInfo from '../components/UserInfo';
 
-export default function Tweet({ name, handle, text, profileImage }) {
+export default function Tweet({ tweet }) {
+  const { text, user } = tweet;
   return (
     <>
     <section>
       <header className={styles.tweet}>
-        <img src={profileImage} alt="bugs bunny"/>
-        <h2>{name}</h2>
-        <h3>{handle}</h3>
+        <UserInfo user={user} alt={user}/>
       </header>
       <p>{text}</p>
     </section>
@@ -18,8 +18,5 @@ export default function Tweet({ name, handle, text, profileImage }) {
 }
 
 Tweet.propTypes = {
-  name: PropTypes.string.isRequired,
-  profileImage: PropTypes.string.isRequired,
-  handle: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
+  tweet: PropTypes.object.isRequired
 };
