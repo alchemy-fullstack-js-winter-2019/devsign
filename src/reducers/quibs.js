@@ -1,15 +1,15 @@
-import { FETCH_QUIBS } from '../actions/quibs';
+import { FETCH_QUIBS, CREATE_QUIB } from '../actions/quibs';
 
 const initialState = {
-  quibs: [],
+  quibs: []
 };
 
 export default function reducer(state = initialState, action) {
   switch(action.type) {
-    case ADD_QUIB:
+    case CREATE_QUIB:
       return {
         ...state,
-        quib: [...state, action.payload]
+        quibs: [...state.quibs, action.payload]
       };
     case FETCH_QUIBS:
       return { ...state, quibs: action.payload };

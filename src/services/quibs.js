@@ -6,3 +6,18 @@ export const getQuibs = () => {
     { _id: '1237', text: 'Give me the ball!', user: { handle: '@Cody', profileImg: 'https://via.placeholder.com/300' } }
   ]);
 };
+
+export const postQuib = quib => {
+  return fetch(`${process.env.API_URL}/quibs`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(quib)
+  })
+    .then(res => [res.ok, res.json()])
+    .then(([ok, json]) => {
+      if(!ok) throw json;
+      return json;
+    });
+};
