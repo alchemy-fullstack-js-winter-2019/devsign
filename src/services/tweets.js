@@ -1,12 +1,10 @@
-// import store from '../store';
-// import { getToken } from '../selectors/session';
-
 export const getTweets = () => {
-  // return fetch(`${process.env.API_URL}/tweets`, {
-  //  headers: {
-  //    Authorization: `Bearer ${getToken(store.getState())}`
-  //  } 
-  // })
+  // return fetch(`${process.env.API_URL}/tweets`, 
+  //   .then(res => [res.ok, res.json()])
+  //   .then(([ok, json]) => {
+  //      if(!ok) throw json;  
+  //       return json;
+  //   });
   return Promise.resolve([
     {
       _id: '1s93kd',
