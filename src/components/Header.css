@@ -2,20 +2,17 @@
   background-color: greenyellow;
   padding: 20px;
 
-
-
-
    nav {
       text-align: left;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       list-style-type: none;
-      padding: 30;
+      padding: 0;
     }
 
      a {
       text-decoration: none;
-      font-size: 1.4em;
+      font-size: 1.3em;
       background-color: red;
       padding: .3em;
       border-radius: 1.5em;

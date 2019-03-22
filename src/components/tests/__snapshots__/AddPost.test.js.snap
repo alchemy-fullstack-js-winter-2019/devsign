@@ -77,8 +77,10 @@ Array [
       </button>
     </form>
   </section>,
-  <p>
-    Copyright 2019
+  <p
+    className="Footer"
+  >
+    Carmen Health Blog Copyright 2019
   </p>,
 ]
 `;
