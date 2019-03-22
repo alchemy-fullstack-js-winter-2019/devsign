@@ -1,0 +1,20 @@
+.links{
+  display: flex;
+  justify-content: center;
+}
+
+.links p {
+  text-align: center;
+}
+
+
+
+
+
+  .links p:hover {
+  font-size: 1.2em;
+  background-color: white;
+  border-bottom: 1px solid yellow;
+  transition: .7s;
+
+}

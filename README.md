@@ -44,6 +44,6 @@
 ## Day 5: Connect things up
 
 * Update your front-end to connect to your back-end
-  * use `webpack-dotenv` to provide API_URL
+  * use `dotenv-webpack` to provide API_URL
 * Update your back-end to support cors
 * Add auth0 user auth

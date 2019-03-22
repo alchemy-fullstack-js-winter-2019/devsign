@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment component tests renders the Comment component correctly 1`] = `
+<footer
+  className="bg"
+>
+   
+  <p>
+    2018
+  </p>
+</footer>
+`;
