@@ -1,7 +1,8 @@
 import { FETCH_QUIBS, CREATE_QUIB } from '../actions/quibs';
 
 const initialState = {
-  quibs: []
+  quibs: [],
+  body: ''
 };
 
 export default function reducer(state = initialState, action) {
@@ -9,7 +10,8 @@ export default function reducer(state = initialState, action) {
     case CREATE_QUIB:
       return {
         ...state,
-        quibs: [...state.quibs, action.payload]
+        quibs: [...state.quibs, action.payload],
+        body: ''
       };
     case FETCH_QUIBS:
       return { ...state, quibs: action.payload };

@@ -5,6 +5,7 @@ function QuibForm({ text, onSubmit, onChange }) {
   return (
     <form onSubmit={onSubmit}>
       <textarea name="text" value={text} onChange={onChange} />
+      <button>Add Quib</button>
     </form>
   );
 }

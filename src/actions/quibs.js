@@ -1,11 +1,10 @@
 import { createAction } from 'promise-middleware-redux';
-import { getQuibs } from '../services/quibs';
+import { getQuibs, postQuib } from '../services/quibs';
 
-export const CREATE_QUIB = 'CREATE_QUIB';
-export const addQuib = quib => ({
-  type: CREATE_QUIB,
-  payload: quib
-});
+export const [
+  createQuib,
+  CREATE_QUIB
+] = createAction('CREATE_NOTE', postQuib);
 
 export const [
   fetchQuibs,
