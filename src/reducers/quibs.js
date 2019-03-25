@@ -9,9 +9,7 @@ export default function reducer(state = initialState, action) {
   switch(action.type) {
     case CREATE_QUIB:
       return {
-        ...state,
-        quibs: [...state.quibs, action.payload],
-        body: ''
+        ...initialState
       };
     case FETCH_QUIBS:
       return { ...state, quibs: action.payload };
