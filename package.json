@@ -30,6 +30,7 @@
   "homepage": "https://github.com/carmenvramos/devsign#readme",
   "dependencies": {
     "auth0-js": "^9.10.0",
+    "copy-webpack-plugin": "^5.0.2",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
     "react": "^16.8.2",

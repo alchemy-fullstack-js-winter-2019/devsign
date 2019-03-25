@@ -1,7 +1,10 @@
 import React from 'react';
+import styles from './Footer.css';
 
 export default function Footer() {
   return (
-    <p>Copyright 2019</p>
+    <p className={styles.Footer}>
+      Carmen Health Blog Copyright 2019
+    </p>
   );
 }

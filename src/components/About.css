@@ -1,5 +1,17 @@
 .About {
-  color: green;
-  font-size: 1.5em;
-  text-align: left;
+  h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5em;
+    text-align: left;
+  
+  }
+  p  {
+    color: black;
+    font-size: 1.5em;
+    justify-content: left;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+  }
 }

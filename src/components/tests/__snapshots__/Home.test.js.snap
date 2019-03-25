@@ -59,8 +59,10 @@ exports[`Home snapshot can match a snapshot 1`] = `
       </li>
     </ul>
   </section>
-  <p>
-    Copyright 2019
+  <p
+    className="Footer"
+  >
+    Carmen Health Blog Copyright 2019
   </p>
 </main>
 `;
