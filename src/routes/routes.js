@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import Home from '../components/home/Home';
-import Tweets from '../components/tweets/Tweets';
+import Quibs from '../components/quibs/Quibs';
 import Profile from '../components/profile/Profile';
 import Callback from '../containers/auth/Callback';
 import { withSession } from '../containers/auth/withSession';
@@ -19,10 +19,10 @@ export const ROUTES = {
     linkTo: () => '/callback'
   },
   
-  TWEETS: {
-    path: '/tweets',
-    Component: Tweets,
-    linkTo: () => '/tweets'
+  QUIBS: {
+    path: '/quibs',
+    Component: Quibs,
+    linkTo: () => '/quibs'
   },
 
   PROFILE: {

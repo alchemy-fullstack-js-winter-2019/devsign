@@ -1,12 +1,14 @@
 import React from 'react';
 import 'normalize.css';
 import styles from '../css/Home.css';
-import TopTweets from '../../containers/tweets/TopTweets';
+import TopQuibs from '../../containers/quibs/TopQuibs';
+import CreateQuib from '../../containers/quibs/CreateQuib';
 
 function Home() {
   return (
     <main className={styles.feed}>
-      <TopTweets />
+      <CreateQuib />
+      <TopQuibs />
     </main>
   );
 }

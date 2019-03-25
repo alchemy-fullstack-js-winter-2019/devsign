@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import tweets from './tweets';
+import quibs from './quibs';
 import session from './session';
 
 export default combineReducers({
-  tweets,
+  quibs,
   session
 });

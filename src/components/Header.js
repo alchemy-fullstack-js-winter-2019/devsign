@@ -6,7 +6,7 @@ import styles from './css/Header.css';
 function Header() {
   return (
     <header className={styles.header}>
-      <h1>Tweeter</h1>
+      <h1>Quibbler</h1>
 
       <nav>
         <ul>
