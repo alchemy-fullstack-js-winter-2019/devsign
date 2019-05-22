@@ -15,13 +15,13 @@
     "moduleNameMapper": {
       "\\.(css)$": "identity-obj-proxy",
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
-    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "auth0-js": "^9.10.0",
+    "copy-webpack-plugin": "^5.0.1",
     "dotenv-webpack": "^1.7.0",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
@@ -67,4 +67,5 @@
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
   }
+}
 }

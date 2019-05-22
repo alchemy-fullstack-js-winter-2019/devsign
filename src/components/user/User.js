@@ -1,20 +1,24 @@
 import React from 'react';
 import styles from './User.css';
-import AllTweets from '../../containers/AllTweets';
+import PropTypes from 'prop-types';
 
-function User() {
+function User({ user, className }) {
+  const { handle, profileImg } = user;
   return (
+  <>
     <main className={styles.User}>
-      <section>
-        <h1>Welcome!</h1>
-        <AllTweets />
-        <h2>Your tweets of the day:</h2>
-        <div>
-          <p>Tweet 1</p>
-          <p>Tweet 2</p>
-        </div>
-      </section>
+      <figure className={className}>
+        <img src={profileImg} />
+        <figcaption>{handle}</figcaption>
+      </figure>
     </main>
+  {/* <footer><p>©Copyright. All rights reserved</p></footer> */}
+  </>
   );
 }
+User.propTypes = {
+  user: PropTypes.object.isRequired,
+  className: PropTypes.string
+};
+
 export default User;

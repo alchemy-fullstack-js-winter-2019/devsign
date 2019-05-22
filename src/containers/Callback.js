@@ -10,7 +10,8 @@ class Callback extends React.PureComponent {
   static propTypes = {
     token: PropTypes.string.isRequired,
     handleAuth: PropTypes.func.isRequired
-  };
+  }
+
   componentDidMount() {
     this.props.handleAuth();
   }
@@ -25,11 +26,13 @@ class Callback extends React.PureComponent {
 const mapStateToProps = state => ({
   token: getToken(state)
 });
+
 const mapDispatchToProps = dispatch => ({
   handleAuth() {
     dispatch(setSession());
   }
 });
+
 export default connect(
   mapStateToProps,
   mapDispatchToProps)(Callback);
