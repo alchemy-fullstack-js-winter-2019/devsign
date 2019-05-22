@@ -1,20 +1,14 @@
 import React from 'react';
 import styles from './Home.css';
 import AllTweets from '../../containers/AllTweets';
-import { Link } from 'react-router-dom';
+import Header from '../header/header';
 
 function Home() {
   return (
     <>
     <main className={styles.Home}>
-      <header>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/trending">Trending Tweets</Link>
-          <Link to="/signout">Sign Out</Link>
-        </nav>
-      </header>
       <section>
+        <Header />
         <h2>Tweets</h2>
         <AllTweets />
       </section>

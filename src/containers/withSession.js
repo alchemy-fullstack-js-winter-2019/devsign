@@ -8,7 +8,7 @@ export const withSession = Component => {
   class WithSession extends React.PureComponent {
     static propTypes = {
       token: PropTypes.string.isRequired
-    };
+    }
 
     componentDidMount() {
       if(!this.props.token) {
@@ -23,6 +23,7 @@ export const withSession = Component => {
   const mapStateToProps = state => ({
     token: getToken(state)
   });
+  
   return connect(
     mapStateToProps
   )(WithSession);

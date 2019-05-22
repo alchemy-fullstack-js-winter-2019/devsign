@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import Home from './components/home/Home';
 import Callback from './containers/Callback';
 import LogIn from './components/login/LogIn';
-import User from './components/user/User';
+// import User from './components/user/User';
 import { withSession } from './containers/withSession';
 import SignOut from './components/signOut/SignOut';
 import TrendingList from './components/trending/TrendingList';  
@@ -24,11 +24,11 @@ export const ROUTES = {
     Component: LogIn,
     linkTo: () => '/logIn'
   },
-  USER: {
-    path: '/user',
-    Component: withSession(User),
-    linkTo: () => '/user'
-  },
+  // USER: {
+  //   path: '/user',
+  //   Component: withSession(User),
+  //   linkTo: () => '/user'
+  // },
   TRENDING: {
     path: '/trending',
     Component: TrendingList,

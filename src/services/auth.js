@@ -18,15 +18,16 @@ export const logout = () => {
 export const handleAuth = () => {
   return new Promise((resolve, reject) => {
     auth0.parseHash((err, result) => {
-      if(result && result.accessToken && result.idToken) 
-      {auth0.client.userInfo(result.accessToken, (err, info) => 
-      {if(err) return reject(err);
-        return resolve({
-          token: result.idToken,
-          handle: info.nickname,
-          profilePicture: info.picture
+      if(result && result.accessToken && result.idToken) {
+        auth0.client.userInfo(result.accessToken, (err, info) => 
+        {if(err) return reject(err);
+          return resolve({
+            token: result.idToken,
+            id: info.sub,
+            handle: info.nickname,
+            profilePicture: info.picture
+          });
         });
-      });
       } else {
         reject(err || 'Something went wrong');
       }
